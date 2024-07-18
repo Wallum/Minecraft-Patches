@@ -1,0 +1,15 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+            "item": "minecraft:spyglass"
+    },
+    {
+            "item": "alloyed:steel_sheet"
+
+    }
+  ],
+  "result": {
+    "item": "cgm:medium_scope"
+  }
+}

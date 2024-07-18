@@ -1,0 +1,19 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "minecraft:stripped_oak_log"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+        {
+          "count": 6,
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "count": 2,
+          "tag": "forge:dusts/wood"
+        }
+    ]
+  }

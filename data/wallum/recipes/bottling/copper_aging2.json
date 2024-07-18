@@ -1,0 +1,15 @@
+{
+    "type": "immersiveengineering:bottling_machine",
+    "fluid": {
+        "amount": 200,
+        "tag": "forge:water"
+    },
+    "input": {
+        "item": "minecraft:exposed_copper"
+    },
+    "results": [
+        {
+            "item": "minecraft:weathered_copper"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "byg"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+    }
+  ],
+  "ingredient": {
+    "item": "byg:jacaranda_slab"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "railways:track_byg_jacaranda"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_byg_jacaranda"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_byg_jacaranda"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_byg_jacaranda"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_byg_jacaranda"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_byg_jacaranda"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_byg_jacaranda"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "railways:track_incomplete_byg_jacaranda"
+  }
+}

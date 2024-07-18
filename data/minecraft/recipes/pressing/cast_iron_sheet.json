@@ -1,0 +1,19 @@
+{
+  "type": "create:pressing",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "createdeco:cast_iron_sheet"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ingots/cast_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "createdeco:cast_iron_sheet"
+    }
+  ]
+}

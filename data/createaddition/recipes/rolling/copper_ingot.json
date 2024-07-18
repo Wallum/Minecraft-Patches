@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/copper"
+	},
+	"result": {
+		"item": "immersiveposts:stick_copper",
+		"count": 2
+	}
+}

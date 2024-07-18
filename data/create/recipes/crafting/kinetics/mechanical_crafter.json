@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "P": {
+      "item": "create:crafting_blueprint"
+    },
+    "R": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "pattern": [
+    " B ",
+    "PCP",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:mechanical_crafter"
+  }
+}

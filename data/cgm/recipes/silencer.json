@@ -1,0 +1,14 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "alloyedguns:small_steel_pipe"
+    },
+    {
+      "item": "minecraft:sponge"
+    }
+  ],
+  "result": {
+    "item": "cgm:silencer"
+  }
+}

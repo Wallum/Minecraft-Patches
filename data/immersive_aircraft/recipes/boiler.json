@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SNS",
+    "SSS"
+  ],
+  "key": {
+    "S": [
+      {
+        "item": "create:steam_engine"
+      }
+    ],
+    "N": [
+      {
+        "item": "create:fluid_tank"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:boiler"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	"  A  ",
+  	" ISI ",
+    "ISRSI",
+    " ICI "
+  ],
+  "key": {
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "S": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "A": {
+      "tag": "forge:storage_blocks/steel"
+    }
+  },
+  "result": {
+    "item": "createaddition:alternator"
+  }
+}

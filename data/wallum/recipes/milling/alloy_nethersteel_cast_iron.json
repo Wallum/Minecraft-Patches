@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.333,
+      "item": "immersiveengineering:dust_coke"
+    }
+  ]
+}

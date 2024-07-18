@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_copper"
+    },
+    {
+      "amount": 250,
+      "fluid": "immersiveengineering:redstone_acid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:exposed_copper"
+    }
+  ]
+}

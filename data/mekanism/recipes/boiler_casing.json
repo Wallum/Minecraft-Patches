@@ -1,0 +1,1 @@
+{"type":"create:mechanical_crafting","key":{"I":{"tag":"forge:ingots/iron"},"S":{"tag":"forge:ingots/steel"}},"pattern":[" S ","SIS"," S "],"result":{"count":4,"item":"mekanism:boiler_casing"}}

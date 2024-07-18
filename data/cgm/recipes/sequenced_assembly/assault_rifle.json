@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+      "item": "cgm:machine_pistol"
+  },
+  "transitionalItem": {
+      "item": "alloyedguns:unfinished_assault_rifle"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+      "item": "cgm:machine_pistol"
+        },
+        [
+          {
+            "item": "alloyedguns:small_steel_pipe"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "alloyedguns:unfinished_assault_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "alloyedguns:unfinished_assault_rifle"
+        },
+        [
+          {
+            "item": "alloyedguns:small_steel_pipe"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "alloyedguns:unfinished_assault_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+      "item": "alloyedguns:unfinished_assault_rifle"
+        },
+        [
+          {
+            "item": "alloyedguns:basic_gun_kit"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "alloyedguns:unfinished_assault_rifle"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "cgm:assault_rifle"
+    }
+  ],
+  "loops": 1
+}

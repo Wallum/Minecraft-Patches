@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_zinc"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "createbb:crushed_zinc"
+    },
+    {
+      "chance": 0.55,
+      "item": "createbb:crushed_zinc"
+    },
+    {
+      "chance": 0.1125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

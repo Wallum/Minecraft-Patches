@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "industrialforegoing:latex",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "industrialforegoing:dryrubber"
+    }
+  ]
+}

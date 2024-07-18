@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": {
+      "tag": "forge:circuits/ultimate"
+    },
+    "F": {
+      "item": "bfr:fusion_reactor_frame"
+    }
+  },
+  "pattern": [
+    " F ",
+    "FCF",
+    " F "
+  ],
+  "result": {
+    "count": 2,
+    "item": "bfr:fusion_reactor_port"
+  }
+}

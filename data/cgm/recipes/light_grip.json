@@ -1,0 +1,14 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+            "item": "alloyed:steel_sheet"
+    },
+    {
+            "item": "alloyed:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "cgm:light_grip"
+  }
+}

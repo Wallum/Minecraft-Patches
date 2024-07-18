@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "create:polished_rose_quartz"
+    },
+    "n": {
+      "tag": "forge:nuggets/nickel"
+    },
+    "N": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    " L ",
+    "nNn"
+  ],
+  "result": {
+    "item": "create:electron_tube"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "F": {
+      "item": "mekanismgenerators:heat_generator"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "I#I",
+    "IFI",
+    "III"
+  ],
+  "result": {
+    "item": "rftoolspower:coalgenerator"
+  }
+}
