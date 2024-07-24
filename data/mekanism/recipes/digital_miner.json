@@ -1,1 +1,13 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"forge:circuits/basic"},"R":{"item":"mekanism:robit"},"S":{"item":"mekanism:logistical_sorter"},"T":{"item":"mekanism:teleportation_core"},"X":{"item":"mekanism:steel_casing"}},"pattern":["ACA","SRS","TXT"],"result":{"item":"mekanism:digital_miner"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/atomic" },
+    "C": { "tag": "forge:circuits/basic" },
+    "R": { "item": "mekanism:robit" },
+    "S": { "item": "mekanism:logistical_sorter" },
+    "T": { "item": "mekanism:teleportation_core" },
+    "X": { "item": "mekanism:steel_casing" }
+  },
+  "pattern": ["ACA", "SRS", "TXT"],
+  "result": { "item": "mekanism:digital_miner" }
+}

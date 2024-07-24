@@ -1,15 +1,15 @@
 {
-    "type": "immersiveengineering:bottling_machine",
-    "fluid": {
-        "amount": 125,
-        "tag": "forge:redstone_acid"
-    },
-    "input": {
-        "item": "minecraft:oxidized_copper"
-    },
-    "results": [
-        {
-            "item": "minecraft:weathered_copper"
-        }
-    ]
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 125,
+    "tag": "forge:redstone_acid"
+  },
+  "input": {
+    "item": "minecraft:oxidized_copper"
+  },
+  "results": [
+    {
+      "item": "minecraft:weathered_copper"
+    }
+  ]
 }

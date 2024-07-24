@@ -17,11 +17,7 @@
       "item": "mekanism:basic_chemical_tank"
     }
   },
-  "pattern": [
-    "CGC",
-    "GTG",
-    "FHF"
-  ],
+  "pattern": ["CGC", "GTG", "FHF"],
   "result": {
     "item": "bfr:irradiator"
   }

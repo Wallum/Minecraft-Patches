@@ -1,1 +1,10 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:iron_bars"},"A":{"tag":"mekanism:alloys/infused"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S","#A#","S#S"],"result":{"item":"mekanism:pressure_disperser"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": { "item": "minecraft:iron_bars" },
+    "A": { "tag": "mekanism:alloys/infused" },
+    "S": { "tag": "forge:ingots/steel" }
+  },
+  "pattern": ["S#S", "#A#", "S#S"],
+  "result": { "item": "mekanism:pressure_disperser" }
+}

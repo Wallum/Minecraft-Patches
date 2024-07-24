@@ -1,1 +1,12 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"forge:circuits/elite"},"G":{"tag":"forge:glass"},"S":{"tag":"forge:ingots/steel"},"T":{"item":"mekanism:teleportation_core"},"X":{"item":"mekanism:steel_casing"}},"pattern":["SGS","CXC","STS"],"result":{"item":"mekanism:security_desk"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": { "tag": "forge:circuits/elite" },
+    "G": { "tag": "forge:glass" },
+    "S": { "tag": "forge:ingots/steel" },
+    "T": { "item": "mekanism:teleportation_core" },
+    "X": { "item": "mekanism:steel_casing" }
+  },
+  "pattern": ["SGS", "CXC", "STS"],
+  "result": { "item": "mekanism:security_desk" }
+}

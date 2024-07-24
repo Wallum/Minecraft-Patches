@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"I":{"tag":"forge:ingots/lead"},"R":{"tag":"forge:dusts/redstone"}},"pattern":[" I ","IRI"," I "],"result":{"item":"mekanism:dosimeter"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "I": { "tag": "forge:ingots/lead" },
+    "R": { "tag": "forge:dusts/redstone" }
+  },
+  "pattern": [" I ", "IRI", " I "],
+  "result": { "item": "mekanism:dosimeter" }
+}

@@ -1,1 +1,11 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"C":{"tag":"forge:circuits/advanced"},"I":{"tag":"forge:ingots/osmium"},"P":{"item":"mekanism:basic_injecting_factory"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:advanced_injecting_factory"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/infused" },
+    "C": { "tag": "forge:circuits/advanced" },
+    "I": { "tag": "forge:ingots/osmium" },
+    "P": { "item": "mekanism:basic_injecting_factory" }
+  },
+  "pattern": ["ACA", "IPI", "ACA"],
+  "result": { "item": "mekanism:advanced_injecting_factory" }
+}

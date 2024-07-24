@@ -1,1 +1,11 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:laser"},"A":{"item":"mekanism:pellet_polonium"},"C":{"tag":"forge:circuits/ultimate"},"c":{"tag":"forge:ingots/copper"}},"pattern":["ccc","C#C","AAA"],"result":{"item":"mekanism:supercharged_coil"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": { "item": "mekanism:laser" },
+    "A": { "item": "mekanism:pellet_polonium" },
+    "C": { "tag": "forge:circuits/ultimate" },
+    "c": { "tag": "forge:ingots/copper" }
+  },
+  "pattern": ["ccc", "C#C", "AAA"],
+  "result": { "item": "mekanism:supercharged_coil" }
+}

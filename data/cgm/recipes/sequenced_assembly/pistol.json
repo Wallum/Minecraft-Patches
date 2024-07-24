@@ -1,17 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-      "item": "minecraft:crossbow"
+    "item": "minecraft:crossbow"
   },
   "transitionalItem": {
-      "item": "alloyedguns:unfinished_pistol"
+    "item": "alloyedguns:unfinished_pistol"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-      "item": "minecraft:crossbow"
+          "item": "minecraft:crossbow"
         },
         [
           {
@@ -47,7 +47,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-      "item": "alloyedguns:unfinished_pistol"
+          "item": "alloyedguns:unfinished_pistol"
         },
         [
           {

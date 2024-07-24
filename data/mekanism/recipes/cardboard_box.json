@@ -1,1 +1,6 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"forge:sawdust"}},"pattern":["##","##"],"result":{"item":"mekanism:cardboard_box"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": { "#": { "tag": "forge:sawdust" } },
+  "pattern": ["##", "##"],
+  "result": { "item": "mekanism:cardboard_box" }
+}

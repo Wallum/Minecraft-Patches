@@ -1,13 +1,13 @@
 {
-    "type":"immersiveengineering:blast_furnace",
-    "input":{
-        "tag":"forge:dusts/iron"
-    },
-    "result":{
-        "item":"immersiveengineering:ingot_steel"
-    },
-    "slag":{
-        "tag":"forge:slag"
-    },
-    "time":1200
+  "type": "immersiveengineering:blast_furnace",
+  "input": {
+    "tag": "forge:dusts/iron"
+  },
+  "result": {
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 1200
 }

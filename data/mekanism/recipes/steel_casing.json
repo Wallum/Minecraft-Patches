@@ -1,1 +1,10 @@
-{"type":"create:mechanical_crafting","key":{"G":{"tag":"forge:glass"},"O":{"tag":"forge:ingots/osmium"},"S":{"tag":"forge:ingots/steel"}},"pattern":["SGS","GOG","SGS"],"result":{"item":"mekanism:steel_casing"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "G": { "tag": "forge:glass" },
+    "O": { "tag": "forge:ingots/osmium" },
+    "S": { "tag": "forge:ingots/steel" }
+  },
+  "pattern": ["SGS", "GOG", "SGS"],
+  "result": { "item": "mekanism:steel_casing" }
+}

@@ -11,10 +11,7 @@
       "tag": "forge:plates/iron"
     }
   },
-  "pattern": [
-    " L ",
-    "nNn"
-  ],
+  "pattern": [" L ", "nNn"],
   "result": {
     "item": "create:electron_tube"
   }

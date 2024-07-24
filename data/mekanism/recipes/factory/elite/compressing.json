@@ -1,1 +1,11 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/reinforced"},"C":{"tag":"forge:circuits/elite"},"I":{"tag":"forge:ingots/gold"},"P":{"item":"mekanism:advanced_compressing_factory"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:elite_compressing_factory"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/reinforced" },
+    "C": { "tag": "forge:circuits/elite" },
+    "I": { "tag": "forge:ingots/gold" },
+    "P": { "item": "mekanism:advanced_compressing_factory" }
+  },
+  "pattern": ["ACA", "IPI", "ACA"],
+  "result": { "item": "mekanism:elite_compressing_factory" }
+}

@@ -14,11 +14,7 @@
       "item": "minecraft:crafting_table"
     }
   },
-  "pattern": [
-    " B ",
-    "PCP",
-    " R "
-  ],
+  "pattern": [" B ", "PCP", " R "],
   "result": {
     "count": 1,
     "item": "create:mechanical_crafter"

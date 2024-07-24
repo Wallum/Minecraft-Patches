@@ -1,14 +1,14 @@
 {
-    "type": "recipe",
-    "count": 4,
-    "crafter": "blacksmith_crafting",
-    "inputs": [
-      {
-        "count": 4,
-        "item": "immersiveengineering:plate_steel"
-      }
-    ],
-    "intermediate": "minecraft:air",
-    "min-building-level": 3,
-    "result": "immersiveengineering:sheetmetal_steel"
-  }
+  "type": "recipe",
+  "count": 4,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "immersiveengineering:plate_steel"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": "immersiveengineering:sheetmetal_steel"
+}

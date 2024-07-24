@@ -1,20 +1,38 @@
 {
-    "type": "automobility:auto_mechanic_table",
-    "category": "automobility:engines",
-    "sortnum": 2,
-    "ingredients": [
-        {"item": "tfmg:gasoline_engine"},
-        {"item": "tfmg:gasoline_engine"},
-        {"item": "tfmg:exhaust"},
-        {"item": "tfmg:air_intake"},
-        {"item": "create:sequenced_gearshift"},
-        {"item": "tfmg:steel_fluid_tank"},
-        {"item": "create:clutch"},
-        {"tag": "forge:storage_blocks/iron"},
-        {"tag": "forge:storage_blocks/iron"}
-    ],
-    "result": {
-        "item": "automobility:automobile_engine",
-        "component": "automobility:iron"
+  "type": "automobility:auto_mechanic_table",
+  "category": "automobility:engines",
+  "sortnum": 2,
+  "ingredients": [
+    {
+      "item": "tfmg:gasoline_engine"
+    },
+    {
+      "item": "tfmg:gasoline_engine"
+    },
+    {
+      "item": "tfmg:exhaust"
+    },
+    {
+      "item": "tfmg:air_intake"
+    },
+    {
+      "item": "create:sequenced_gearshift"
+    },
+    {
+      "item": "tfmg:steel_fluid_tank"
+    },
+    {
+      "item": "create:clutch"
+    },
+    {
+      "tag": "forge:storage_blocks/iron"
+    },
+    {
+      "tag": "forge:storage_blocks/iron"
     }
+  ],
+  "result": {
+    "item": "automobility:automobile_engine",
+    "component": "automobility:iron"
+  }
 }

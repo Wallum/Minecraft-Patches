@@ -1,16 +1,18 @@
 {
-    "type":"immersiveengineering:crusher",
-    "energy":3200,
-    "input":{
-        "item": "minecraft:granite"
-    },
-    "result":{
-        "item": "minecraft:red_sand"
-    },
-    "secondaries":[{
-        "chance":0.109375,
-        "output":{
-            "item": "minecraft:quartz"
-        }
-    }]
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "minecraft:granite"
+  },
+  "result": {
+    "item": "minecraft:red_sand"
+  },
+  "secondaries": [
+    {
+      "chance": 0.109375,
+      "output": {
+        "item": "minecraft:quartz"
+      }
+    }
+  ]
 }

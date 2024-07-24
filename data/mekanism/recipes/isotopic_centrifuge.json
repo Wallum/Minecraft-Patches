@@ -1,1 +1,10 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"forge:circuits/ultimate"},"I":{"tag":"forge:ingots/lead"},"T":{"item":"mekanism:basic_chemical_tank"}},"pattern":["III","CTC","III"],"result":{"item":"mekanism:isotopic_centrifuge"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": { "tag": "forge:circuits/ultimate" },
+    "I": { "tag": "forge:ingots/lead" },
+    "T": { "item": "mekanism:basic_chemical_tank" }
+  },
+  "pattern": ["III", "CTC", "III"],
+  "result": { "item": "mekanism:isotopic_centrifuge" }
+}

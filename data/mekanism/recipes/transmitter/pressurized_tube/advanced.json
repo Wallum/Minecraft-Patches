@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"P":{"item":"mekanism:basic_pressurized_tube"}},"pattern":["PPP","PAP","PPP"],"result":{"count":8,"item":"mekanism:advanced_pressurized_tube"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/infused" },
+    "P": { "item": "mekanism:basic_pressurized_tube" }
+  },
+  "pattern": ["PPP", "PAP", "PPP"],
+  "result": { "count": 8, "item": "mekanism:advanced_pressurized_tube" }
+}

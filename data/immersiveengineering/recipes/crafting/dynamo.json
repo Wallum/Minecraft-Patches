@@ -1,33 +1,30 @@
 {
-    "type": "create:mechanical_crafting",
-    "pattern": [
-      "sRCRs",
-      "IPADI"
-    ],
-    "key": {
-      "C": {
-        "item": "createaddition:capacitor"
-      },
-      "I": {
-        "tag": "forge:plates/iron"
-      },
-      "P": {
-        "item": "create:precision_mechanism"
-      },
-      "D": {
-        "item": "create:mechanical_bearing"
-      },
-      "R": {
-        "tag":"forge:dusts/redstone"
-      },
-      "s": {
-        "item": "tfmg:steel_mechanism"
-      },
-      "A": {
-        "item": "createaddition:alternator"
-      }
+  "type": "create:mechanical_crafting",
+  "pattern": ["sRCRs", "IPADI"],
+  "key": {
+    "C": {
+      "item": "createaddition:capacitor"
     },
-    "result": {
-      "item":"immersiveengineering:dynamo"
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:mechanical_bearing"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "s": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "A": {
+      "item": "createaddition:alternator"
     }
+  },
+  "result": {
+    "item": "immersiveengineering:dynamo"
   }
+}

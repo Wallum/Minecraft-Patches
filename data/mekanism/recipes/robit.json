@@ -1,28 +1,24 @@
 {
-    "type":"create:mechanical_crafting",
-    "key":{
-        "A":{
-            "tag":"mekanism:alloys/atomic"
-        },
-        "E":{
-            "item":"mekanism:energy_tablet"
-        },
-        "I":{
-            "tag":"forge:ingots/refined_obsidian"
-        },
-        "P":{
-            "tag":"mekanism:personal_storage"
-        },
-        "S":{
-            "tag":"forge:ingots/steel"
-        }
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/atomic"
     },
-    "pattern":[
-        " S ",
-        "EAE",
-        "IPI"
-    ],
-    "result":{
-        "item":"mekanism:robit"
+    "E": {
+      "item": "mekanism:energy_tablet"
+    },
+    "I": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "P": {
+      "tag": "mekanism:personal_storage"
+    },
+    "S": {
+      "tag": "forge:ingots/steel"
     }
+  },
+  "pattern": [" S ", "EAE", "IPI"],
+  "result": {
+    "item": "mekanism:robit"
+  }
 }

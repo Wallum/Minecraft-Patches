@@ -11,11 +11,7 @@
       "item": "create:precision_mechanism"
     }
   },
-  "pattern": [
-    "B",
-    "C",
-    "S"
-  ],
+  "pattern": ["B", "C", "S"],
   "result": {
     "item": "create:clockwork_bearing"
   }

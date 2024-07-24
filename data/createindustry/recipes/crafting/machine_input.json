@@ -1,11 +1,6 @@
-
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " P ",
-    "ECS",
-    " P "
-  ],
+  "pattern": [" P ", "ECS", " P "],
   "key": {
     "S": {
       "item": "create:shaft"
@@ -23,7 +18,5 @@
   "result": {
     "item": "tfmg:machine_input",
     "count": 1
-
-
   }
 }

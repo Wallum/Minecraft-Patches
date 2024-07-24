@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:bucket"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S"],"result":{"count":8,"item":"mekanism:basic_mechanical_pipe"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": { "item": "minecraft:bucket" },
+    "S": { "tag": "forge:ingots/steel" }
+  },
+  "pattern": ["S#S"],
+  "result": { "count": 8, "item": "mekanism:basic_mechanical_pipe" }
+}

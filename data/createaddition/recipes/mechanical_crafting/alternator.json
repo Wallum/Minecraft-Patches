@@ -1,11 +1,6 @@
 {
   "type": "create:mechanical_crafting",
-  "pattern": [
-  	"  A  ",
-  	" ISI ",
-    "ISRSI",
-    " ICI "
-  ],
+  "pattern": ["  A  ", " ISI ", "ISRSI", " ICI "],
   "key": {
     "C": {
       "item": "createaddition:capacitor"

@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"D":{"tag":"forge:dyes/black"},"I":{"tag":"forge:ingots/lead"}},"pattern":["I I","IDI"],"result":{"item":"mekanism:hazmat_boots"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "D": { "tag": "forge:dyes/black" },
+    "I": { "tag": "forge:ingots/lead" }
+  },
+  "pattern": ["I I", "IDI"],
+  "result": { "item": "mekanism:hazmat_boots" }
+}

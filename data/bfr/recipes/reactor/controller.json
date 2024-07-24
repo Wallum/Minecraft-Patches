@@ -14,11 +14,7 @@
       "item": "mekanism:basic_chemical_tank"
     }
   },
-  "pattern": [
-    "CGC",
-    "FTF",
-    "FFF"
-  ],
+  "pattern": ["CGC", "FTF", "FFF"],
   "result": {
     "item": "bfr:fusion_reactor_controller"
   }

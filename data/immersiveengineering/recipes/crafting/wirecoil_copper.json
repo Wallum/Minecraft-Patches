@@ -1,20 +1,16 @@
 {
-    "type":"minecraft:crafting_shaped",
-    "key":{
-        "s":{
-            "item":"createaddition:spool"
-        },
-        "w":{
-            "tag":"forge:wires/copper"
-        }
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "createaddition:spool"
     },
-    "pattern":[
-        " w ",
-        "wsw",
-        " w "
-    ],
-    "result":{
-        "count":1,
-        "item":"immersiveengineering:wirecoil_copper"
+    "w": {
+      "tag": "forge:wires/copper"
     }
+  },
+  "pattern": [" w ", "wsw", " w "],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:wirecoil_copper"
+  }
 }

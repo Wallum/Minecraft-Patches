@@ -1,4 +1,3 @@
-
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -15,7 +14,7 @@
           "item": "tfmg:unfinished_steel_mechanism"
         },
         {
-            "tag": "forge:ingots/steel"
+          "tag": "forge:ingots/steel"
         }
       ],
       "results": [
@@ -72,7 +71,6 @@
         }
       ]
     }
-
   ],
   "results": [
     {

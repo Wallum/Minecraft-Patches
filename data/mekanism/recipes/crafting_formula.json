@@ -1,1 +1,8 @@
-{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:paper"},{"tag":"forge:circuits/basic"}],"result":{"item":"mekanism:crafting_formula"}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:paper" },
+    { "tag": "forge:circuits/basic" }
+  ],
+  "result": { "item": "mekanism:crafting_formula" }
+}

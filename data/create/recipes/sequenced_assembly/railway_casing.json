@@ -1,111 +1,111 @@
 {
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-        "item": "create:brass_casing"
-    },
-    "transitionalItem": {
-        "item": "create:railway_casing"
-    },
-    "sequence": [
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "transitionalItem": {
+    "item": "create:railway_casing"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
         {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "tag": "forge:plates/steel"
-                }
-            ],
-            "results": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ]
+          "item": "create:railway_casing"
         },
         {
-            "type": "create:pressing",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ],
-            "results": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "create:flywheel"
-                }
-            ],
-            "results": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "tfmg:screw"
-                }
-            ],
-            "results": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "tfmg:screwdriver"
-                }
-            ],
-            "results": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "create:steam_engine"
-                }
-            ],
-            "results": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ]
+          "tag": "forge:plates/steel"
         }
-    ],
-    "results": [
+      ],
+      "results": [
         {
-            "item": "create:railway_casing",
-            "count": 1
+          "item": "create:railway_casing"
         }
-    ],
-    "loops": 4
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "create:flywheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "tfmg:screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "tfmg:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "create:steam_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:railway_casing"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:railway_casing",
+      "count": 1
+    }
+  ],
+  "loops": 4
 }

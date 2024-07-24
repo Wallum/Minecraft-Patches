@@ -1,1 +1,6 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:hdpe_rod"}},"pattern":["#","#"],"result":{"item":"mekanism:hdpe_stick"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": { "#": { "item": "mekanism:hdpe_rod" } },
+  "pattern": ["#", "#"],
+  "result": { "item": "mekanism:hdpe_stick" }
+}

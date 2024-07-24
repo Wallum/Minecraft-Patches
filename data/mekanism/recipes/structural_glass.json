@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"G":{"tag":"forge:glass"},"S":{"tag":"forge:ingots/steel"}},"pattern":[" S ","SGS"," S "],"result":{"count":4,"item":"mekanism:structural_glass"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "G": { "tag": "forge:glass" },
+    "S": { "tag": "forge:ingots/steel" }
+  },
+  "pattern": [" S ", "SGS", " S "],
+  "result": { "count": 4, "item": "mekanism:structural_glass" }
+}

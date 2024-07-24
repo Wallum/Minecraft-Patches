@@ -1,32 +1,32 @@
 {
-    "type": "create:mechanical_crafting",
-    "pattern": [
-        "  O  ",
-        "  O  ",
-        "OOAOO",
-        " CSC ",
-        "  S  ",
-        "  S  ",
-        "  S  ",
-        "  S  ",
-        "  S  ",
-        "  S  "
-    ],
-    "key":{
-        "A": {
-            "item":"createaddition:alternator"
-        },
-        "O": {
-            "item":"immersiveengineering:alu_post"
-        },
-        "C": {
-            "item":"mekanism:basic_control_circuit"
-        },
-        "S": {
-            "tag":"forge:storage_blocks/steel"
-        }
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  O  ",
+    "  O  ",
+    "OOAOO",
+    " CSC ",
+    "  S  ",
+    "  S  ",
+    "  S  ",
+    "  S  ",
+    "  S  ",
+    "  S  "
+  ],
+  "key": {
+    "A": {
+      "item": "createaddition:alternator"
     },
-    "result": {
-        "item":"mekanismgenerators:wind_generator"
+    "O": {
+      "item": "immersiveengineering:alu_post"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
     }
+  },
+  "result": {
+    "item": "mekanismgenerators:wind_generator"
+  }
 }

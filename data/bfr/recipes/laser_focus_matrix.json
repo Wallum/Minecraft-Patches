@@ -8,11 +8,7 @@
       "tag": "forge:storage_blocks/redstone"
     }
   },
-  "pattern": [
-    " G ",
-    "GRG",
-    " G "
-  ],
+  "pattern": [" G ", "GRG", " G "],
   "result": {
     "count": 2,
     "item": "bfr:laser_focus_matrix"

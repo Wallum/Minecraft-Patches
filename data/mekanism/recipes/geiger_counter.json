@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"forge:circuits/basic"},"I":{"tag":"forge:ingots/lead"}},"pattern":[" I ","ICI"," I "],"result":{"item":"mekanism:geiger_counter"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": { "tag": "forge:circuits/basic" },
+    "I": { "tag": "forge:ingots/lead" }
+  },
+  "pattern": [" I ", "ICI", " I "],
+  "result": { "item": "mekanism:geiger_counter" }
+}

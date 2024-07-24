@@ -1,29 +1,23 @@
 {
-    "type":"create:mechanical_crafting",
-    "acceptMirrored":false,
-    "key":{
-        "c":{
-            "tag":"forge:ingots/copper"
-        },
-        "p":{
-            "item":"create:precision_mechanism"
-        },
-        "S":{
-            "item":"tfmg:steel_mechanism"
-        },
-        "s":{
-            "tag":"forge:plates/steel"
-        }
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "c": {
+      "tag": "forge:ingots/copper"
     },
-    "pattern": [
-        " sps ",
-        "sSpSs",
-        "spcps",
-        "sSpSs",
-        " sps "
-    ],
-    "result":{
-        "count": 1,
-        "item":"immersiveengineering:component_steel"
+    "p": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "s": {
+      "tag": "forge:plates/steel"
     }
+  },
+  "pattern": [" sps ", "sSpSs", "spcps", "sSpSs", " sps "],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:component_steel"
+  }
 }

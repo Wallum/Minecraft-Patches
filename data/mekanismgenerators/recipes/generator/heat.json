@@ -1,35 +1,30 @@
 {
-    "type": "create:mechanical_crafting",
-    "pattern": [
-        " TcT ",
-        "ITSTI",
-        "ICACI",
-        "ICFCI"
-    ],
-    "key": {
-      "F": {
-        "item":"minecraft:furnace"
-      },
-      "I": {
-        "tag": "forge:plates/iron"
-      },
-      "C": {
-        "tag": "forge:plates/copper"
-      },
-      "c": {
-        "item": "mekanism:basic_control_circuit"
-      },
-      "A": {
-        "item":"createaddition:alternator"
-      },
-      "T": {
-        "item":"create:fluid_tank"
-      },
-      "S": {
-        "item": "tfmg:exhaust"
-      }
+  "type": "create:mechanical_crafting",
+  "pattern": [" TcT ", "ITSTI", "ICACI", "ICFCI"],
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
     },
-    "result": {
-      "item":"mekanismgenerators:heat_generator"
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "tag": "forge:plates/copper"
+    },
+    "c": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "A": {
+      "item": "createaddition:alternator"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "S": {
+      "item": "tfmg:exhaust"
     }
+  },
+  "result": {
+    "item": "mekanismgenerators:heat_generator"
   }
+}

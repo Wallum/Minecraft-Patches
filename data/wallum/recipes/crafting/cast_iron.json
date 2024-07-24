@@ -6,9 +6,7 @@
       "item": "createdeco:cast_iron_sheet"
     }
   ],
-  "pattern": [
-    "C"
-  ],
+  "pattern": ["C"],
   "key": {
     "C": {
       "item": "createbigcannons:cast_iron_block"

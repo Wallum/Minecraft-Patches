@@ -1,1 +1,10 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"forge:circuits/basic"},"_":{"tag":"forge:cobblestone/normal"}},"pattern":["_C_","A A","___"],"result":{"item":"mekanism:basic_bin"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/basic" },
+    "C": { "tag": "forge:circuits/basic" },
+    "_": { "tag": "forge:cobblestone/normal" }
+  },
+  "pattern": ["_C_", "A A", "___"],
+  "result": { "item": "mekanism:basic_bin" }
+}

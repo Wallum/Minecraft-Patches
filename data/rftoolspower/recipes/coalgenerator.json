@@ -11,11 +11,7 @@
       "tag": "forge:plates/iron"
     }
   },
-  "pattern": [
-    "I#I",
-    "IFI",
-    "III"
-  ],
+  "pattern": ["I#I", "IFI", "III"],
   "result": {
     "item": "rftoolspower:coalgenerator"
   }

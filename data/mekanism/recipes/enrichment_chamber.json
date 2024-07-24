@@ -1,1 +1,11 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"forge:circuits/basic"},"I":{"tag":"forge:ingots/iron"},"X":{"item":"mekanism:steel_casing"}},"pattern":["ACA","IXI","ACA"],"result":{"item":"mekanism:enrichment_chamber"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/basic" },
+    "C": { "tag": "forge:circuits/basic" },
+    "I": { "tag": "forge:ingots/iron" },
+    "X": { "item": "mekanism:steel_casing" }
+  },
+  "pattern": ["ACA", "IXI", "ACA"],
+  "result": { "item": "mekanism:enrichment_chamber" }
+}

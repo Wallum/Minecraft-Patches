@@ -1,1 +1,5 @@
-{"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:storage_blocks/charcoal"}],"result":{"count":9,"item":"minecraft:charcoal"}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "tag": "forge:storage_blocks/charcoal" }],
+  "result": { "count": 9, "item": "minecraft:charcoal" }
+}

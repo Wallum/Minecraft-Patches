@@ -1,25 +1,21 @@
 {
-    "type":"create:mechanical_crafting",
-    "key":{
-        "C":{
-            "tag":"forge:circuits/basic"
-        },
-        "G":{
-            "tag":"forge:glass"
-        },
-        "P":{
-            "tag":"forge:chests/wooden"
-        },
-        "S":{
-            "tag":"forge:ingots/steel"
-        }
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": {
+      "tag": "forge:circuits/basic"
     },
-    "pattern":[
-        "SGS",
-        "PCP",
-        "SSS"
-    ],
-    "result":{
-        "item":"mekanism:personal_chest"
+    "G": {
+      "tag": "forge:glass"
+    },
+    "P": {
+      "tag": "forge:chests/wooden"
+    },
+    "S": {
+      "tag": "forge:ingots/steel"
     }
+  },
+  "pattern": ["SGS", "PCP", "SSS"],
+  "result": {
+    "item": "mekanism:personal_chest"
+  }
 }

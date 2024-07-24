@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/reinforced"},"P":{"item":"mekanism:advanced_mechanical_pipe"}},"pattern":["PPP","PAP","PPP"],"result":{"count":8,"item":"mekanism:elite_mechanical_pipe"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": { "tag": "mekanism:alloys/reinforced" },
+    "P": { "item": "mekanism:advanced_mechanical_pipe" }
+  },
+  "pattern": ["PPP", "PAP", "PPP"],
+  "result": { "count": 8, "item": "mekanism:elite_mechanical_pipe" }
+}

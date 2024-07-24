@@ -11,11 +11,7 @@
       "item": "create:precision_mechanism"
     }
   },
-  "pattern": [
-    "B",
-    "C",
-    "I"
-  ],
+  "pattern": ["B", "C", "I"],
   "result": {
     "item": "create:contraption_controls"
   }

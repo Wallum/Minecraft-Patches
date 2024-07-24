@@ -1,1 +1,9 @@
-{"type":"create:mechanical_crafting","key":{"B":{"item":"minecraft:bucket"},"S":{"tag":"forge:ingots/steel"}},"pattern":[" S ","SBS"," S "],"result":{"count":4,"item":"mekanism:dynamic_tank"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": { "item": "minecraft:bucket" },
+    "S": { "tag": "forge:ingots/steel" }
+  },
+  "pattern": [" S ", "SBS", " S "],
+  "result": { "count": 4, "item": "mekanism:dynamic_tank" }
+}
