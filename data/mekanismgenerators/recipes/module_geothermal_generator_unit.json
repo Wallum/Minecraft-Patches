@@ -1,1 +1,16 @@
-{"type":"minecraft:crafting_shaped","key":{"#":{"item":"mekanismgenerators:heat_generator"},"A":{"tag":"forge:alloys/elite"},"H":{"item":"mekanism:pellet_polonium"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","APA","HHH"],"result":{"item":"mekanismgenerators:module_geothermal_generator_unit"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismgenerators:module_geothermal_generator_unit"
+    } ],
+  "key": {
+    "#": { "item": "mekanismgenerators:heat_generator" },
+    "A": { "tag": "forge:alloys/elite" },
+    "H": { "item": "mekanism:pellet_polonium" },
+    "P": { "item": "mekanism:module_base" }
+  },
+  "pattern": ["A#A", "APA", "HHH"],
+  "result": { "item": "mekanismgenerators:module_geothermal_generator_unit" }
+}

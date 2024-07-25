@@ -1,5 +1,10 @@
 {
     "type": "automobility:auto_mechanic_table",
+    "condition":
+    {
+        "type": "forge:mod_loaded",
+        "modid": "automobility"
+      },
     "category": "automobility:attachments",
     "sortnum": 0,
     "ingredients": [

@@ -1,1 +1,16 @@
-{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"mekanism:alloys/infused"},"G":{"item":"immersiveengineering:slab_insulating_glass"},"O":{"tag":"forge:ingots/hop_graphite"},"R":{"tag":"forge:wires/copper"}},"pattern":["GGG","RAR","OOO"],"result":{"item":"mekanismgenerators:solar_panel"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismgenerators:solar_panel"
+    } ],
+  "key": {
+    "A": { "tag": "mekanism:alloys/infused" },
+    "G": { "item": "immersiveengineering:slab_insulating_glass" },
+    "O": { "tag": "forge:ingots/hop_graphite" },
+    "R": { "tag": "forge:wires/copper" }
+  },
+  "pattern": ["GGG", "RAR", "OOO"],
+  "result": { "item": "mekanismgenerators:solar_panel" }
+}

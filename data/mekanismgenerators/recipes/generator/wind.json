@@ -1,5 +1,10 @@
 {
     "type": "create:mechanical_crafting",
+    "conditions": [
+      {
+        "type": "forge:item_exists",
+        "item": "mekanismgenerators:wind_generator"
+      } ],
     "pattern": [
         "  O  ",
         "  O  ",
