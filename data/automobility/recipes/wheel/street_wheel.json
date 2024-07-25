@@ -1,10 +1,10 @@
 {
-    "type": "automobility:auto_mechanic_table",
     "condition":
     {
         "type": "forge:mod_loaded",
         "modid": "automobility"
       },
+    "type": "automobility:auto_mechanic_table",
     "category": "automobility:wheels",
     "sortnum": 2,
     "ingredients": [
