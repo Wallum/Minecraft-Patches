@@ -1,6 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": { "#": { "tag": "forge:sawdust" } },
-  "pattern": ["###"],
-  "result": { "count": 6, "item": "minecraft:paper" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"tag":"forge:sawdust"}},"pattern":["###"],"result":{"count":6,"item":"minecraft:paper"}}

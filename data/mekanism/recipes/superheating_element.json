@@ -1,10 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "A": { "tag": "mekanism:alloys/basic" },
-    "I": { "tag": "forge:ingots/copper" },
-    "X": { "item": "mekanism:steel_casing" }
-  },
-  "pattern": ["AIA", "IXI", "AIA"],
-  "result": { "item": "mekanism:superheating_element" }
-}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"I":{"tag":"forge:ingots/copper"},"X":{"item":"mekanism:steel_casing"}},"pattern":["AIA","IXI","AIA"],"result":{"item":"mekanism:superheating_element"}}

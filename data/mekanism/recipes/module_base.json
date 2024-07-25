@@ -1,10 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "item": "mekanism:hdpe_sheet" },
-    "I": { "tag": "forge:ingots/tin" },
-    "N": { "tag": "forge:nuggets/bronze" }
-  },
-  "pattern": ["NIN", "I#I", "NIN"],
-  "result": { "count": 2, "item": "mekanism:module_base" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:hdpe_sheet"},"I":{"tag":"forge:ingots/tin"},"N":{"tag":"forge:nuggets/bronze"}},"pattern":["NIN","I#I","NIN"],"result":{"count":2,"item":"mekanism:module_base"}}

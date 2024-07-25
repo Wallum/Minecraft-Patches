@@ -1,38 +1,20 @@
 {
-  "type": "automobility:auto_mechanic_table",
-  "category": "automobility:frames",
-  "sortnum": 0,
-  "ingredients": [
-    {
-      "item": "create:speedometer"
-    },
-    {
-      "tag": "create:seats"
-    },
-    {
-      "item": "immersiveengineering:light_bulb"
-    },
-    {
-      "tag": "forge:glass_panes"
-    },
-    {
-      "tag": "forge:rods/iron"
-    },
-    {
-      "tag": "forge:rods/iron"
-    },
-    {
-      "tag": "forge:plates/iron"
-    },
-    {
-      "tag": "forge:plates/iron"
-    },
-    {
-      "tag": "minecraft:logs"
+    "type": "automobility:auto_mechanic_table",
+    "category": "automobility:frames",
+    "sortnum": 0,
+    "ingredients": [
+        {"item": "create:speedometer"},
+        {"tag": "create:seats"},
+        {"item": "immersiveengineering:light_bulb"},
+        {"tag": "forge:glass_panes"},
+        {"tag": "forge:rods/iron"},
+        {"tag": "forge:rods/iron"},
+        {"tag": "forge:plates/iron"},
+        {"tag": "forge:plates/iron"},
+        {"tag": "minecraft:logs"}
+    ],
+    "result": {
+        "item": "automobility:automobile_frame",
+        "component": "automobility:wooden_motorcar"
     }
-  ],
-  "result": {
-    "item": "automobility:automobile_frame",
-    "component": "automobility:wooden_motorcar"
-  }
 }

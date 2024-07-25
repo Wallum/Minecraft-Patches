@@ -1,17 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "alloyedguns:flintlock"
+      "item": "alloyedguns:flintlock"
   },
   "transitionalItem": {
-    "item": "alloyedguns:unfinished_grenade_launcher"
+      "item": "alloyedguns:unfinished_grenade_launcher"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "alloyedguns:flintlock"
+      "item": "alloyedguns:flintlock"
         },
         [
           {
@@ -47,7 +47,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "alloyedguns:unfinished_grenade_launcher"
+      "item": "alloyedguns:unfinished_grenade_launcher"
         },
         [
           {

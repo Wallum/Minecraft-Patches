@@ -1,11 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "B": { "item": "minecraft:lava_bucket" },
-    "C": { "tag": "forge:circuits/basic" },
-    "R": { "tag": "forge:dusts/redstone" },
-    "X": { "item": "mekanism:steel_casing" }
-  },
-  "pattern": ["RCR", "BXB", "RCR"],
-  "result": { "item": "mekanism:crusher" }
-}
+{"type":"create:mechanical_crafting","key":{"B":{"item":"minecraft:lava_bucket"},"C":{"tag":"forge:circuits/basic"},"R":{"tag":"forge:dusts/redstone"},"X":{"item":"mekanism:steel_casing"}},"pattern":["RCR","BXB","RCR"],"result":{"item":"mekanism:crusher"}}

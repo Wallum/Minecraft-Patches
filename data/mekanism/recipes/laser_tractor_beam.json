@@ -1,9 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "item": "mekanism:laser_amplifier" },
-    "P": { "tag": "mekanism:personal_storage" }
-  },
-  "pattern": ["P", "#"],
-  "result": { "item": "mekanism:laser_tractor_beam" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:laser_amplifier"},"P":{"tag":"mekanism:personal_storage"}},"pattern":["P","#"],"result":{"item":"mekanism:laser_tractor_beam"}}

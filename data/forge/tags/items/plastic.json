@@ -1,3 +1,5 @@
 {
-  "values": ["#forge:plates/plastic"]
+	"values": [
+		"#forge:plates/plastic"
+	]
 }

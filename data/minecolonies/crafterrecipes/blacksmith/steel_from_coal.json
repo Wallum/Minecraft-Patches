@@ -1,19 +1,19 @@
 {
-  "type": "recipe",
-  "count": 1,
-  "crafter": "blacksmith_crafting",
-  "inputs": [
-    {
-      "count": 1,
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "count": 64,
-      "item": "minecraft:coal"
-    }
-  ],
-  "intermediate": "minecraft:blast_furnace",
-  "min-building-level": 3,
-  "result": "immersiveengineering:ingot_steel",
-  "loot-table": "minecolonies:recipes/slag"
-}
+    "type": "recipe",
+    "count": 1,
+    "crafter": "blacksmith_crafting",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "count": 64,
+        "item": "minecraft:coal"
+      }
+    ],
+    "intermediate": "minecraft:blast_furnace",
+    "min-building-level": 3,
+    "result": "immersiveengineering:ingot_steel",
+    "loot-table": "minecolonies:recipes/slag"
+  }

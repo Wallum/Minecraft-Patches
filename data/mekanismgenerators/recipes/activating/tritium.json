@@ -1,5 +1,1 @@
-{
-  "type": "mekanism:activating",
-  "input": { "amount": 1, "gas": "mekanism:lithium" },
-  "output": { "amount": 1, "gas": "mekanismgenerators:tritium" }
-}
+{"type":"mekanism:activating","input":{"amount":1,"gas":"mekanism:lithium"},"output":{"amount":1,"gas":"mekanismgenerators:tritium"}}

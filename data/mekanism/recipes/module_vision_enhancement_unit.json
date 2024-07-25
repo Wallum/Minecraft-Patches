@@ -1,11 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "item": "minecraft:emerald" },
-    "A": { "tag": "forge:alloys/elite" },
-    "H": { "item": "mekanism:pellet_polonium" },
-    "P": { "item": "mekanism:module_base" }
-  },
-  "pattern": ["A#A", "APA", "HHH"],
-  "result": { "item": "mekanism:module_vision_enhancement_unit" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:emerald"},"A":{"tag":"forge:alloys/elite"},"H":{"item":"mekanism:pellet_polonium"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","APA","HHH"],"result":{"item":"mekanism:module_vision_enhancement_unit"}}

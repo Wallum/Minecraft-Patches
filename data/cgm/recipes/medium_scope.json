@@ -2,10 +2,11 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "item": "minecraft:spyglass"
+            "item": "minecraft:spyglass"
     },
     {
-      "item": "alloyed:steel_sheet"
+            "item": "alloyed:steel_sheet"
+
     }
   ],
   "result": {

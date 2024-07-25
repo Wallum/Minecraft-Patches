@@ -1,3 +1,5 @@
 {
-  "values": ["tfmg:crude_oil_fluid"]
+  "values": [
+    "createindustry:crude_oil_fluid"
+  ]
 }

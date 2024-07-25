@@ -1,20 +1,19 @@
 {
-  "type": "immersiveengineering:cloche",
-  "input": {
-    "item": "minecraft:cocoa_beans"
-  },
-  "render": {
-    "type": "crop",
-    "block": "minecraft:cocoa"
-  },
-  "results": [
-    {
-      "count": 2,
-      "item": "minecraft:cocoa_beans"
+    "type":"immersiveengineering:cloche",
+    "input":{
+        "item":"minecraft:cocoa_beans"
+    },
+    "render":{
+        "type":"crop",
+        "block":"minecraft:cocoa"
+    },
+    "results":[{
+        "count":2,
+        "item":"minecraft:cocoa_beans"
     }
-  ],
-  "soil": {
-    "tag": "minecraft:jungle_logs"
-  },
-  "time": 640
+    ],
+    "soil":{
+        "tag":"minecraft:jungle_logs"
+    },
+    "time":640
 }

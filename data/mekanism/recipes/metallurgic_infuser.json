@@ -1,11 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "item": "minecraft:blast_furnace" },
-    "I": { "tag": "forge:plates/steel" },
-    "O": { "tag": "forge:ingots/osmium" },
-    "R": { "item": "immersiveengineering:component_electronic_adv" }
-  },
-  "pattern": ["I#I", "ROR", "I#I"],
-  "result": { "item": "mekanism:metallurgic_infuser" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:blast_furnace"},"I":{"tag":"forge:plates/steel"},"O":{"tag":"forge:ingots/osmium"},"R":{"item":"immersiveengineering:component_electronic_adv"}},"pattern":["I#I","ROR","I#I"],"result":{"item":"mekanism:metallurgic_infuser"}}

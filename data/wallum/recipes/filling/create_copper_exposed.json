@@ -2,7 +2,7 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "minecraft:exposed_copper"
+      "item": "minecraft:copper_block"
     },
     {
       "amount": 250,
@@ -12,7 +12,7 @@
   ],
   "results": [
     {
-      "item": "minecraft:copper_block"
+      "item": "minecraft:exposed_copper"
     }
   ]
 }

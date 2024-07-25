@@ -1,17 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "cgm:machine_pistol"
+      "item": "cgm:machine_pistol"
   },
   "transitionalItem": {
-    "item": "alloyedguns:unfinished_assault_rifle"
+      "item": "alloyedguns:unfinished_assault_rifle"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cgm:machine_pistol"
+      "item": "cgm:machine_pistol"
         },
         [
           {
@@ -47,7 +47,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "alloyedguns:unfinished_assault_rifle"
+      "item": "alloyedguns:unfinished_assault_rifle"
         },
         [
           {

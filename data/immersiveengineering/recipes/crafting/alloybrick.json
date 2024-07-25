@@ -1,19 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "b": {
-      "tag": "forge:ingots/brick"
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "b": {
+            "tag": "forge:ingots/brick"
+        },
+        "S": {
+            "tag": "forge:sand"
+        },
+        "s": {
+            "tag": "forge:sandstone"
+        }
     },
-    "S": {
-      "tag": "forge:sand"
-    },
-    "s": {
-      "tag": "forge:sandstone"
+    "pattern": [
+        "s b",
+        " S ",
+        "b s"
+    ],
+    "result": {
+        "count": 2,
+        "item": "immersiveengineering:alloybrick"
     }
-  },
-  "pattern": ["s b", " S ", "b s"],
-  "result": {
-    "count": 2,
-    "item": "immersiveengineering:alloybrick"
-  }
 }

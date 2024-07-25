@@ -1,38 +1,20 @@
 {
-  "type": "automobility:auto_mechanic_table",
-  "category": "automobility:engines",
-  "sortnum": 3,
-  "ingredients": [
-    {
-      "item": "tfmg:gasoline_engine"
-    },
-    {
-      "item": "tfmg:gasoline_engine"
-    },
-    {
-      "item": "tfmg:gasoline_engine"
-    },
-    {
-      "item": "tfmg:exhaust"
-    },
-    {
-      "item": "tfmg:air_intake"
-    },
-    {
-      "item": "create:sequenced_gearshift"
-    },
-    {
-      "item": "tfmg:steel_fluid_tank"
-    },
-    {
-      "item": "create:clutch"
-    },
-    {
-      "tag": "forge:storage_blocks/gold"
+    "type": "automobility:auto_mechanic_table",
+    "category": "automobility:engines",
+    "sortnum": 3,
+    "ingredients": [
+        {"item": "createindustry:gasoline_engine"},
+        {"item": "createindustry:gasoline_engine"},
+        {"item": "createindustry:gasoline_engine"},
+        {"item": "createindustry:exhaust"},
+        {"item": "createindustry:air_intake"},
+        {"item": "create:sequenced_gearshift"},
+        {"item": "createindustry:steel_fluid_tank"},
+        {"item": "create:clutch"},
+        {"tag": "forge:storage_blocks/gold"}
+    ],
+    "result": {
+        "item": "automobility:automobile_engine",
+        "component": "automobility:gold"
     }
-  ],
-  "result": {
-    "item": "automobility:automobile_engine",
-    "component": "automobility:gold"
-  }
 }

@@ -11,7 +11,11 @@
       "item": "mekanism:enriched_iron"
     }
   },
-  "pattern": ["SIS", "IGI", "SIS"],
+  "pattern": [
+    "SIS",
+    "IGI",
+    "SIS"
+  ],
   "result": {
     "count": 4,
     "item": "bfr:reactor_glass"

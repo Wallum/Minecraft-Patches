@@ -8,7 +8,11 @@
       "tag": "forge:dusts/redstone"
     }
   },
-  "pattern": [" R ", "RFR", " R "],
+  "pattern": [
+    " R ",
+    "RFR",
+    " R "
+  ],
   "result": {
     "item": "bfr:fusion_reactor_logic_adapter"
   }

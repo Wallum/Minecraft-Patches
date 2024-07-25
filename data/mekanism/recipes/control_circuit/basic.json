@@ -1,15 +1,15 @@
 {
-  "type": "mekanism:metallurgic_infusing",
-  "chemicalInput": {
-    "amount": 90,
-    "tag": "mekanism:redstone"
-  },
-  "itemInput": {
-    "ingredient": {
-      "item": "immersiveengineering:component_electronic_adv"
+    "type":"mekanism:metallurgic_infusing",
+    "chemicalInput":{
+        "amount":90,
+        "tag":"mekanism:redstone"
+    },
+    "itemInput":{
+        "ingredient":{
+            "item":"immersiveengineering:component_electronic_adv"
+        }
+    },
+    "output":{
+        "item":"mekanism:basic_control_circuit"
     }
-  },
-  "output": {
-    "item": "mekanism:basic_control_circuit"
-  }
 }

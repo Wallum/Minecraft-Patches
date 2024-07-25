@@ -1,38 +1,20 @@
 {
-  "type": "automobility:auto_mechanic_table",
-  "category": "automobility:frames",
-  "sortnum": 2,
-  "ingredients": [
-    {
-      "item": "create:speedometer"
-    },
-    {
-      "tag": "create:seats"
-    },
-    {
-      "item": "immersiveengineering:light_bulb"
-    },
-    {
-      "tag": "forge:glass_panes"
-    },
-    {
-      "tag": "forge:rods/steel"
-    },
-    {
-      "tag": "forge:rods/steel"
-    },
-    {
-      "tag": "forge:plates/steel"
-    },
-    {
-      "tag": "forge:plates/steel"
-    },
-    {
-      "tag": "forge:storage_blocks/steel"
+    "type": "automobility:auto_mechanic_table",
+    "category": "automobility:frames",
+    "sortnum": 2,
+    "ingredients": [
+        {"item": "create:speedometer"},
+        {"tag": "create:seats"},
+        {"item": "immersiveengineering:light_bulb"},
+        {"tag": "forge:glass_panes"},
+        {"tag": "forge:rods/steel"},
+        {"tag": "forge:rods/steel"},
+        {"tag": "forge:plates/steel"},
+        {"tag": "forge:plates/steel"},
+        {"tag": "forge:storage_blocks/steel"}
+    ],
+    "result": {
+        "item": "automobility:automobile_frame",
+        "component": "automobility:steel_motorcar"
     }
-  ],
-  "result": {
-    "item": "automobility:automobile_frame",
-    "component": "automobility:steel_motorcar"
-  }
 }

@@ -1,6 +1,10 @@
 {
   "type": "create:mechanical_crafting",
-  "pattern": ["  A  ", "SJJJS", " RCV "],
+  "pattern": [
+    "  A  ",
+    "SJJJS",
+    " RCV "
+  ],
   "key": {
     "J": {
       "item": "create:chute"

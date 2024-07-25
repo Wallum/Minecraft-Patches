@@ -1,8 +1,8 @@
 {
-  "type": "tfmg:casting",
+  "type": "createindustry:casting",
   "ingredients": [
     {
-      "fluid": "tfmg:molten_steel",
+      "fluid": "createindustry:molten_steel",
       "amount": 1
     }
   ],
@@ -11,10 +11,12 @@
     {
       "count": 1,
       "item": "immersiveengineering:ingot_steel"
-    },
+    }
+  ,
     {
       "count": 1,
       "item": "immersiveengineering:storage_steel"
     }
+
   ]
 }

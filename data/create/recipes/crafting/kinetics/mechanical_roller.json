@@ -11,7 +11,11 @@
       "item": "create:crushing_wheel"
     }
   },
-  "pattern": ["A", "C", "I"],
+  "pattern": [
+    "A",
+    "C",
+    "I"
+  ],
   "result": {
     "item": "create:mechanical_roller"
   }

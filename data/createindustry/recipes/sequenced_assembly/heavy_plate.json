@@ -1,25 +1,26 @@
+
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
     "tag": "forge:ingots/steel"
   },
   "transitionalItem": {
-    "item": "tfmg:unprocessed_heavy_plate"
+    "item": "createindustry:unprocessed_heavy_plate"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:unprocessed_heavy_plate"
+          "item": "createindustry:unprocessed_heavy_plate"
         },
         {
-          "tag": "forge:ingots/steel"
+            "tag": "forge:ingots/steel"
         }
       ],
       "results": [
         {
-          "item": "tfmg:unprocessed_heavy_plate"
+          "item": "createindustry:unprocessed_heavy_plate"
         }
       ]
     },
@@ -27,12 +28,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "tfmg:unprocessed_heavy_plate"
+          "item": "createindustry:unprocessed_heavy_plate"
         }
       ],
       "results": [
         {
-          "item": "tfmg:unprocessed_heavy_plate"
+          "item": "createindustry:unprocessed_heavy_plate"
         }
       ]
     },
@@ -40,19 +41,19 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "tfmg:unprocessed_heavy_plate"
+          "item": "createindustry:unprocessed_heavy_plate"
         }
       ],
       "results": [
         {
-          "item": "tfmg:unprocessed_heavy_plate"
+          "item": "createindustry:unprocessed_heavy_plate"
         }
       ]
     }
   ],
   "results": [
     {
-      "item": "tfmg:heavy_plate"
+      "item": "createindustry:heavy_plate"
     }
   ],
   "loops": 1

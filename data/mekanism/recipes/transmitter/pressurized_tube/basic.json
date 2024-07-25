@@ -1,9 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "tag": "forge:glass" },
-    "S": { "tag": "forge:ingots/steel" }
-  },
-  "pattern": ["S#S"],
-  "result": { "count": 8, "item": "mekanism:basic_pressurized_tube" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"tag":"forge:glass"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S"],"result":{"count":8,"item":"mekanism:basic_pressurized_tube"}}

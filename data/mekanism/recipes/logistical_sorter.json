@@ -1,10 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "item": "minecraft:piston" },
-    "C": { "tag": "forge:circuits/basic" },
-    "I": { "tag": "forge:ingots/iron" }
-  },
-  "pattern": ["I#I", "ICI", "III"],
-  "result": { "item": "mekanism:logistical_sorter" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:piston"},"C":{"tag":"forge:circuits/basic"},"I":{"tag":"forge:ingots/iron"}},"pattern":["I#I","ICI","III"],"result":{"item":"mekanism:logistical_sorter"}}

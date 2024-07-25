@@ -1,9 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "D": { "tag": "forge:dyes/orange" },
-    "I": { "tag": "forge:ingots/lead" }
-  },
-  "pattern": ["IDI", "III", "III"],
-  "result": { "item": "mekanism:hazmat_gown" }
-}
+{"type":"create:mechanical_crafting","key":{"D":{"tag":"forge:dyes/orange"},"I":{"tag":"forge:ingots/lead"}},"pattern":["IDI","III","III"],"result":{"item":"mekanism:hazmat_gown"}}

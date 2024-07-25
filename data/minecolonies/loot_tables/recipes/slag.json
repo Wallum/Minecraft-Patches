@@ -1,16 +1,16 @@
 {
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "immersiveengineering:slag",
-          "weight": 100
-        }
-      ],
-      "name": "minecolonies:recipes/slag",
-      "rolls": 1.0
-    }
-  ]
-}
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:slag",
+            "weight": 100
+          }
+        ],
+        "name": "minecolonies:recipes/slag",
+        "rolls": 1.0
+      }
+    ]
+  }

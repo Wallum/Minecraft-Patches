@@ -1,6 +1,10 @@
 {
   "type": "create:mechanical_crafting",
-  "pattern": ["    SS   ", "LRRRRRRRR", "L CVLLA L"],
+  "pattern": [
+    "    SS   ",
+    "LRRRRRRRR",
+    "L CVLLA L"
+  ],
   "key": {
     "L": {
       "item": "alloyed:steel_sheet"

@@ -1,9 +1,1 @@
-{
-  "type": "create:mechanical_crafting",
-  "key": {
-    "#": { "tag": "forge:circuits/basic" },
-    "S": { "tag": "forge:ingots/steel" }
-  },
-  "pattern": ["S#S"],
-  "result": { "count": 8, "item": "mekanism:basic_logistical_transporter" }
-}
+{"type":"create:mechanical_crafting","key":{"#":{"tag":"forge:circuits/basic"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S"],"result":{"count":8,"item":"mekanism:basic_logistical_transporter"}}

@@ -1,6 +1,9 @@
 {
   "type": "create:mechanical_crafting",
-  "pattern": ["AVCRR", " JSRR"],
+  "pattern": [
+    "AVCRR",
+    " JSRR"
+  ],
   "key": {
     "J": {
       "item": "create:copper_backtank"

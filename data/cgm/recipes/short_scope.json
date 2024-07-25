@@ -2,10 +2,11 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "item": "create:framed_glass_pane"
+            "item": "create:framed_glass_pane"
     },
     {
-      "item": "alloyed:steel_sheet"
+            "item": "alloyed:steel_sheet"
+
     }
   ],
   "result": {

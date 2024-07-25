@@ -1,6 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["F ", "X#"],
+  "pattern": [
+    "F ",
+    "X#"
+  ],
   "key": {
     "#": {
       "item": "minecraft:leather"

@@ -14,7 +14,11 @@
       "item": "rftoolsbase:infused_diamond"
     }
   },
-  "pattern": ["XYX", "RFR", "XYX"],
+  "pattern": [
+    "XYX",
+    "RFR",
+    "XYX"
+  ],
   "result": {
     "item": "rftoolspower:blazing_generator"
   }

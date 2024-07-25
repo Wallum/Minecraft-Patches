@@ -2,7 +2,7 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "minecraft:oxidized_copper"
+      "item": "minecraft:weathered_copper"
     },
     {
       "amount": 250,
@@ -12,7 +12,7 @@
   ],
   "results": [
     {
-      "item": "minecraft:weathered_copper"
+      "item": "minecraft:oxidized_copper"
     }
   ]
 }

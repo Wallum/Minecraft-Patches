@@ -12,7 +12,13 @@
       "item": "create:shaft"
     }
   },
-  "pattern": [" AAA ", "AIIIA", "AISIA", "AIIIA", " AAA "],
+  "pattern": [
+    " AAA ",
+    "AIIIA",
+    "AISIA",
+    "AIIIA",
+    " AAA "
+  ],
   "result": {
     "count": 1,
     "item": "create:crushing_wheel"

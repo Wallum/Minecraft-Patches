@@ -8,7 +8,11 @@
       "item": "bfr:fusion_reactor_frame"
     }
   },
-  "pattern": [" F ", "FCF", " F "],
+  "pattern": [
+    " F ",
+    "FCF",
+    " F "
+  ],
   "result": {
     "count": 2,
     "item": "bfr:fusion_reactor_port"

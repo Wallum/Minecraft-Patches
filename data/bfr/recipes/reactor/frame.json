@@ -11,7 +11,11 @@
       "item": "mekanism:steel_casing"
     }
   },
-  "pattern": ["A#A", "#X#", "A#A"],
+  "pattern": [
+    "A#A",
+    "#X#",
+    "A#A"
+  ],
   "result": {
     "count": 4,
     "item": "bfr:fusion_reactor_frame"

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["##"],
+  "pattern": [
+    "##"
+  ],
   "key": {
     "#": {
       "tag": "forge:plates/iron"

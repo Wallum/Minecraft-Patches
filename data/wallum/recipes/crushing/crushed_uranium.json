@@ -1,22 +1,22 @@
 {
-  "type": "create:crushing",
-  "ingredients": [
-    {
-      "item": "create:crushed_raw_uranium"
-    }
-  ],
-  "processingTime": 250,
-  "results": [
-    {
-      "item": "immersiveengineering:dust_uranium"
-    },
-    {
-      "chance": 0.55,
-      "item": "immersiveengineering:dust_uranium"
-    },
-    {
-      "chance": 0.1125,
-      "item": "minecraft:gravel"
-    }
-  ]
-}
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "create:crushed_raw_uranium"
+      }
+    ],
+    "processingTime": 250,
+    "results": [
+      {
+        "item": "immersiveengineering:dust_uranium"
+      },
+      {
+        "chance": 0.55,
+        "item": "immersiveengineering:dust_uranium"
+      },
+      {
+        "chance": 0.1125,
+        "item": "minecraft:gravel"
+      }
+    ]
+  }

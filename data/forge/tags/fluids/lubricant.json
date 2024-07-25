@@ -1,3 +1,5 @@
 {
-  "values": ["tfmg:lubrication_oil"]
+  "values": [
+    "createindustry:lubrication_oil"
+  ]
 }
