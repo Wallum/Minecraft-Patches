@@ -1,1 +1,0 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"forge:circuits/basic"},"E":{"item":"mekanism:energy_tablet"},"T":{"item":"mekanism:teleportation_core"}},"pattern":[" E ","CTC"," E "],"result":{"item":"mekanism:portable_teleporter"}}
