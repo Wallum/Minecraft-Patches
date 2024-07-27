@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "tag": "forge:plates/copper"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "s": {
+      "tag": "forge:ingots/brick"
+    }
+  },
+  "pattern": ["csc", "sBs", "csc"],
+  "result": {
+    "count": 3,
+    "item": "immersiveengineering:blastbrick"
+  }
+}
