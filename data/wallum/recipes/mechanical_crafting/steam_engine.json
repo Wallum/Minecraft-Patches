@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:or",
+      "type": "forge:and",
       "values": [
         {
           "type": "forge:mod_loaded",
@@ -19,7 +19,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:rods/brass"
+            "tag": "forge:rods/steel"
           }
         }
       ]
@@ -44,7 +44,7 @@
       "tag": "forge:plates/brass"
     },
     "r": {
-      "tag": "forge:rods/brass"
+      "tag": "forge:rods/steel"
     },
     "V": {
       "item": "create:fluid_valve"
