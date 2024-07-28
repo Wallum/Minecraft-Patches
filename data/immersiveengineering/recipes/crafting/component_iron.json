@@ -5,7 +5,7 @@
       "values": [
         {
           "type": "forge:mod_loaded",
-          "modid": "create"
+          "modid": "immersiveengineering"
         },
         {
           "type": "forge:or",
@@ -14,7 +14,7 @@
               "type": "forge:not",
               "value": {
                 "type": "forge:mod_loaded",
-                "modid": "immersiveengineering"
+                "modid": "create"
               }
             }
           ]
