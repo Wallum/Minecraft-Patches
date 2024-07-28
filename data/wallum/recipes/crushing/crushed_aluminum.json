@@ -1,0 +1,22 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "create:crushed_raw_aluminum"
+      }
+    ],
+    "processingTime": 250,
+    "results": [
+      {
+        "item": "immersiveengineering:dust_aluminum"
+      },
+      {
+        "chance": 0.55,
+        "item": "immersiveengineering:dust_aluminum"
+      },
+      {
+        "chance": 0.1125,
+        "item": "minecraft:gravel"
+      }
+    ]
+  }
