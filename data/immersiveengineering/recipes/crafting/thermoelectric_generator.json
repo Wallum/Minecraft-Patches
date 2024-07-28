@@ -1,0 +1,43 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "create"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "tag": "forge:plates/constantan"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "l": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "pattern": ["iii", "ele", "eee"],
+  "result": {
+    "item": "immersiveengineering:thermoelectric_generator"
+  },
+  "show_notification": true
+}

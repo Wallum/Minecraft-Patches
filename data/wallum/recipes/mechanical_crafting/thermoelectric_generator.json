@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "key": {
+    "e": {
+      "tag": "forge:plates/constantan"
+    },
+    "i": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "l": {
+      "item": "immersiveengineering:graphite_electrode"
+    },
+    "c": {
+      "item": "immersiveengineering:component_electronic_adv"
+    }
+  },
+  "pattern": ["cic", "ele", "eee"],
+  "result": {
+    "item": "immersiveengineering:thermoelectric_generator"
+  }
+}
