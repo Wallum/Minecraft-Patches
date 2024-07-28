@@ -22,6 +22,6 @@
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "item": "createdeco:zinc_sheet"
+    "tag": "forge:plates/zinc"
   }
 }
