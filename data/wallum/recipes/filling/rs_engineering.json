@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:light_engineering"
+    },
+    {
+      "amount": 1000,
+      "fluid": "immersiveengineering:redstone_acid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:rs_engineering"
+    }
+  ]
+}
