@@ -1,0 +1,43 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "tfmg"
+              }
+            },
+            {
+              "type": "forge:tag_empty",
+              "tag": "forge:plates/steel"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "tag": "forge:plates/obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:railway_casing"
+    }
+  ]
+}
