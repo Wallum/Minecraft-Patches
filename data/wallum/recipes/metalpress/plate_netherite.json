@@ -7,13 +7,6 @@
         "type": "forge:tag_empty",
         "tag": "forge:ingots/netherite"
       }
-    },
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:plates/netherite"
-      }
     }
   ],
   "energy": 2400,
@@ -22,6 +15,6 @@
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "item": "createdeco:netherite_sheet"
+    "tag": "forge:ingots/netherite"
   }
 }
