@@ -4,13 +4,13 @@
     "#": {
       "item": "immersiveengineering:stick_treated"
     },
-    "X": {
-      "tag": "forge:rods/iron"
+    "O": {
+      "tag": "forge:rods/osmium"
     }
   },
-  "pattern": ["X#X", "X X", "X#X"],
+  "pattern": ["O#O", "O O", "O#O"],
   "result": {
-    "count": 6,
+    "count": 8,
     "item": "minecraft:rail"
   }
 }
