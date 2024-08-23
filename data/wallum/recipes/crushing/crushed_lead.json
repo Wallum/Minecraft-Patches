@@ -1,22 +1,22 @@
 {
-    "type": "create:crushing",
-    "ingredients": [
-      {
-        "item": "create:crushed_raw_lead"
-      }
-    ],
-    "processingTime": 250,
-    "results": [
-      {
-        "item": "immersiveengineering:dust_lead"
-      },
-      {
-        "chance": 0.55,
-        "item": "immersiveengineering:dust_lead"
-      },
-      {
-        "chance": 0.1125,
-        "item": "minecraft:gravel"
-      }
-    ]
-  }
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_lead"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "immersiveengineering:dust_lead"
+    },
+    {
+      "chance": 0.55,
+      "item": "immersiveengineering:dust_lead"
+    },
+    {
+      "chance": 0.1125,
+      "item": "minecraft:gravel"
+    }
+  ]
+}

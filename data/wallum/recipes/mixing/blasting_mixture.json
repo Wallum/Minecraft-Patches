@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfmg:limesand"
+    },
+    {
+      "item": "tfmg:limesand"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:blasting_mixture",
+      "count": 4
+    }
+  ]
+}

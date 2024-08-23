@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:blast_furnace",
+  "input": {
+    "item": "tfmg:blasting_mixture"
+  },
+  "result": {
+    
+    "base_ingredient": {
+      "tag": "forge:ingots/steel"
+    },
+    "count": 2
+  },
+  "slag": {
+    "base_ingredient": {
+      "tag": "forge:slag"
+    },
+    "count": 2
+  },
+  "time": 1200
+}
