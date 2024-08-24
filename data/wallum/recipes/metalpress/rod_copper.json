@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/copper"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/copper"
+      }
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ingots/copper"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "createaddition:copper_rod"
+  }
+}

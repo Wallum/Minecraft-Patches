@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 650,
+  "input": { "tag": "minecraft:planks" },
+  "result": { "count": 4, "item": "minecraft:stick" },
+  "secondaries": [
+    { "output": { "tag": "forge:dusts/wood" }, "stripping": false }
+  ]
+}
