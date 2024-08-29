@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:wires/gold"
+      }
+    }
+  ],
+  "energy": 3000,
+  "input": {
+    "tag": "forge:plates/gold"
+  },
+  "mold": "immersiveengineering:mold_wire",
+  "result": {
+    "base_ingredient": {
+      "item": "createaddition:gold_wire"
+    },
+    "count": 3
+  }
+}

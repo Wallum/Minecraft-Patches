@@ -1,12 +1,12 @@
 {
   "type": "immersiveengineering:sawmill",
-  "energy": 650,
+  "energy": 1000,
   "input": {
-    "tag": "minecraft:planks"
+    "tag": "forge:treated_wood"
   },
   "result": {
     "count": 4,
-    "item": "minecraft:stick"
+    "item": "immersiveengineering:stick_treated"
   },
   "secondaries": [
     {
