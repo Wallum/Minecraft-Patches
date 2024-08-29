@@ -20,11 +20,14 @@
     "L": {
       "item": "tfmg:lpg_engine"
     },
+    "G": {
+      "item": "mekanismgenerators:heat_generator"
+    },
     "X": {
       "item": "mekanism:steel_casing"
     }
   },
-  "pattern": ["OAO", "XCX", "OLO"],
+  "pattern": ["OGO", "XCX", "OLO"],
   "result": {
     "count": 1,
     "item": "mekanismgenerators:gas_burning_generator"
