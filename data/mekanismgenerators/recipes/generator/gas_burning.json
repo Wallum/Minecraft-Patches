@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismgenerators:gas_burning_generator"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "C": {
+      "item": "mekanism:electrolytic_core"
+    },
+    "O": {
+      "tag": "forge:ingots/osmium"
+    },
+    "L": {
+      "item": "tfmg:lpg_engine"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": ["OAO", "XCX", "OLO"],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:gas_burning_generator"
+  }
+}

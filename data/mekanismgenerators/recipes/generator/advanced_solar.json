@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismgenerators:advanced_solar_generator"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "I": {
+      "tag": "forge:rods/iron"
+    },
+    "P": {
+      "item": "mekanismgenerators:solar_generator"
+    },
+    "G": {
+      "tag": "forge:wires/gold"
+    },
+    "O": {
+      "item": "immersiveengineering:alu_post"
+    }
+  },
+  "pattern": ["PGAGP", "PGIGP", "PGAGP", "  O  "],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:advanced_solar_generator"
+  }
+}

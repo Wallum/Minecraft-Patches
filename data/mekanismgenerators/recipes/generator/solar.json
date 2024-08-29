@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismgenerators:solar_generator"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "#": {
+      "item": "mekanismgenerators:solar_panel"
+    },
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "E": {
+      "item": "mekanism:energy_tablet"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "O": {
+      "tag": "forge:ingots/osmium"
+    }
+  },
+  "pattern": ["###", "AIA", "OEO"],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:solar_generator"
+  }
+}

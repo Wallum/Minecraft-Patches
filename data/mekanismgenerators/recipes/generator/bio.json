@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismgenerators:bio_generator"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "B": {
+      "tag": "forge:fuels/bio"
+    },
+    "C": {
+      "item": "mekanismgenerators:bio_generator"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": ["RAR", "BCB", "IAI"],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:bio_generator"
+  }
+}
