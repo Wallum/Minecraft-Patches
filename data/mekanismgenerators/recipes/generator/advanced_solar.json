@@ -18,7 +18,7 @@
       "item": "mekanismgenerators:solar_generator"
     },
     "G": {
-      "tag": "forge:wires/gold"
+      "tag": "forge:wires/electrum"
     },
     "O": {
       "item": "immersiveengineering:alu_post"
