@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "ad_astra_platform:iron_plates"
+      "tag": "forge:plates/iron"
     },
     "F": {
       "item": "mekanismgenerators:heat_generator"
