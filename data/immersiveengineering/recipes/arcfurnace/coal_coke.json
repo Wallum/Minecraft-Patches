@@ -9,6 +9,10 @@
   "additives": [],
   "energy": 51200,
   "input": { "item": "minecraft:coal" },
-  "results": [{ "item": "immersiveengineering:coal_coke" }],
+  "results": [
+    {
+      "item": "immersiveengineering:coal_coke"
+    }
+  ],
   "time": 100
 }
