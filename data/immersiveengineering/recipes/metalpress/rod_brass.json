@@ -2,10 +2,11 @@
   "conditions": [
     {
       "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:rods/brass"
-      }
+      "value": { "type": "forge:tag_empty", "tag": "forge:ingots/brass" }
+    },
+    {
+      "type": "forge:not",
+      "value": { "type": "forge:tag_empty", "tag": "forge:rods/brass" }
     }
   ],
   "type": "immersiveengineering:metal_press",
