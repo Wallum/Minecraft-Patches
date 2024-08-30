@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "output": {
+    "item": "immersiveengineering:dust_steel"
+  }
+}
