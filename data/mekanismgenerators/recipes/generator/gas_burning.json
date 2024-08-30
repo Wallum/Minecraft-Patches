@@ -8,9 +8,6 @@
   "type": "create:mechanical_crafting",
   "acceptMirrored": true,
   "key": {
-    "A": {
-      "tag": "mekanism:alloys/infused"
-    },
     "C": {
       "item": "mekanism:electrolytic_core"
     },
