@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:alloy",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/cast_iron"
+      }
+    }
+  ],
+  "input0": {
+    "tag": "forge:ingots/iron"
+  },
+  "input1": {
+    "tag": "forge:coal"
+  },
+  "result": {
+    "base_ingredient": {
+      "item": "tfmg:cast_iron_ingot"
+    },
+    "count": 1
+  },
+  "time": 200
+}
