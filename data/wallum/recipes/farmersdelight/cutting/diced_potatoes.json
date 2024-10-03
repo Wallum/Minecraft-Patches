@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "moredelight"
+        }
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create_bic_bit:raw_fries"
+    }
+  ],
+  "result": [
+    {
+      "item": "moredelight:diced_potatoes",
+      "count": 1
+    },
+    {
+      "item": "moredelight:diced_potatoes",
+      "chance": 0.05
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
