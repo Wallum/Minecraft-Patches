@@ -11,11 +11,11 @@
       "item": "immersiveengineering:dust_uranium"
     },
     {
-      "chance": 0.55,
+      "chance": 0.166,
       "item": "immersiveengineering:dust_uranium"
     },
     {
-      "chance": 0.1125,
+      "chance": 0.0625,
       "item": "minecraft:gravel"
     }
   ]
