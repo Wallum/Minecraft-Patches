@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:slag_gravel"
+    }
+  ],
+  "processingTime": 360,
+  "results": [
+    {
+      "chance": 0.95,
+      "item": "minecraft:sand"
+    },
+    {
+      "chance": 0.03,
+      "item": "tfmg:limesand"
+    },
+    {
+      "chance": 0.02,
+      "item": "minecraft:iron_nugget"
+    }
+  ]
+}

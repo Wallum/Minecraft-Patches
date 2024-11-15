@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tfmg:fireclay_ball"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "chance": 0.025,
+      "item": "minecraft:quartz"
+    }
+  ]
+}

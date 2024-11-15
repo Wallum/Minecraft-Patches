@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "meadow:limestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfmg:limesand"
+    }
+  ],
+  "processingTime": 250
+}

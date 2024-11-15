@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "exothermic": false,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 250,
+    "tag": "immersiveengineering:phenolic_resin"
+  },
+  "fluid_output": {
+    "amount": 1000,
+    "fluid": "pneumaticcraft:plastic"
+  },
+  "item_input": {},
+  "temperature": {
+    "min_temp": 429
+  }
+}

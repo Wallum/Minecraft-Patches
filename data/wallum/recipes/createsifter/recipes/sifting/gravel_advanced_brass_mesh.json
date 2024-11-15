@@ -1,0 +1,54 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_brass_mesh"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.01625,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.0125,
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.00375,
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.01625,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.0125,
+      "item": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.005,
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.015,
+      "item": "create:crushed_raw_tin"
+    },
+    {
+      "chance": 0.01,
+      "item": "create:crushed_raw_lead"
+    },
+    {
+      "chance": 0.01125,
+      "item": "create:crushed_raw_aluminum"
+    },
+    {
+      "chance": 0.0125,
+      "item": "create:crushed_raw_nickel"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pneumaticcraft:unassembled_pcb"
+  },
+  "transitionalItem": {
+    "item": "pneumaticcraft:printed_circuit_board"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        },
+        {
+          "item": "pneumaticcraft:capacitor"
+        }
+      ],
+      "results": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        },
+        {
+          "item": "pneumaticcraft:transistor"
+        }
+      ],
+      "results": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        },
+        {
+          "item": "pneumaticcraft:capacitor"
+        }
+      ],
+      "results": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        },
+        {
+          "item": "pneumaticcraft:transistor"
+        }
+      ],
+      "results": [
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:printed_circuit_board",
+      "count": 1
+    }
+  ],
+  "loops": 1
+}
