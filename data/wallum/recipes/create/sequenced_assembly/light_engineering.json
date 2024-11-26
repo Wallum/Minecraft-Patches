@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_casing"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "immersiveengineering:light_engineering",
+      "count": 1
+    }
+  ],
+  "transitionalItem": {
+    "item": "create:copper_casing"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        [
+          {
+            "tag": "forge:sheetmetals/iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        [
+          {
+            "item": "immersiveengineering:component_iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        [
+          {
+            "item": "tfmg:screw"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        {
+          "item": "tfmg:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    }
+  ]
+}
