@@ -30,7 +30,7 @@
   ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "create:sleepers"
+    "tag": "forge:stone"
   },
   "loops": 1,
   "results": [
@@ -60,7 +60,7 @@
           "item": "create:incomplete_track"
         },
         {
-          "amount": 62.5,
+          "amount": 125,
           "fluid": "immersiveengineering:creosote",
           "nbt": {}
         }

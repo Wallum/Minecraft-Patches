@@ -15,7 +15,8 @@
       "tag": "forge:dusts/redstone"
     },
     {
-      "tag": "forge:wires/electrum"
+      "tag": "forge:wires/electrum",
+      "count": 2
     }
   ],
   "result": {

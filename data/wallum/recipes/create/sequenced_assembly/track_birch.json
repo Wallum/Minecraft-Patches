@@ -34,7 +34,7 @@
   ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:birch_slab"
+    "item": "minecraft:birch_planks"
   },
   "loops": 1,
   "results": [
@@ -64,7 +64,7 @@
           "item": "railways:track_incomplete_birch"
         },
         {
-          "amount": 62.5,
+          "amount": 125,
           "fluid": "immersiveengineering:creosote",
           "nbt": {}
         }

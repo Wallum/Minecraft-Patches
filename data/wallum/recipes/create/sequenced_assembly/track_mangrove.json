@@ -34,12 +34,12 @@
   ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:oakmangrove_slab"
+    "item": "minecraft:mangrove_planks"
   },
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_oakmangrove",
+      "item": "railways:track_mangrove",
       "count": 4
     }
   ],
@@ -48,12 +48,12 @@
       "type": "create:cutting",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     },
@@ -61,17 +61,17 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         },
         {
-          "amount": 62.5,
+          "amount": 125,
           "fluid": "immersiveengineering:creosote",
           "nbt": {}
         }
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         },
         [
           {
@@ -89,7 +89,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     },
@@ -97,7 +97,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         },
         [
           {
@@ -107,7 +107,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     },
@@ -115,7 +115,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         },
         [
           {
@@ -125,7 +125,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     },
@@ -133,7 +133,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         },
         [
           {
@@ -143,7 +143,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     },
@@ -151,17 +151,17 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_oakmangrove"
+          "item": "railways:track_incomplete_mangrove"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "railways:track_incomplete_oakmangrove"
+    "item": "railways:track_incomplete_mangrove"
   }
 }

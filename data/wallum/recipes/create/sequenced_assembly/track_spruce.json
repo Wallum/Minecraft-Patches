@@ -34,7 +34,7 @@
   ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:spruce_slab"
+    "item": "minecraft:spruce_planks"
   },
   "loops": 1,
   "results": [
@@ -64,7 +64,7 @@
           "item": "railways:track_incomplete_spruce"
         },
         {
-          "amount": 62.5,
+          "amount": 125,
           "fluid": "immersiveengineering:creosote",
           "nbt": {}
         }

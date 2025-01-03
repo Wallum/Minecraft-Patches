@@ -34,7 +34,7 @@
   ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:oak_slab"
+    "item": "minecraft:oak_planks"
   },
   "loops": 1,
   "results": [
@@ -64,7 +64,7 @@
           "item": "railways:track_incomplete_oak"
         },
         {
-          "amount": 62.5,
+          "amount": 125,
           "fluid": "immersiveengineering:creosote",
           "nbt": {}
         }

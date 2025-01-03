@@ -34,7 +34,7 @@
   ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:jungle_slab"
+    "item": "minecraft:jungle_planks"
   },
   "loops": 1,
   "results": [
@@ -64,7 +64,7 @@
           "item": "railways:track_incomplete_jungle"
         },
         {
-          "amount": 62.5,
+          "amount": 125,
           "fluid": "immersiveengineering:creosote",
           "nbt": {}
         }
