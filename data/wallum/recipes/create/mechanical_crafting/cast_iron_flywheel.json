@@ -9,14 +9,14 @@
       "item": "create:flywheel"
     },
     "A": {
-      "tag": "forge:storage_blocks/bronze"
+      "tag": "forge:storage_blocks/cast_iron"
     },
     "C": {
-      "item": "steampowered:bronze_cogwheel"
+      "item": "steampowered:cast_iron_cogwheel"
     }
   },
   "result": {
-    "item": "steampowered:bronze_flywheel",
+    "item": "steampowered:cast_iron_flywheel",
     "count": 1
   }
 }

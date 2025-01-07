@@ -1,9 +1,9 @@
 {
   "type": "create:mechanical_crafting",
-  "pattern": ["F F", "FSF", "CCC", "PIP"],
+  "pattern": ["FFSFF", "FFSFF", "CCCCC", "PIIIP"],
   "key": {
     "P": {
-      "tag": "forge:plates/bronze"
+      "tag": "forge:plates/cast_iron"
     },
     "I": [
       {
@@ -24,6 +24,6 @@
     }
   },
   "result": {
-    "item": "steampowered:bronze_steam_engine"
+    "item": "steampowered:cast_iron_steam_engine"
   }
 }

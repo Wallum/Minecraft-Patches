@@ -13,7 +13,7 @@
     "tag": "forge:ingots/iron"
   },
   "input1": {
-    "tag": "forge:coal"
+    "tag": "minecraft:coals"
   },
   "result": {
     "base_ingredient": {

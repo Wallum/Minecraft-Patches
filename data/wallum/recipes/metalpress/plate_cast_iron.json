@@ -2,8 +2,18 @@
   "type": "immersiveengineering:metal_press",
   "conditions": [
     {
-      "type": "forge:item_exists",
-      "item": "createdeco:cast_iron_sheet"
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/cast_iron"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/cast_iron"
+      }
     }
   ],
   "energy": 2400,
@@ -12,6 +22,6 @@
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "item": "createdeco:cast_iron_sheet"
+    "tag": "forge:plates/cast_iron"
   }
 }
