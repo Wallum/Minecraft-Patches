@@ -1,1 +1,8 @@
-{"pack":{"pack_format":10,"description":"Recipe Changes by wallum"}}
+{
+    "pack": {
+        "description": "Recipe changes by Wallum",
+        "pack_format": 15,
+        "forge:resource_pack_format": 15,
+        "forge:data_pack_format": 15
+    }
+}
