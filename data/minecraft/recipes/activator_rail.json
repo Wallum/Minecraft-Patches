@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "immersiveengineering:stick_treated"
+    },
+    "D": {
+      "item": "minecraft:redstone_torch"
+    },
+    "X": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "pattern": ["X#X", "XDX", "X#X"],
+  "result": {
+    "count": 6,
+    "item": "minecraft:activator_rail"
+  }
+}

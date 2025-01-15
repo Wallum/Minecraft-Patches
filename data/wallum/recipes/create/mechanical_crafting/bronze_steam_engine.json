@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["F F", "FSF", "CCC", "PIP"],
+  "key": {
+    "P": {
+      "tag": "forge:plates/bronze"
+    },
+    "I": [
+      {
+        "item": "minecraft:piston"
+      },
+      {
+        "item": "minecraft:sticky_piston"
+      }
+    ],
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "S": {
+      "item": "create:steam_engine"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "item": "steampowered:bronze_steam_engine"
+  }
+}

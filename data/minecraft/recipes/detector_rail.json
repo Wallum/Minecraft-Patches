@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "immersiveengineering:stick_treated"
+    },
+    "D": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "X": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "pattern": ["X#X", "XDX", "X#X"],
+  "result": {
+    "count": 6,
+    "item": "minecraft:detector_rail"
+  }
+}

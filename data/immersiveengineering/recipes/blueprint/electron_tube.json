@@ -1,11 +1,37 @@
 {
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
   "type": "immersiveengineering:blueprint",
   "category": "components",
   "inputs": [
-    { "tag": "forge:glass" },
-    { "tag": "forge:plates/nickel" },
-    { "tag": "forge:wires/copper" },
-    { "item": "create:electron_tube" }
+    {
+      "tag": "forge:glass"
+    },
+    {
+      "tag": "forge:plates/nickel"
+    },
+    {
+      "tag": "forge:wires/copper"
+    },
+    {
+      "item": "create:electron_tube"
+    }
   ],
-  "result": { "count": 3, "item": "immersiveengineering:electron_tube" }
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:electron_tube"
+  }
 }

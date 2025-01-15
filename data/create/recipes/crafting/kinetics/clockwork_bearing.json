@@ -1,21 +1,26 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
-      "tag": "minecraft:wooden_slabs"
+      "item": "create:brass_casing"
     },
     "C": {
-      "item": "create:brass_casing"
+      "item": "minecraft:clock"
     },
     "S": {
       "item": "create:precision_mechanism"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
     }
   },
-  "pattern": [
-    "B",
-    "C",
-    "S"
-  ],
+  "pattern": [" W ", " B ", "SCS"],
   "result": {
     "item": "create:clockwork_bearing"
   }

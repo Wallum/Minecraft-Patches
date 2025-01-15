@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_zinc"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "destroy:zinc_powder"
+    },
+    {
+      "chance": 0.165,
+      "item": "destroy:zinc_powder"
+    },
+    {
+      "chance": 0.1125,
+      "item": "minecraft:gravel"
+    }
+  ]
+}

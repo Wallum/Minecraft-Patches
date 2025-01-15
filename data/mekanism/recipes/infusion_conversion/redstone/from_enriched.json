@@ -1,0 +1,43 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "create"
+              }
+            },
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "vintageimprovements"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:enriched/redstone"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "mekanism:redstone"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:slag"
+    }
+  ],
+  "processingTime": 360,
+  "results": [
+    {
+      "chance": 0.85,
+      "item": "immersiveengineering:slag_gravel"
+    }
+  ]
+}

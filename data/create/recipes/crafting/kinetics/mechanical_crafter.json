@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
@@ -7,6 +13,9 @@
     "C": {
       "item": "create:brass_casing"
     },
+    "D": {
+      "item": "create:cogwheel"
+    },
     "P": {
       "item": "create:crafting_blueprint"
     },
@@ -14,11 +23,7 @@
       "item": "minecraft:crafting_table"
     }
   },
-  "pattern": [
-    " B ",
-    "PCP",
-    " R "
-  ],
+  "pattern": [" B ", "PCP", "RDR"],
   "result": {
     "count": 1,
     "item": "create:mechanical_crafter"

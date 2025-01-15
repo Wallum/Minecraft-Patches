@@ -1,4 +1,13 @@
 {
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/nickel"
+      }
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "L": {
@@ -11,10 +20,7 @@
       "tag": "forge:plates/iron"
     }
   },
-  "pattern": [
-    " L ",
-    "nNn"
-  ],
+  "pattern": [" L ", "nNn"],
   "result": {
     "item": "create:electron_tube"
   }

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
@@ -9,13 +15,12 @@
     },
     "I": {
       "item": "create:precision_mechanism"
+    },
+    "L": {
+      "item": "create:precision_mechanism"
     }
   },
-  "pattern": [
-    "B",
-    "C",
-    "I"
-  ],
+  "pattern": ["LBL", " C ", " I "],
   "result": {
     "item": "create:contraption_controls"
   }

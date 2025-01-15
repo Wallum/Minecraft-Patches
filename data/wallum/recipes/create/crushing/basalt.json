@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:basalt"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:gravel"
+    },
+    {
+      "chance": 0.075,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.025,
+      "item": "immersiveengineering:dust_sulfur"
+    }
+  ]
+}

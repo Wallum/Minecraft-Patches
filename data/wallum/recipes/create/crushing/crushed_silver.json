@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_silver"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "immersiveengineering:dust_silver"
+    },
+    {
+      "chance": 0.166,
+      "item": "immersiveengineering:dust_silver"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:gravel"
+    }
+  ]
+}

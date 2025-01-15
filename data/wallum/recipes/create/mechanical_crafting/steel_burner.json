@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["SSSSS", "SSSSS", "SSBSS", "SSSSS", "SSSSS"],
+  "key": {
+    "B": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "S": {
+      "item": "immersiveengineering:blastbrick_reinforced"
+    }
+  },
+  "result": {
+    "item": "steampowered:steel_burner",
+    "count": 1
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:rods/steel"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:plates/steel"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tfmg"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "railways:track_jungle",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        },
+        {
+          "amount": 125,
+          "fluid": "immersiveengineering:creosote",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        },
+        [
+          {
+            "tag": "forge:plates/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        },
+        [
+          {
+            "item": "tfmg:screw"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_jungle"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "railways:track_incomplete_jungle"
+  }
+}

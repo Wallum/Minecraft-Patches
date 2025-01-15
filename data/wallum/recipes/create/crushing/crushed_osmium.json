@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_osmium"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "mekanism:dust_osmium"
+    },
+    {
+      "chance": 0.166,
+      "item": "mekanism:dust_osmium"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:gravel"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tfmg"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:rods/steel"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "c": {
+      "tag": "forge:plates/copper"
+    },
+    "S": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "s": {
+      "item": "tfmg:screw"
+    },
+    "b": {
+      "tag": "forge:plates/brass"
+    },
+    "r": {
+      "tag": "forge:rods/steel"
+    },
+    "V": {
+      "item": "create:fluid_valve"
+    }
+  },
+  "pattern": ["sbSbs", " srs ", " cSc ", "scCcs", " cVc "],
+  "result": {
+    "count": 1,
+    "item": "create:steam_engine"
+  }
+}

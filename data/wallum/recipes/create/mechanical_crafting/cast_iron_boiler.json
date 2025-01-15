@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["CFFC", "SFFS", "CFFC"],
+  "key": {
+    "S": {
+      "tag": "forge:plates/cast_iron"
+    },
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "item": "steampowered:cast_iron_boiler",
+    "count": 1
+  }
+}

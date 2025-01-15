@@ -1,0 +1,54 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "immersiveengineering"
+              }
+            },
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "tfmg"
+              }
+            },
+            {
+              "type": "forge:tag_empty",
+              "tag": "forge:rods/steel"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "P": {
+      "tag": "forge:plates/gold"
+    }
+  },
+  "pattern": ["P", "A", "C"],
+  "result": {
+    "item": "create:steam_engine"
+  },
+  "show_notification": true
+}

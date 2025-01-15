@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:plates/iron"
+    },
+    "F": {
+      "item": "mekanismgenerators:heat_generator"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "#I#",
+    "#F#",
+    "#I#"
+  ],
+  "result": {
+    "item": "ad_astra:coal_generator"
+  }
+}

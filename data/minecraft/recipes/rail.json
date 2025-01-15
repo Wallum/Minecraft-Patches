@@ -2,19 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "forge:rods/wooden"
+      "item": "immersiveengineering:stick_treated"
     },
     "X": {
       "tag": "forge:rods/iron"
     }
   },
-  "pattern": [
-    "X X",
-    "X#X",
-    "X X"
-  ],
+  "pattern": ["X#X", "X X", "X#X"],
   "result": {
-    "count": 16,
+    "count": 6,
     "item": "minecraft:rail"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["SSSSS", "SSSSS", "SSBSS", "SSSSS", "SSSSS"],
+  "key": {
+    "B": {
+      "tag": "forge:storage_blocks/bronze"
+    },
+    "S": {
+      "item": "immersiveengineering:blastbrick"
+    }
+  },
+  "result": {
+    "item": "steampowered:bronze_burner",
+    "count": 1
+  }
+}

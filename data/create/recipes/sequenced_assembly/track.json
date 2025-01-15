@@ -1,4 +1,24 @@
 {
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:tag_empty",
+              "tag": "forge:rods/steel"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "type": "create:sequenced_assembly",
   "ingredient": {
     "tag": "create:sleepers"
@@ -18,7 +38,10 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "forge:nuggets/iron"
+          },
+          {
+            "tag": "forge:nuggets/zinc"
           }
         ]
       ],
@@ -36,7 +59,10 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "forge:nuggets/iron"
+          },
+          {
+            "tag": "forge:nuggets/zinc"
           }
         ]
       ],

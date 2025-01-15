@@ -1,17 +1,23 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "b": {
       "tag": "forge:ingots/brick"
     },
-    "S": {
+    "s": {
       "tag": "forge:sand"
     },
-    "s": {
+    "S": {
       "tag": "forge:sandstone"
     }
   },
-  "pattern": ["s b", " S ", "b s"],
+  "pattern": ["sbs", "bSb", "sbs"],
   "result": {
     "count": 2,
     "item": "immersiveengineering:alloybrick"

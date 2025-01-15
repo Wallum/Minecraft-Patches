@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["FFSFF", "FFSFF", "CCCCC", "PIIIP"],
+  "key": {
+    "P": {
+      "tag": "forge:plates/cast_iron"
+    },
+    "I": [
+      {
+        "item": "minecraft:piston"
+      },
+      {
+        "item": "minecraft:sticky_piston"
+      }
+    ],
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "S": {
+      "item": "create:steam_engine"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "item": "steampowered:cast_iron_steam_engine"
+  }
+}

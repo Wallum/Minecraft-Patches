@@ -1,0 +1,13 @@
+{
+  "type": "createaddition:charging",
+  "input": {
+    "item": "destroy:silica",
+    "count": 1
+  },
+  "result": {
+    "item": "refinedstorage:silicon",
+    "count": 1
+  },
+  "energy": 10800,
+  "maxChargeRate": 400
+}

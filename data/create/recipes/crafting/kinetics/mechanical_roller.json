@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
@@ -11,11 +17,7 @@
       "item": "create:crushing_wheel"
     }
   },
-  "pattern": [
-    "A",
-    "C",
-    "I"
-  ],
+  "pattern": ["A", "C", "I"],
   "result": {
     "item": "create:mechanical_roller"
   }

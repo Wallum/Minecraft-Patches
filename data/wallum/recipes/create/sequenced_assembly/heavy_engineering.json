@@ -1,0 +1,106 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:heavy_machinery_casing"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "immersiveengineering:heavy_engineering",
+      "count": 1
+    }
+  ],
+  "transitionalItem": {
+    "item": "tfmg:heavy_machinery_casing"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        },
+        [
+          {
+            "tag": "forge:sheetmetals/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        },
+        [
+          {
+            "item": "immersiveengineering:component_steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        },
+        [
+          {
+            "tag": "forge:wires/electrum"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        },
+        [
+          {
+            "item": "tfmg:screw"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        },
+        {
+          "item": "tfmg:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:heavy_machinery_casing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:rods/steel"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:plates/steel"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tfmg"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "railways:track_spruce",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        },
+        {
+          "amount": 125,
+          "fluid": "immersiveengineering:creosote",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        },
+        [
+          {
+            "tag": "forge:plates/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        },
+        [
+          {
+            "item": "tfmg:screw"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_spruce"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "railways:track_incomplete_spruce"
+  }
+}

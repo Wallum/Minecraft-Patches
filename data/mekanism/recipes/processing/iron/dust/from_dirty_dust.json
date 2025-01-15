@@ -1,1 +1,11 @@
-{"type":"mekanism:enriching","input":{"ingredient":{"tag":"mekanism:dirty_dusts/iron"}},"output":{"item":"mekanism:dust_iron"}}
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/iron"
+    }
+  },
+  "output": {
+    "item": "immersiveengineering:dust_iron"
+  }
+}

@@ -1,11 +1,40 @@
 {
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:mod_loaded",
+                "modid": "create"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "c": { "tag": "forge:ingots/copper" },
-    "i": { "tag": "forge:plates/iron" }
+    "c": {
+      "tag": "forge:ingots/copper"
+    },
+    "i": {
+      "tag": "forge:plates/iron"
+    }
   },
   "pattern": ["i i", " c ", "i i"],
-  "result": { "item": "immersiveengineering:component_iron" },
+  "result": {
+    "item": "immersiveengineering:component_iron"
+  },
   "show_notification": true
 }

@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:treated_wood"
+    }
+  ],
+  "processingTime": 75,
+  "results": [
+    {
+      "count": 3,
+      "item": "immersiveengineering:stick_treated"
+    }
+  ]
+}

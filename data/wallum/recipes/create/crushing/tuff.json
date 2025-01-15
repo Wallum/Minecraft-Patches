@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ],
+  "processingTime": 175,
+  "results": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "chance": 0.20,
+      "item": "minecraft:gravel"
+    }
+  ]
+}

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
@@ -11,11 +17,7 @@
       "item": "minecraft:dried_kelp"
     }
   },
-  "pattern": [
-    "E",
-    "A",
-    "K"
-  ],
+  "pattern": ["E", "A", "K"],
   "result": {
     "count": 2,
     "item": "create:brass_funnel"

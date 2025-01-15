@@ -1,0 +1,167 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:rods/steel"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:plates/steel"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tfmg"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "railways:track_dark_oak_narrow",
+      "count": 6
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        },
+        {
+          "amount": 125,
+          "fluid": "immersiveengineering:creosote",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        },
+        [
+          {
+            "tag": "forge:plates/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        },
+        [
+          {
+            "tag": "forge:rods/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        },
+        [
+          {
+            "item": "tfmg:screw"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ],
+      "results": [
+        {
+          "item": "railways:track_incomplete_dark_oak"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "railways:track_incomplete_dark_oak"
+  }
+}

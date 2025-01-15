@@ -1,0 +1,10 @@
+{
+  "type": "createaddition:rolling",
+  "input": {
+    "tag": "forge:plates/steel"
+  },
+  "result": {
+    "item": "immersiveengineering:wire_steel",
+    "count": 2
+  }
+}

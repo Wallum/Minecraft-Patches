@@ -1,0 +1,38 @@
+{
+    "conditions": [
+      {
+        "type": "forge:item_exists",
+        "item": "mekanismgenerators:wind_generator"
+      }
+    ],
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "A": {
+      "item": "tfmg:generator"
+      },
+      "O": {
+        "item": "immersiveengineering:alu_post"
+      },
+      "C": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "S": {
+        "tag": "forge:storage_blocks/steel"
+      }
+    },
+    "pattern": [
+      "  O  ",
+      "  O  ",
+      "OOAOO",
+      " CSC ",
+      "  S  ",
+      "  S  ",
+      "  S  "
+    ],
+    "result": {
+      "count": 1,
+      "item": "mekanismgenerators:wind_generator"
+    }
+  }
+  
