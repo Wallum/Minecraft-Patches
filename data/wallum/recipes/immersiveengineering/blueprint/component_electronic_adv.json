@@ -1,32 +1,31 @@
 {
-    "type": "immersiveengineering:blueprint",
-    "category": "components",
-    "inputs": [
-      {
-        "tag": "forge:plates/plastic"
+  "type": "immersiveengineering:blueprint",
+  "category": "components",
+  "inputs": [
+    {
+      "tag": "forge:plates/plastic"
+    },
+    {
+      "item": "immersiveengineering:component_electronic"
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:electron_tube"
       },
-      {
-        "item": "immersiveengineering:component_electronic"
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:nuggets/copper"
       },
-      {
-        "base_ingredient": {
-          "item": "immersiveengineering:electron_tube"
-        },
-        "count": 2
-      },
-      {
-        "base_ingredient": {
-          "tag": "forge:nuggets/copper"
-        },
-        "count": 2
-      },
-      {
-        "tag": "forge:wires/aluminum",
-        "count": 4
-      }
-    ],
-    "result": {
-      "item": "immersiveengineering:component_electronic_adv"
+      "count": 2
+    },
+    {
+      "tag": "forge:wires/aluminum",
+      "count": 4
     }
+  ],
+  "result": {
+    "item": "immersiveengineering:component_electronic_adv"
   }
-  
+}

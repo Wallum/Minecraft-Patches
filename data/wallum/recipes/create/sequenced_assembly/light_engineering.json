@@ -58,7 +58,7 @@
         },
         [
           {
-            "item": "tfmg:screw"
+            "item": "wallumadditions:screw"
           }
         ]
       ],
@@ -75,7 +75,7 @@
           "item": "create:copper_casing"
         },
         {
-          "item": "tfmg:screwdriver"
+          "item": "immersiveengineering:screwdriver"
         }
       ],
       "results": [

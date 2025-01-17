@@ -47,7 +47,7 @@
           "item": "createindustry:unfinished_steel_mechanism"
         },
         {
-          "item": "createindustry:screw"
+          "item": "wallumadditions:screw"
         }
       ],
       "results": [
@@ -63,7 +63,7 @@
           "item": "createindustry:unfinished_steel_mechanism"
         },
         {
-          "item": "createindustry:screwdriver"
+          "item": "immersiveengineering:screwdriver"
         }
       ],
       "results": [

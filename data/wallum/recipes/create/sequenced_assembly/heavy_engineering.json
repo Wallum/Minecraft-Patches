@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "tfmg:heavy_machinery_casing"
+    "item": "immersiveengineering:light_engineering"
   },
   "loops": 4,
   "results": [
@@ -11,14 +11,14 @@
     }
   ],
   "transitionalItem": {
-    "item": "tfmg:heavy_machinery_casing"
+    "item": "immersiveengineering:light_engineering"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         },
         [
           {
@@ -28,7 +28,7 @@
       ],
       "results": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         }
       ]
     },
@@ -36,7 +36,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         },
         [
           {
@@ -46,7 +46,7 @@
       ],
       "results": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         },
         [
           {
@@ -64,7 +64,7 @@
       ],
       "results": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         }
       ]
     },
@@ -72,17 +72,17 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         },
         [
           {
-            "item": "tfmg:screw"
+            "item": "wallumadditions:screw"
           }
         ]
       ],
       "results": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         }
       ]
     },
@@ -90,15 +90,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         },
         {
-          "item": "tfmg:screwdriver"
+          "item": "immersiveengineering:screwdriver"
         }
       ],
       "results": [
         {
-          "item": "tfmg:heavy_machinery_casing"
+          "item": "immersiveengineering:light_engineering"
         }
       ]
     }

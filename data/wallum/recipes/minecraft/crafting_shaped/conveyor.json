@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "create:belt_connector"
+    },
+    "r": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [" B ", "iri"],
+  "result": {
+    "count": 8,
+    "item": "immersiveengineering:conveyor_basic"
+  }
+}

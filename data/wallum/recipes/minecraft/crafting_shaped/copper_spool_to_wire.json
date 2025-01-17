@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "createaddition:copper_spool"
+    }
+  },
+  "pattern": ["s"],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:wirecoil_copper"
+  }
+}

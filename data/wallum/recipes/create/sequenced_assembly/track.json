@@ -1,4 +1,5 @@
 {
+  "type": "create:sequenced_assembly",
   "conditions": [
     {
       "type": "forge:and",
@@ -20,15 +21,10 @@
             "type": "forge:tag_empty",
             "tag": "forge:plates/steel"
           }
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "tfmg"
         }
       ]
     }
   ],
-  "type": "create:sequenced_assembly",
   "ingredient": {
     "tag": "forge:stone"
   },
@@ -133,7 +129,7 @@
         },
         [
           {
-            "item": "tfmg:screw"
+            "item": "wallumadditions:screw"
           }
         ]
       ],

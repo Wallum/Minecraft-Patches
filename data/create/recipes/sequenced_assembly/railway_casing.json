@@ -59,7 +59,7 @@
                     "item": "create:railway_casing"
                 },
                 {
-                    "item": "createindustry:screw"
+                    "item": "wallumadditions:screw"
                 }
             ],
             "results": [
@@ -75,7 +75,7 @@
                     "item": "create:railway_casing"
                 },
                 {
-                    "item": "createindustry:screwdriver"
+                    "item": "immersiveengineering:screwdriver"
                 }
             ],
             "results": [

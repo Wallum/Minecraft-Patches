@@ -13,7 +13,7 @@
         },
         {
           "type": "forge:mod_loaded",
-          "modid": "tfmg"
+          "modid": "wallumadditions"
         }
       ]
     }
@@ -28,7 +28,7 @@
       "item": "create:precision_mechanism"
     },
     "S": {
-      "item": "tfmg:steel_mechanism"
+      "item": "wallumadditions:steel_mechanism"
     },
     "s": {
       "tag": "forge:plates/steel"

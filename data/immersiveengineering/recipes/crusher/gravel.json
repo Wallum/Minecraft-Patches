@@ -17,7 +17,7 @@
     {
       "chance": 0.05,
       "output": {
-        "item": "tfmg:limesand"
+        "tag": "forge:dusts/lime"
       }
     },
     {

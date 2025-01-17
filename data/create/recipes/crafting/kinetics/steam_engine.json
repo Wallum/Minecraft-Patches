@@ -18,13 +18,6 @@
               }
             },
             {
-              "type": "forge:not",
-              "value": {
-                "type": "forge:mod_loaded",
-                "modid": "tfmg"
-              }
-            },
-            {
               "type": "forge:tag_empty",
               "tag": "forge:rods/steel"
             }

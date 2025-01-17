@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "key": {
+    "b": {
+      "item": "immersiveengineering:blastbrick"
+    },
+    "s": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": ["sss", "sbs", "sss"],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:blastbrick_reinforced"
+  }
+}

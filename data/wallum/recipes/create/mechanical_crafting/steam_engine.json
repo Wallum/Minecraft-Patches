@@ -12,10 +12,6 @@
           "modid": "immersiveengineering"
         },
         {
-          "type": "forge:mod_loaded",
-          "modid": "tfmg"
-        },
-        {
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
@@ -38,7 +34,7 @@
       "item": "immersiveengineering:component_steel"
     },
     "s": {
-      "item": "tfmg:screw"
+      "item": "immersiveengineering:component_iron"
     },
     "b": {
       "tag": "forge:plates/brass"

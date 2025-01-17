@@ -15,7 +15,7 @@
       "tag": "forge:ingots/osmium"
     },
     "L": {
-      "item": "tfmg:lpg_engine"
+      "item": "createdieselgenerators:large_diesel_engine"
     },
     "G": {
       "item": "mekanismgenerators:heat_generator"

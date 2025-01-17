@@ -4,14 +4,14 @@
     "tag": "forge:plates/steel"
   },
   "transitionalItem": {
-    "item": "tfmg:unfinished_steel_mechanism"
+    "item": "wallumadditions:unfinished_steel_mechanism"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
           "tag": "forge:ingots/steel"
@@ -19,7 +19,7 @@
       ],
       "results": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         }
       ]
     },
@@ -27,7 +27,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
           "tag": "forge:ingots/aluminum"
@@ -35,7 +35,7 @@
       ],
       "results": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         }
       ]
     },
@@ -43,15 +43,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
-          "item": "tfmg:screw"
+          "item": "wallumadditions:screw"
         }
       ],
       "results": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         }
       ]
     },
@@ -59,15 +59,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
-          "item": "tfmg:screwdriver"
+          "item": "immersiveengineering:screwdriver"
         }
       ],
       "results": [
         {
-          "item": "tfmg:unfinished_steel_mechanism"
+          "item": "wallumadditions:unfinished_steel_mechanism"
         }
       ]
     }
@@ -75,23 +75,15 @@
   "results": [
     {
       "chance": 120.0,
-      "item": "tfmg:steel_mechanism"
+      "item": "wallumadditions:steel_mechanism"
     },
     {
       "chance": 8.0,
-      "item": "tfmg:heavy_plate"
-    },
-    {
-      "chance": 8.0,
-      "item": "tfmg:steel_ingot"
+          "tag": "forge:ingots/steel"
     },
     {
       "chance": 5.0,
-      "item": "tfmg:aluminum_ingot"
-    },
-    {
-      "chance": 3.0,
-      "item": "tfmg:industrial_pipe"
+          "tag": "forge:ingots/aluminum"
     }
   ],
   "loops": 1

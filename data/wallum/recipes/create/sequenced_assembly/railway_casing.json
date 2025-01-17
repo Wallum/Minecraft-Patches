@@ -1,4 +1,5 @@
 {
+  "type": "create:sequenced_assembly",
   "conditions": [
     {
       "type": "forge:and",
@@ -9,7 +10,7 @@
         },
         {
           "type": "forge:mod_loaded",
-          "modid": "tfmg"
+          "modid": "wallumadditions"
         },
         {
           "type": "forge:not",
@@ -21,7 +22,6 @@
       ]
     }
   ],
-  "type": "create:sequenced_assembly",
   "ingredient": {
     "item": "create:brass_casing"
   },
@@ -81,7 +81,7 @@
           "item": "create:railway_casing"
         },
         {
-          "item": "tfmg:screw"
+          "item": "wallumadditions:screw"
         }
       ],
       "results": [
@@ -97,7 +97,7 @@
           "item": "create:railway_casing"
         },
         {
-          "item": "tfmg:screwdriver"
+          "item": "immersiveengineering:screwdriver"
         }
       ],
       "results": [
