@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/lime"
+    },
+    {
+      "tag": "forge:dusts/lime"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "wallumadditions:blasting_mixture",
+      "count": 4
+    }
+  ]
+}

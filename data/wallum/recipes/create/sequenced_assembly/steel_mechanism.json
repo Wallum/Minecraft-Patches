@@ -79,11 +79,11 @@
     },
     {
       "chance": 8.0,
-          "tag": "forge:ingots/steel"
+      "item": "immersiveengineering:ingot_steel"
     },
     {
       "chance": 5.0,
-          "tag": "forge:ingots/aluminum"
+      "item": "immersiveengineering:ingot_aluminum"
     }
   ],
   "loops": 1
