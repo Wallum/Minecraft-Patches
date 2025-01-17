@@ -1,4 +1,5 @@
 {
+  "type": "create:mechanical_crafting",
   "conditions": [
     {
       "type": "forge:and",
@@ -21,7 +22,6 @@
       ]
     }
   ],
-  "type": "create:mechanical_crafting",
   "acceptMirrored": false,
   "key": {
     "C": {

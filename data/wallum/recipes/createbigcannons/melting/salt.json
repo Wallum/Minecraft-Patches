@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "processingTime": 600,
+  "results": [
+    {
+      "item": "createfood:salt"
+    }
+  ]
+}

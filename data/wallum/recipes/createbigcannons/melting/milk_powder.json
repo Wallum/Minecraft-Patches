@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "destroy:skimmed_milk",
+      "amount": 250
+    }
+  ],
+  "processingTime": 600,
+  "results": [
+    {
+      "item": "createfood:milk_powder"
+    }
+  ]
+}

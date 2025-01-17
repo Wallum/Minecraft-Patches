@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "s": {
+      "item": "wallumadditions:steel_mechanism"
+    },
+    "E": {
+      "item": "immersiveengineering:electromagnet"
+    },
+    "F": {
+      "item": "wallumadditions:copper_flywheel"
+    },
+    "C": {
+      "item": "immersiveengineering:storage_steel"
+    }
+  },
+  "pattern": [" CCC ", "CsEsC", "CEFEC", "CsEsC", " CCC "],
+  "result": {
+    "count": 1,
+    "item": "createaddition:alternator"
+  }
+}

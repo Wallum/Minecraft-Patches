@@ -1,41 +1,35 @@
 {
-    "conditions": [
-      {
-        "type": "forge:item_exists",
-        "item": "mekanismgenerators:heat_generator"
-      }
-    ],
-    "type": "create:mechanical_crafting",
-    "acceptMirrored": true,
-    "key": {
-      "F": {
-        "item": "minecraft:furnace"
-      },
-      "I": {
-        "tag": "forge:plates/steel"
-      },
-      "C": {
-        "tag": "forge:storage_blocks/copper"
-      },
-      "c": {
-        "item": "mekanism:basic_control_circuit"
-      },
-      "A": {
-        "item": "createaddition:alternator"
-      },
-      "T": {
-        "item": "create:fluid_tank"
-      },
-      "D": {
-        "item": "tfmg:engine_base"
-      },
-      "S": {
-        "item": "tfmg:exhaust"
-      }
-    },
-    "pattern": [" TcT ", "ITSTI", "ICACI", "IDFDI"],
-    "result": {
-      "count": 1,
+  "conditions": [
+    {
+      "type": "forge:item_exists",
       "item": "mekanismgenerators:heat_generator"
     }
+  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "c": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "A": {
+      "item": "createaddition:alternator"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "pattern": [" TcT ", "ITcTI", "ICACI", "IDFDI"],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:heat_generator"
   }
+}

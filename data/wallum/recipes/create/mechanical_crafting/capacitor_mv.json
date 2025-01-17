@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:plates/nickel"
+    },
+    "c": {
+      "tag": "forge:plates/iron"
+    },
+    "e": {
+      "item": "immersiveengineering:light_engineering"
+    },
+    "f": {
+      "tag": "forge:ingots/steel"
+    },
+    "w": {
+      "item": "immersiveengineering:capacitor_lv"
+    }
+  },
+  "pattern": ["waw", "fef", "wcw"],
+  "result": {
+    "item": "immersiveengineering:capacitor_mv"
+  },
+  "show_notification": true
+}
