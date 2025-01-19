@@ -18,7 +18,7 @@
       "item": "immersiveengineering:capacitor_lv"
     }
   },
-  "pattern": ["waw", "fef", "wcw"],
+  "pattern": ["wwaww", "fwewf", "wwcww"],
   "result": {
     "item": "immersiveengineering:capacitor_mv"
   },

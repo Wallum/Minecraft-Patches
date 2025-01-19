@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": ["SSSSS", "IGIGI", "SSSSS"],
+  "result": {
+    "count": 8,
+    "item": "pneumaticcraft:pressure_tube"
+  }
+}

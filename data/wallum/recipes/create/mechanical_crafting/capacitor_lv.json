@@ -15,7 +15,7 @@
       "tag": "forge:treated_wood"
     }
   },
-  "pattern": ["waw", "fef", "waw"],
+  "pattern": ["wwaww", "wfefw", "wwaww"],
   "result": {
     "item": "immersiveengineering:capacitor_lv"
   }

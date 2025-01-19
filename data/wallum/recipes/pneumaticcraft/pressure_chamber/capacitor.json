@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 3,
+      "tag": "forge:wires"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "tag": "forge:plates/zinc"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "tag": "forge:plates/copper"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "item": "refinedstorage:silicon"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:capacitor",
+      "count": 2
+    }
+  ]
+}

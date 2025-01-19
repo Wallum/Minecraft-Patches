@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "acceptMirrored": true,
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:stone_base"
+    },
+    "G": {
+      "tag": "forge:gears/compressed_iron"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "R": {
+      "tag": "forge:rods/steel"
+    },
+    "S": {
+      "item": "vintageimprovements:steel_spring"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "pattern": ["IRR", "TSS", "BGG"],
+  "result": {
+    "item": "pneumaticcraft:manual_compressor"
+  },
+  "show_notification": true
+}

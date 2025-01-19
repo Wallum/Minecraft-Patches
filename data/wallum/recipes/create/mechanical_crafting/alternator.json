@@ -15,7 +15,7 @@
       "item": "immersiveengineering:storage_steel"
     }
   },
-  "pattern": [" CCC ", "CsEsC", "CEFEC", "CsEsC", " CCC "],
+  "pattern": ["CCCCC", "CsEsC", "CEFEC", "CsEsC", "CCCCC"],
   "result": {
     "count": 1,
     "item": "createaddition:alternator"

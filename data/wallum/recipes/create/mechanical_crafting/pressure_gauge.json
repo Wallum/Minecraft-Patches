@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "vintageimprovements"
+        }
+      ]
+    }
+  ],
+  "acceptMirrored": false,
+  "pattern": ["bmb", "sis", "bpb"],
+  "key": {
+    "b": {
+      "tag": "forge:plates/brass"
+    },
+    "i": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "m": {
+      "item": "wallumadditions:steel_mechanism"
+    },
+    "p": {
+      "item": "create:precision_mechanism"
+    },
+    "s": {
+      "item": "vintageimprovements:steel_spring"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "pneumaticcraft:pressure_gauge"
+  }
+}

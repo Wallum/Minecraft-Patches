@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "tag": "pneumaticcraft:reinforced_stone_bricks"
+    },
+    "G": {
+      "item": "pneumaticcraft:pressure_gauge"
+    },
+    "S": {
+      "item": "vintageimprovements:steel_spring"
+    },
+    "p": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "pattern": ["IpppI", "ISpSI", "GpTTT", "ISTSI", "IIFII"],
+  "result": {
+    "count": 1,
+    "item": "pneumaticcraft:air_compressor"
+  }
+}
