@@ -10,7 +10,6 @@
     "amount": 1000,
     "fluid": "pneumaticcraft:plastic"
   },
-  "item_input": {},
   "temperature": {
     "min_temp": 429
   }

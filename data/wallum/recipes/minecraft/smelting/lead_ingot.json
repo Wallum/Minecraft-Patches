@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "conditions": [
     {
       "type": "forge:and",
@@ -12,10 +12,10 @@
     }
   ],
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 200,
   "experience": 1.0,
   "ingredient": {
-    "tag": "forge:ores/uranium"
+    "tag": "forge:ores/lead"
   },
-  "result": "immersiveengineering:ingot_uranium"
+  "result": "immersiveengineering:ingot_lead"
 }

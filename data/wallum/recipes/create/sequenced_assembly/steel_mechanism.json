@@ -1,5 +1,20 @@
 {
   "type": "create:sequenced_assembly",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wallumadditions"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    }
+  ],
   "ingredient": {
     "tag": "forge:plates/steel"
   },

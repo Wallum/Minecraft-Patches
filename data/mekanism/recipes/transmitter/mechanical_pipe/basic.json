@@ -1,1 +1,19 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:bucket"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S"],"result":{"count":8,"item":"mekanism:basic_mechanical_pipe"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "#": {
+      "item": "create:fluid_pipe"
+    },
+    "S": {
+      "item": "destroy:polytetrafluoroethene"
+    }
+  },
+  "pattern": ["S#S", "SCS"],
+  "result": {
+    "count": 2,
+    "item": "mekanism:basic_mechanical_pipe"
+  }
+}

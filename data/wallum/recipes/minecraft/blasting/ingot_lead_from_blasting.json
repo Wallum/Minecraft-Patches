@@ -15,7 +15,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "ingredient": {
-    "tag": "forge:ores/uranium"
+    "tag": "forge:ores/lead"
   },
-  "result": "immersiveengineering:ingot_uranium"
+  "result": "immersiveengineering:ingot_lead"
 }

@@ -3,7 +3,7 @@
   "ingredient": {
     "tag": "forge:storage_blocks/steel"
   },
-  "loops": 16,
+  "loops": 8,
   "results": [
     {
       "item": "immersiveengineering:coil_lv",
@@ -50,26 +50,16 @@
         }
       ]
     },
-
     {
-      "type": "vintageimprovements:coiling",
-      "results": [
-        {
-          "item": "immersiveengineering:coil_lv"
-        }
-      ]
-    },
-    {
-      "type": "vintageimprovements:curving",
-      "mode": 1,
+      "type": "create:pressing",
       "ingredients": [
         {
-          "tag": "forge:plates/iron"
+          "item": "immersiveengineering:coil_lv"
         }
       ],
       "results": [
         {
-          "item": "minecraft:bucket"
+          "item": "immersiveengineering:coil_lv"
         }
       ]
     }

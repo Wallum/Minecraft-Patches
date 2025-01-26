@@ -23,6 +23,9 @@
     "A": {
       "item": "createaddition:alternator"
     },
+    "D": {
+      "item": "createdieselgenerators:diesel_engine"
+    },
     "T": {
       "item": "create:fluid_tank"
     }

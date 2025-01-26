@@ -2,11 +2,20 @@
   "type": "immersiveengineering:alloy",
   "conditions": [
     {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/cast_iron"
-      }
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/cast_iron"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tfmg"
+        }
+      ]
     }
   ],
   "input0": {
