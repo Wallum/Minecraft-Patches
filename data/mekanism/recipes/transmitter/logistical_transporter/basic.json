@@ -8,7 +8,7 @@
       "tag": "forge:ingots/steel"
     },
     "B": {
-      "tag": "immersiveengineering:conveyor_basic"
+      "item": "immersiveengineering:conveyor_basic"
     }
   },
   "pattern": ["SBS", "SCS"],
