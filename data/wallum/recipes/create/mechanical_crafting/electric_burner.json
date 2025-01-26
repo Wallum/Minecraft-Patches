@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["ABA", "ECE", "FCF", "DBD"],
+  "key": {
+    "A": {
+      "item": "minecraft:tinted_glass"
+    },
+    "B": {
+      "item": "immersiveengineering:electromagnet"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "create:empty_blaze_burner"
+    },
+    "E": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "F": {
+      "item": "immersiveengineering:furnace_heater"
+    }
+  },
+  "result": {
+    "item": "moreburners:electric_burner",
+    "count": 1
+  }
+}

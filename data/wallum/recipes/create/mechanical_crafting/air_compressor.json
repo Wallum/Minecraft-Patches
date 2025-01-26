@@ -21,7 +21,7 @@
       "item": "pneumaticcraft:pressure_tube"
     }
   },
-  "pattern": ["IpppI", "ISpSI", "GpTTT", "ISTSI", "IIFII"],
+  "pattern": ["IPTPI", "PSTSP", "PGTGP", "PSTSP", "IPFPI"],
   "result": {
     "count": 1,
     "item": "pneumaticcraft:air_compressor"

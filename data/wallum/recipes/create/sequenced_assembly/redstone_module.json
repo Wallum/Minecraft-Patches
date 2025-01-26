@@ -1,9 +1,9 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "forge:plates/gold"
+    "item": "create:precision_mechanism"
   },
-  "loops": 3,
+  "loops": 4,
   "results": [
     {
       "item": "vintageimprovements:redstone_module"
@@ -11,13 +11,15 @@
   ],
   "sequence": [
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         {
           "item": "vintageimprovements:incomplete_redstone_module"
         },
         {
-          "item": "minecraft:redstone"
+          "amount": 250,
+          "fluid": "immersiveengineering:redstone_acid",
+          "nbt": {}
         }
       ],
       "results": [
@@ -27,10 +29,13 @@
       ]
     },
     {
-      "type": "vintageimprovements:vibrating",
+      "type": "create:deploying",
       "ingredients": [
         {
           "item": "vintageimprovements:incomplete_redstone_module"
+        },
+        {
+          "item": "wallumadditions:steel_mechanism"
         }
       ],
       "results": [
@@ -75,7 +80,7 @@
           "item": "vintageimprovements:incomplete_redstone_module"
         },
         {
-          "tag": "forge:nuggets/iron"
+          "tag": "forge:nuggets/aluminum"
         }
       ],
       "results": [

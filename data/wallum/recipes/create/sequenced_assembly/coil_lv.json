@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:storage_blocks/steel"
+  },
+  "loops": 16,
+  "results": [
+    {
+      "item": "immersiveengineering:coil_lv",
+      "count": 1
+    }
+  ],
+  "transitionalItem": {
+    "item": "immersiveengineering:coil_lv"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        },
+        [
+          {
+            "item": "immersiveengineering:wirecoil_copper"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        },
+        [
+          {
+            "item": "immersiveengineering:wirecoil_copper"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        }
+      ]
+    },
+
+    {
+      "type": "vintageimprovements:coiling",
+      "results": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        }
+      ]
+    },
+    {
+      "type": "vintageimprovements:curving",
+      "mode": 1,
+      "ingredients": [
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bucket"
+        }
+      ]
+    }
+  ]
+}

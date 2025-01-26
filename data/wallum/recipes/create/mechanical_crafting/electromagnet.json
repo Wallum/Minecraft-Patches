@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "p": {
+      "tag": "forge:rods/steel"
+    },
+    "w": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "pattern": ["pcp", "wiw", "pwp"],
+  "result": {
+    "item": "immersiveengineering:electromagnet"
+  },
+  "show_notification": true
+}
