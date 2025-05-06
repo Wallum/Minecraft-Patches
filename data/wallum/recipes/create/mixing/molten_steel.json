@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "tag": "forge:dusts/lime"
+      },
+      {
+        "amount": 45,
+        "fluid": "createbigcannons:molten_cast_iron",
+        "nbt": {}
+      }
+    ],
+    "results": [
+      {
+        "amount": 10,
+        "fluid": "createbigcannons:molten_steel"
+      },
+      {
+        "item": "immersiveengineering:slag"
+      }
+    ]
+  }
+  

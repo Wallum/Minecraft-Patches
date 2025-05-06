@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/lead"
+    },
+    {
+      "item": "destroy:borosilicate_glass"
+    },
+    {
+      "item": "destroy:borosilicate_glass"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:insulating_glass",
+      "count": 2
+    }
+  ]
+}

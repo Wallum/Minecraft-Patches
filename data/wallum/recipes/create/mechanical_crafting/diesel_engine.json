@@ -12,10 +12,10 @@
       "tag": "forge:storage_blocks/brass"
     },
     "S": {
-      "item": "minecraft:polished_blackstone_slab"
+      "tag": "forge:storage_blocks/steel"
     },
     "M": {
-      "item": "wallumadditions:steel_mechanism"
+      "item": "immersiveengineering:component_steel"
     },
     "F": {
       "item": "create:fluid_tank"

@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "copycats:copycat_slab"
+      "item": "supplementaries:ash"
     }
   ],
   "result": {
-    "item": "create_connected:copycat_slab"
+    "item": "destroy:beetroot_ashes"
   }
 }

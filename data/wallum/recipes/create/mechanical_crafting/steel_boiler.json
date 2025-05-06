@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["CFFC", "SFFS", "CFFC"],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "item": "steampowered:steel_boiler",
+    "count": 1
+  }
+}
