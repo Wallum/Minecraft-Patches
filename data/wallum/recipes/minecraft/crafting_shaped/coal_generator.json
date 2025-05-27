@@ -11,11 +11,7 @@
       "item": "minecraft:iron_ingot"
     }
   },
-  "pattern": [
-    "#I#",
-    "#F#",
-    "#I#"
-  ],
+  "pattern": ["#I#", "#F#", "#I#"],
   "result": {
     "item": "ad_astra:coal_generator"
   }

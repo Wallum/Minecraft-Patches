@@ -22,6 +22,6 @@
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "tag": "forge:plates/zinc"
+    "item": "destroy:zinc_sheet"
   }
 }

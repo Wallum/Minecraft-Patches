@@ -14,11 +14,7 @@
       "tag": "forge:plates/steel"
     }
   },
-  "pattern": [
-    "GGG",
-    "SMS",
-    "###"
-  ],
+  "pattern": ["GGG", "SMS", "###"],
   "result": {
     "item": "ad_astra:solar_panel"
   }
