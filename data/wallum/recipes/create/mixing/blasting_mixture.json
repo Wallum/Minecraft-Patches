@@ -1,5 +1,6 @@
 {
   "type": "create:mixing",
+  "heatRequirement": "lowheated",
   "ingredients": [
     {
       "tag": "forge:dusts/lime"

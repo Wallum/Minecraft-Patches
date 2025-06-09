@@ -13,14 +13,11 @@
     "C": {
       "item": "minecraft:clock"
     },
-    "S": {
-      "item": "create:precision_mechanism"
-    },
     "W": {
       "tag": "minecraft:wooden_slabs"
     }
   },
-  "pattern": [" W ", " B ", "SCS"],
+  "pattern": ["W", "B", "C"],
   "result": {
     "item": "create:clockwork_bearing"
   }

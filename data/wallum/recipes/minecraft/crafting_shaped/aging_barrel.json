@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NNN", "LSL", "LSL"],
+  "key": {
+    "N": {
+      "tag": "forge:leather"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "destroy:aging_barrel"
+  }
+}
