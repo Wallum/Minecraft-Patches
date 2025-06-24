@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/basic"
+    },
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "G": {
+      "item": "minecraft:blast_furnace"
+    },
+    "Z": {
+      "item": "immersiveengineering:furnace_heater"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": ["ACA", "GXG", "ZXZ", "ACA"],
+  "result": {
+    "item": "mekanism:energized_smelter"
+  }
+}

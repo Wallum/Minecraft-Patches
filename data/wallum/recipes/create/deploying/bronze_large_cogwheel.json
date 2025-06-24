@@ -1,12 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "create:deploying",
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:plates/bronze"
-    },
-    {
-      "tag": "forge:plates/bronze"
+      "item": "steampowered:bronze_cogwheel"
     },
     {
       "item": "create:shaft"

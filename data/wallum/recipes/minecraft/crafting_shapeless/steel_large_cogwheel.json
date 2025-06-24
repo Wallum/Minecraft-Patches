@@ -3,13 +3,16 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:plates/cast_iron"
+      "tag": "forge:plates/steel"
+    },
+    {
+      "tag": "forge:plates/steel"
     },
     {
       "item": "create:shaft"
     }
   ],
   "result": {
-    "item": "steampowered:cast_iron_cogwheel"
+    "item": "steampowered:steel_large_cogwheel"
   }
 }

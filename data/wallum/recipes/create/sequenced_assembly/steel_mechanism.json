@@ -29,7 +29,7 @@
           "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
-          "tag": "forge:ingots/steel"
+          "item": "steampowered:steel_cogwheel"
         }
       ],
       "results": [
@@ -45,7 +45,23 @@
           "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
-          "tag": "forge:ingots/aluminum"
+          "tag": "forge:plates/aluminum"
+        }
+      ],
+      "results": [
+        {
+          "item": "wallumadditions:unfinished_steel_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "wallumadditions:unfinished_steel_mechanism"
+        },
+        {
+          "item": "immersiveengineering:electron_tube"
         }
       ],
       "results": [
@@ -89,17 +105,21 @@
   ],
   "results": [
     {
-      "chance": 120.0,
+      "chance": 86.6,
       "item": "wallumadditions:steel_mechanism"
     },
     {
-      "chance": 8.0,
+      "chance": 7.2,
       "item": "immersiveengineering:ingot_steel"
     },
     {
-      "chance": 5.0,
+      "chance": 4.2,
       "item": "immersiveengineering:ingot_aluminum"
+    },
+    {
+      "chance": 2.0,
+      "item": "immersiveengineering:electron_tube"
     }
   ],
-  "loops": 1
+  "loops": 4
 }

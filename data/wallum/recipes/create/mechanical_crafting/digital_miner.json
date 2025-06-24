@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/atomic"
+    },
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "R": {
+      "item": "mekanism:digital_miner"
+    },
+    "S": {
+      "item": "mekanism:logistical_sorter"
+    },
+    "T": {
+      "item": "mekanism:teleporter"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": ["ACA", "SRS", "TXT"],
+  "result": {
+    "item": "mekanism:digital_miner"
+  }
+}

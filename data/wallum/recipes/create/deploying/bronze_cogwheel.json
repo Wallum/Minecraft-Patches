@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "create:deploying",
   "category": "misc",
   "ingredients": [
     {

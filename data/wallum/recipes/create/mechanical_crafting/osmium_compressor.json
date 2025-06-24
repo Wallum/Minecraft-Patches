@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "P": {
+      "item": "createcasing:industrial_iron_press"
+    },
+    "D": {
+      "item": "createcasing:industrial_iron_depot"
+    },
+    "C": {
+      "tag": "forge:circuits/advanced"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": ["ACA", "PXP", "DXD", "ACA"],
+  "result": {
+    "item": "mekanism:osmium_compressor"
+  }
+}
