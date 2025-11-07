@@ -1,0 +1,40 @@
+name: Build and Release Resourcepack
+
+on:
+  push:
+    branches:
+      - main  # Trigger when pushing to main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed to create releases
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build .jar resourcepack
+        run: |
+          mkdir -p build
+          VERSION=$(date +'%Y.%m.%d-%H%M')
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+          # Create zip of pack contents
+          zip -r "build/Minecraft-Patches-${VERSION}.zip" data pack.mcmeta pack.png
+
+          # Rename zip to jar
+          mv "build/Minecraft-Patches-${VERSION}.zip" "build/Minecraft-Patches-${VERSION}.jar"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: "Minecraft-Patches ${{ env.VERSION }}"
+          body: |
+            Automated build from push to **main**.
+            Generated on ${{ env.VERSION }}.
+          files: build/Minecraft-Patches-${{ env.VERSION }}.jar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
