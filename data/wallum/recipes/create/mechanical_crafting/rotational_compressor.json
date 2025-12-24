@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["BPB", "TCT", "SRS"],
+  "key": {
+    "S": {
+      "item": "pneumaticcraft:manual_compressor"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "item": "create:cogwheel"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "B": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    }
+  },
+  "result": {
+    "item": "compressedcreativity:rotational_compressor"
+  }
+}

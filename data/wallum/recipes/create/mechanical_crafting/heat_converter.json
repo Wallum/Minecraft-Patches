@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["AEA", "ECE", "ECE", "DED"],
+  "key": {
+    "A": {
+      "item": "minecraft:tinted_glass"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "create:empty_blaze_burner"
+    },
+    "E": {
+      "item": "pneumaticcraft:thermal_compressor"
+    }
+  },
+  "result": {
+    "item": "moreburners:heat_converter",
+    "count": 1
+  }
+}

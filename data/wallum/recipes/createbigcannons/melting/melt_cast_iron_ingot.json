@@ -12,7 +12,7 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "tag": "forge:ingots/iron"
+      "item": "create:crushed_raw_iron"
     },
     {
       "tag": "forge:dusts/coal"

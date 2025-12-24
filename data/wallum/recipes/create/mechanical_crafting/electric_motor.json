@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["  A  ", " BSB ", "BSRSB", "BspsB"," BCB "],
+  "key": {
+    "A": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "B": {
+      "tag": "forge:plates/brass"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "S": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "s": {
+      "item": "wallumadditions:steel_mechanism"
+    },
+    "p": {
+      "item": "create:rotation_speed_controller"
+    }
+  },
+  "result": {
+    "item": "createaddition:electric_motor"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "exothermic": false,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1000,
+    "fluid": "immersiveengineering:creosote"
+  },
+  "fluid_output": {
+    "amount": 250,
+    "fluid": "pneumaticcraft:lubricant"
+  },
+  "item_input": {
+    "tag": "forge:dusts/zinc"
+  },
+  "temperature": {
+    "min_temp": 397
+  }
+}

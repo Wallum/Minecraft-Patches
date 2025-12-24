@@ -1,0 +1,15 @@
+{
+  "type": "create:deploying",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:plates/bronze"
+    },
+    {
+      "item": "create:shaft"
+    }
+  ],
+  "result": {
+    "item": "steampowered:bronze_cogwheel"
+  }
+}

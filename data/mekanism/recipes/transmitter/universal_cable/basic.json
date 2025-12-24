@@ -1,1 +1,19 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"forge:dusts/redstone"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S"],"result":{"count":8,"item":"mekanism:basic_universal_cable"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "S": {
+      "item": "destroy:polytetrafluoroethene"
+    },
+    "G": {
+      "item": "destroy:borosilicate_glass"
+    }
+  },
+  "pattern": ["SCS","SGS"],
+  "result": {
+    "count": 4,
+    "item": "mekanism:basic_universal_cable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "destroy:electrolysis",
+  "ingredients": [
+    {
+      "mixtureFluidWithIon": "destroy:mixture",
+      "molecule": "destroy:lead_ii",
+      "concentration": 0.4,
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:dust_lead"
+    }
+  ],
+  "processingTime": 200
+}

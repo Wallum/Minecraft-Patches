@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "tag": "forge:stone"
+    }
+  },
+  "pattern": ["TRT", "RTR", "SSS"],
+  "result": {
+    "item": "additionalredstone:sequencer"
+  }
+}

@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:ingots/bronze"
+      "tag": "forge:plates/bronze"
     },
     {
-      "tag": "forge:ingots/bronze"
+      "tag": "forge:plates/bronze"
     },
     {
-      "item": "create:andesite_alloy"
+      "item": "create:shaft"
     }
   ],
   "result": {

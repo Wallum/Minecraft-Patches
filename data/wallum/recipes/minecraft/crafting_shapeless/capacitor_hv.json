@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createaddition:modular_accumulator"
+    }
+  ],
+  "result": {
+    "item": "immersiveengineering:capacitor_hv"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/chromium"
+    },
+    {
+      "tag": "forge:dusts/nickel"
+    },
+    {
+      "tag": "forge:dusts/nickel"
+    },
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "destroy:fluxes"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "destroy:molten_stainless_steel",
+      "amount": 500
+    },
+    {
+      "item": "immersiveengineering:slag"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ]
+    }
+  ],
+  "category": "misc",
+  "key": {
+    "e": {
+      "tag": "forge:plates/constantan"
+    },
+    "i": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "l": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "g": {
+      "item": "immersiveengineering:graphite_electrode"
+    },
+    "c": {
+      "item": "immersiveengineering:component_electronic_adv"
+    }
+  },
+  "pattern": ["cec", "iei", "lel", "geg"],
+  "result": {
+    "item": "immersiveengineering:thermoelectric_generator"
+  },
+  "show_notification": true
+}

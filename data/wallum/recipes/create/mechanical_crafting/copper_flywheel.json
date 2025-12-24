@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "s": {
+      "tag": "forge:rods/steel"
+    },
+    "C": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "pattern": ["CCCCC", "CsssC", "CsSsC", "CsssC", "CCCCC"],
+  "result": {
+    "count": 1,
+    "item": "wallumadditions:copper_flywheel"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/chromium"
+    },
+    {
+      "tag": "forge:nuggets/chromium"
+    },
+    {
+      "tag": "forge:ingots/nickel"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "destroy:fluxes"
+    }
+  ],
+  "results": [
+    {
+      "item": "destroy:stainless_steel_ingot",
+      "count": 2
+    },
+    {
+      "item": "immersiveengineering:slag"
+    }
+  ],
+  "heatRequirement": "heated"
+}

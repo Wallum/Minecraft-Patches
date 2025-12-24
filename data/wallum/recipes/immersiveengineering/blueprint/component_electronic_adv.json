@@ -9,6 +9,9 @@
       "item": "immersiveengineering:component_electronic"
     },
     {
+      "item": "pneumaticcraft:capacitor"
+    },
+    {
       "base_ingredient": {
         "item": "immersiveengineering:electron_tube"
       },
@@ -21,7 +24,9 @@
       "count": 2
     },
     {
-      "tag": "forge:wires/aluminum",
+      "base_ingredient": {
+        "tag": "forge:wires/aluminum"
+      },
       "count": 4
     }
   ],

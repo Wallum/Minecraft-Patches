@@ -2,10 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "i": { "tag": "forge:rods/steel" },
-    "s": { "tag": "forge:rods/wooden" }
+    "i": {
+      "tag": "forge:rods/steel"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
   },
   "pattern": [" i", "s "],
-  "result": { "item": "immersiveengineering:screwdriver" },
+  "result": {
+    "item": "immersiveengineering:screwdriver"
+  },
   "show_notification": true
 }

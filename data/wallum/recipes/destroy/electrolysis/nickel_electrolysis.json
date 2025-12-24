@@ -1,0 +1,17 @@
+{
+  "type": "destroy:electrolysis",
+  "ingredients": [
+    {
+      "mixtureFluidWithIon": "destroy:mixture",
+      "molecule": "destroy:nickel_ion",
+      "concentration": 0.4,
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:dust_nickel"
+    }
+  ],
+  "processingTime": 200
+}

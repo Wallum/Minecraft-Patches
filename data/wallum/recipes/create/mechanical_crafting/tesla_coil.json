@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["SSS", " A ", "CBC", "PEP"],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "S": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "createaddition:tesla_coil"
+  }
+}

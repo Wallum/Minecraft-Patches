@@ -1,0 +1,10 @@
+{
+  "type": "createaddition:rolling",
+  "input": {
+    "tag": "forge:ingots/stainless_steel"
+  },
+  "result": {
+    "item": "destroy:stainless_steel_rod",
+    "count": 2
+  }
+}

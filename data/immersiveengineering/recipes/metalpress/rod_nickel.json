@@ -16,7 +16,7 @@
   "mold": "immersiveengineering:mold_rod",
   "result": {
     "base_ingredient": {
-      "item": "immersiveposts:stick_nickel"
+      "tag": "forge:rods/nickel"
     },
     "count": 2
   }

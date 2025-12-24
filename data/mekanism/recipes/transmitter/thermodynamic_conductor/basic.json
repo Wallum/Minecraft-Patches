@@ -1,1 +1,19 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"forge:ingots/copper"},"S":{"tag":"forge:ingots/steel"}},"pattern":["S#S"],"result":{"count":8,"item":"mekanism:basic_thermodynamic_conductor"}}
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "#": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "S": {
+      "item": "destroy:polytetrafluoroethene"
+    }
+  },
+  "pattern": ["SCS", "S#S"],
+  "result": {
+    "count": 2,
+    "item": "mekanism:basic_thermodynamic_conductor"
+  }
+}

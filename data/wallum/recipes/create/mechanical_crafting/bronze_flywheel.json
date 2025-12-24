@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [" AAA ", "ACPCA", "APFPA", "ACPCA", " AAA "],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "F": {
+      "item": "create:flywheel"
+    },
+    "A": {
+      "tag": "forge:storage_blocks/bronze"
+    },
+    "C": {
+      "item": "steampowered:bronze_cogwheel"
+    }
+  },
+  "result": {
+    "item": "steampowered:bronze_flywheel",
+    "count": 1
+  }
+}

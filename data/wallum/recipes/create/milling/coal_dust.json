@@ -8,8 +8,12 @@
   "processingTime": 100,
   "results": [
     {
-      "chance": 0.5,
+      "chance": 0.67,
       "item": "mekanism:dust_coal"
+    },
+    {
+      "chance": 0.33,
+      "item": "immersiveengineering:dust_sulfur"
     }
   ]
 }

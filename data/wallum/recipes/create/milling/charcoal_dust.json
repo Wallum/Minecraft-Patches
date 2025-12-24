@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.67,
+      "item": "mekanism:dust_charcoal"
+    },
+    {
+      "chance": 0.33,
+      "item": "supplementaries:ash"
+    }
+  ]
+}

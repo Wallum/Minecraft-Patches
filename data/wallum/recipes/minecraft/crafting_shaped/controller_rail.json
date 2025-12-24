@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:rods/gold"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "immersiveengineering:stick_treated"
+    }
+  },
+  "pattern": ["ASA", "AEA", "ASA"],
+  "result": {
+    "count": 6,
+    "item": "create:controller_rail"
+  },
+  "show_notification": true
+}

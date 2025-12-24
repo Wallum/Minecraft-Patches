@@ -1,0 +1,19 @@
+{
+  "type": "createaddition:rolling",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/uranium"
+      }
+    }
+  ],
+  "input": {
+    "tag": "forge:ingots/uranium"
+  },
+  "result": {
+    "tag": "forge:rods/uranium",
+    "count": 2
+  }
+}

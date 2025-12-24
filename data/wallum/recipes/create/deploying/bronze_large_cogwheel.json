@@ -1,0 +1,15 @@
+{
+  "type": "create:deploying",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "steampowered:bronze_cogwheel"
+    },
+    {
+      "item": "create:shaft"
+    }
+  ],
+  "result": {
+    "item": "steampowered:bronze_large_cogwheel"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createdeco:zinc_sheet"
+    }
+  ],
+  "result": {
+    "item": "destroy:zinc_sheet",
+    "count": 1
+  }
+}

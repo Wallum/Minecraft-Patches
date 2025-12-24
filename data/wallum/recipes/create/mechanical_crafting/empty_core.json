@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "scguns:treated_iron_nugget"
+    },
+    "C": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "Q": {
+      "item": "scguns:treated_iron_ingot"
+    }
+  },
+  "pattern": [" Q ", "C#C", " Q "],
+  "result": {
+    "item": "scguns:empty_core"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["MQM", "PBP", "SFS"],
+  "key": {
+    "P": {
+      "item": "createdieselgenerators:engine_piston"
+    },
+    "Q": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "M": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "item": "createdieselgenerators:diesel_engine"
+  }
+}

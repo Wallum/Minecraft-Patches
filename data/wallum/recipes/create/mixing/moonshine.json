@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "brewinandchewin:beer",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "destroy:undistilled_moonshine",
+      "amount": 250
+    }
+  ]
+}
