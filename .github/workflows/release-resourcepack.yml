@@ -2,7 +2,7 @@ name: Build NeoForge Mod
 
 on:
   push:
-    branches: ["main"] # or your main branch
+    branches: ["3-establish-as-mod"] # or your main branch
   workflow_dispatch: # allows manual trigger
 
 jobs:
