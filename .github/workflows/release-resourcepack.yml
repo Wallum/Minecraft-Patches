@@ -23,13 +23,9 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      # 3️⃣ Ensure Gradle wrapper exists (optional sanity check)
-      - name: Check Gradle wrapper
-        run: |
-          if [ ! -f ./gradlew ]; then
-            echo "Gradle wrapper not found! Please commit gradlew and gradle/wrapper/*"
-            exit 1
-          fi
+      # 3️⃣ Ensure Gradle wrapper is executable
+      - name: Make Gradle wrapper executable
+        run: chmod +x ./gradlew
 
       # 4️⃣ Build mod with Gradle
       - name: Build mod
