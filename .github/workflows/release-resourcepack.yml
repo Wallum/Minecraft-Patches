@@ -1,40 +1,41 @@
-name: Build and Release Resourcepack
+name: Build NeoForge Mod
 
 on:
   push:
-    branches:
-      - main  # Trigger when pushing to main
+    branches: ["main"] # or your main branch
+  workflow_dispatch: # allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Needed to create releases
+      contents: write # required for GH release
 
     steps:
-      - name: Checkout repository
+      # 1️⃣ Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build .jar resourcepack
-        run: |
-          mkdir -p build
-          VERSION=$(date +'%Y.%m.%d-%H%M')
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
+      # 2️⃣ Setup Java 21
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
 
-          # Create zip of pack contents
-          zip -r "build/Minecraft-Patches-${VERSION}.zip" data pack.mcmeta pack.png
+      # 3️⃣ Build mod with Gradle
+      - name: Build mod
+        run: ./gradlew build
 
-          # Rename zip to jar
-          mv "build/Minecraft-Patches-${VERSION}.zip" "build/Minecraft-Patches-${VERSION}.jar"
-
+      # 4️⃣ Upload release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.VERSION }}
-          name: "Minecraft-Patches ${{ env.VERSION }}"
+          tag_name: ${{ github.run_number }}
+          name: "WallumPatches ${{ github.run_number }}"
           body: |
-            Automated build from push to **main**.
-            Generated on ${{ env.VERSION }}.
-          files: build/Minecraft-Patches-${{ env.VERSION }}.jar
+            Automated NeoForge build for WallumPatches
+            Built on ${{ github.run_number }}
+          files: build/libs/*.jar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

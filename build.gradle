@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '1.0.21'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+group = "com.wallum"
+version = project.mod_version
+
+neoForge {
+    version = project.neoforge_version
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Resource-only mod — no dependencies needed
+}
