@@ -1,15 +1,15 @@
-name: Build NeoForge Mod
+name: Build and Release NeoForge Mod
 
 on:
   push:
-    branches: ["3-establish-as-mod"] # triggers when pushing to this branch
+    branches: ["3-establish-as-mod"] # or your release branch
   workflow_dispatch: # allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # required to create releases
+      contents: write # required to create GitHub releases
 
     steps:
       # 1️⃣ Checkout the repository
@@ -23,24 +23,33 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      # 3️⃣ Ensure Gradle wrapper is executable
+      # 3️⃣ Make Gradle wrapper executable
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
 
-      # 4️⃣ Build mod with Gradle
+      # 4️⃣ Build the mod
       - name: Build mod
         run: ./gradlew build --no-daemon
 
-      # 5️⃣ Upload release
+      # 5️⃣ Debug: list build artifacts
+      - name: List built files
+        run: ls -lh build/libs/
+
+      # 6️⃣ Set version for release
+      - name: Set release version
+        id: version
+        run: echo "RELEASE_VERSION=${{ env.MOD_VERSION }}-${{ github.run_number }}" >> $GITHUB_ENV
+
+      # 7️⃣ Create GitHub Release with mod JAR attached
       - name: Create GitHub Release
-        if: github.ref == 'refs/heads/3-establish-as-mod' # optional: only release from this branch
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.run_number }}
-          name: "WallumPatches ${{ github.run_number }}"
+          tag_name: "v${{ env.RELEASE_VERSION }}"
+          name: "WallumPatches v${{ env.RELEASE_VERSION }}"
           body: |
             Automated NeoForge build for WallumPatches
-            Built on ${{ github.run_number }}
-          files: build/libs/*.jar
+            Version: ${{ env.RELEASE_VERSION }}
+          files: build/libs/wallumpatches-${{ env.MOD_VERSION }}.jar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MOD_VERSION: 3.0.0 # your base mod version
