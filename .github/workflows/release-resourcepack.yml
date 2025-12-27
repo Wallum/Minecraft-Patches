@@ -27,9 +27,6 @@ jobs:
       - name: Build mod (NeoForge)
         run: ./gradlew remapJar --no-daemon
 
-      - name: Debug: list build outputs
-        run: find build -maxdepth 5 -type f -print
-
       - name: Locate built JAR
         id: findjar
         run: |
