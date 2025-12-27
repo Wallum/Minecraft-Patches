@@ -12,28 +12,24 @@ jobs:
       contents: write
 
     steps:
-      # 1. Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Setup Java 21
       - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 21
 
-      # 3. Make Gradle wrapper executable
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
-        working-directory: ./Minecraft-Patches
 
-      # 4. Build (NeoForge)
-      - name: Build mod
+      - name: Build mod (NeoForge)
         run: ./gradlew remapJar --no-daemon
-        working-directory: ./Minecraft-Patches
 
-      # 6. Locate built JAR
+      - name: Debug: list build outputs
+        run: find build -maxdepth 5 -type f -print
+
       - name: Locate built JAR
         id: findjar
         run: |
@@ -50,17 +46,13 @@ jobs:
 
           echo "JAR_PATH=$JAR_PATH" >> $GITHUB_ENV
           echo "Found JAR: $JAR_PATH"
-        working-directory: ./Minecraft-Patches
 
-      # 7. Read mod version from gradle.properties
       - name: Read mod version
         id: version
         run: |
           VERSION=$(grep "^version=" gradle.properties | cut -d'=' -f2)
           echo "MOD_VERSION=$VERSION" >> $GITHUB_ENV
-        working-directory: ./Minecraft-Patches
 
-      # 8. Create GitHub Release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -69,6 +61,6 @@ jobs:
           body: |
             Automated NeoForge build for WallumPatches
             Version: ${{ env.MOD_VERSION }}+${{ github.run_number }}
-          files: Minecraft-Patches/${{ env.JAR_PATH }}
+          files: ${{ env.JAR_PATH }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
