@@ -23,9 +23,11 @@ jobs:
 
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
+        working-directory: ./Minecraft-Patches
 
       - name: Build mod (NeoForge)
         run: ./gradlew remapJar --no-daemon
+        working-directory: ./Minecraft-Patches
 
       - name: Locate built JAR
         id: findjar
@@ -43,12 +45,14 @@ jobs:
 
           echo "JAR_PATH=$JAR_PATH" >> $GITHUB_ENV
           echo "Found JAR: $JAR_PATH"
+        working-directory: ./Minecraft-Patches
 
       - name: Read mod version
         id: version
         run: |
           VERSION=$(grep "^version=" gradle.properties | cut -d'=' -f2)
           echo "MOD_VERSION=$VERSION" >> $GITHUB_ENV
+        working-directory: ./Minecraft-Patches
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
