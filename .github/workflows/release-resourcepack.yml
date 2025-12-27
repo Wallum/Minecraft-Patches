@@ -25,7 +25,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build mod (NeoForge)
-        run: ./gradlew remapJar --no-daemon
+        run: ./gradlew remapJar --no-daemon --stacktrace --info
 
       - name: Locate built JAR
         id: findjar
