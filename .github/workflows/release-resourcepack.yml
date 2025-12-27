@@ -5,6 +5,10 @@ on:
     branches: ["3-establish-as-mod"]
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: .
+
 jobs:
   build:
     runs-on: ubuntu-latest
