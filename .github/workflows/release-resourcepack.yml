@@ -2,54 +2,59 @@ name: Build and Release NeoForge Mod
 
 on:
   push:
-    branches: ["3-establish-as-mod"] # or your release branch
-  workflow_dispatch: # allows manual trigger
+    branches: ["3-establish-as-mod"]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # required to create GitHub releases
+      contents: write
 
     steps:
-      # 1️⃣ Checkout the repository
-      - name: Checkout code
+      # 1. Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Java 21
-      - name: Setup Java
+      # 2. Setup Java 21
+      - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 21
 
-      # 3️⃣ Make Gradle wrapper executable
+      # 3. Make Gradle wrapper executable
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
 
-      # 4️⃣ Build the mod
+      # 4. Build (NeoForge uses remapJar)
       - name: Build mod
-        run: ./gradlew build --no-daemon
+        run: ./gradlew build remapJar --no-daemon
 
-      # 5️⃣ Debug: list build artifacts
-      - name: List built files
-        run: ls -lh build/libs/
+      # 5. Find built JAR
+      - name: Locate built JAR
+        id: findjar
+        run: |
+          JAR_PATH=$(find build -type f -name "*.jar" | grep -v "sources" | head -n 1)
+          echo "JAR_PATH=$JAR_PATH" >> $GITHUB_ENV
+          echo "Found JAR: $JAR_PATH"
 
-      # 6️⃣ Set version for release
-      - name: Set release version
+      # 6. Extract version from gradle.properties
+      - name: Read mod version
         id: version
-        run: echo "RELEASE_VERSION=${{ env.MOD_VERSION }}-${{ github.run_number }}" >> $GITHUB_ENV
+        run: |
+          VERSION=$(grep "^version=" gradle.properties | cut -d'=' -f2)
+          echo "MOD_VERSION=$VERSION" >> $GITHUB_ENV
 
-      # 7️⃣ Create GitHub Release with mod JAR attached
+      # 7. Create GitHub Release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "v${{ env.RELEASE_VERSION }}"
-          name: "WallumPatches v${{ env.RELEASE_VERSION }}"
+          tag_name: "v${{ env.MOD_VERSION }}+${{ github.run_number }}"
+          name: "WallumPatches v${{ env.MOD_VERSION }}+${{ github.run_number }}"
           body: |
             Automated NeoForge build for WallumPatches
-            Version: ${{ env.RELEASE_VERSION }}
-          files: build/libs/wallumpatches-${{ env.MOD_VERSION }}.jar
+            Version: ${{ env.MOD_VERSION }}+${{ github.run_number }}
+          files: ${{ env.JAR_PATH }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MOD_VERSION: 3.0.0 # your base mod version
