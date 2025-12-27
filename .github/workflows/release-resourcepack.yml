@@ -26,27 +26,41 @@ jobs:
       # 3. Make Gradle wrapper executable
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
+        working-directory: ./Minecraft-Patches
 
-      # 4. Build (NeoForge uses remapJar)
+      # 4. Build (NeoForge)
       - name: Build mod
-        run: ./gradlew build remapJar --no-daemon
+        run: ./gradlew remapJar --no-daemon
+        working-directory: ./Minecraft-Patches
 
-      # 5. Find built JAR
+      # 6. Locate built JAR
       - name: Locate built JAR
         id: findjar
         run: |
-          JAR_PATH=$(find build -type f -name "*.jar" | grep -v "sources" | head -n 1)
+          JAR_PATH=$(find build -type f -name "*.jar" \
+            | grep -v "sources" \
+            | grep -v "dev" \
+            | grep -v "test" \
+            | head -n 1)
+
+          if [ -z "$JAR_PATH" ]; then
+            echo "No JAR found!"
+            exit 1
+          fi
+
           echo "JAR_PATH=$JAR_PATH" >> $GITHUB_ENV
           echo "Found JAR: $JAR_PATH"
+        working-directory: ./Minecraft-Patches
 
-      # 6. Extract version from gradle.properties
+      # 7. Read mod version from gradle.properties
       - name: Read mod version
         id: version
         run: |
           VERSION=$(grep "^version=" gradle.properties | cut -d'=' -f2)
           echo "MOD_VERSION=$VERSION" >> $GITHUB_ENV
+        working-directory: ./Minecraft-Patches
 
-      # 7. Create GitHub Release
+      # 8. Create GitHub Release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -55,6 +69,6 @@ jobs:
           body: |
             Automated NeoForge build for WallumPatches
             Version: ${{ env.MOD_VERSION }}+${{ github.run_number }}
-          files: ${{ env.JAR_PATH }}
+          files: Minecraft-Patches/${{ env.JAR_PATH }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
