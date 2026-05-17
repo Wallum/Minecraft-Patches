@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:tag_empty",
+              "tag": "c:plates/steel"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "tag": "c:plates/obsidian"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:railway_casing"
+    }
+  ]
+}

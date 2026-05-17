@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "tag": "forge:storage_blocks/raw_silver"
-  },
-  "result": "immersiveengineering:storage_silver",
-  "experience": 6.3,
-  "cookingtime": 900
-}

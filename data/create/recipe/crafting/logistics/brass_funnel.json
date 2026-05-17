@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:ingots/brass"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "pattern": ["E", "A", "K"],
+  "result": {
+    "count": 2,
+    "id": "create:brass_funnel"
+  }
+}

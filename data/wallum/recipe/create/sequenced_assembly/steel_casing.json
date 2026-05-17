@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersiveengineering:heavy_engineering"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "id": "mekanism:steel_casing",
+      "count": 1
+    }
+  ],
+  "transitionalItem": {
+    "id": "immersiveengineering:heavy_engineering"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:heavy_engineering"
+        },
+        [
+          {
+            "tag": "forge:plates/steel"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "immersiveengineering:heavy_engineering"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:heavy_engineering"
+        },
+        [
+          {
+            "type": "destroy:circuit_pattern_item",
+            "item": "destroy:circuit_board",
+            "pattern": "destroy:shared_easy_0"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "immersiveengineering:heavy_engineering"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:heavy_engineering"
+        },
+        [
+          {
+            "item": "immersiveengineering:screwdriver"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "immersiveengineering:heavy_engineering"
+        }
+      ]
+    }
+  ]
+}

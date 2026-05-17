@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:storage_blocks/steel"
+  },
+  "loops": 8,
+  "results": [
+    {
+      "id": "immersiveengineering:coil_lv",
+      "count": 1
+    }
+  ],
+  "transitional_item": {
+    "item": "immersiveengineering:coil_lv"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        },
+        [
+          {
+            "item": "immersiveengineering:wirecoil_copper"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "immersiveengineering:coil_lv"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        },
+        [
+          {
+            "item": "immersiveengineering:wirecoil_copper"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "immersiveengineering:coil_lv"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:coil_lv"
+        }
+      ],
+      "results": [
+        {
+          "id": "immersiveengineering:coil_lv"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/gold"
+	},
+	"result": {
+		"id": "immersiveposts:stick_gold",
+		"count": 2
+	}
+}

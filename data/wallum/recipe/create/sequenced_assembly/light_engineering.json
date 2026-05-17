@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "immersiveengineering:light_engineering",
+      "count": 1
+    }
+  ],
+  "transitional_item": {
+    "item": "create:brass_casing"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        },
+        [
+          {
+            "tag": "c:sheetmetals/iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:brass_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        },
+        [
+          {
+            "item": "immersiveengineering:component_iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        },
+        [
+          {
+            "item": "wallumadditions:screw"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        },
+        {
+          "item": "immersiveengineering:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    }
+  ]
+}

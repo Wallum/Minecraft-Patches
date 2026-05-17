@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:dusts/lime"
+    },
+    {
+      "tag": "c:dusts/lime"
+    },
+    {
+      "tag": "c:dusts/iron"
+    },
+    {
+      "tag": "c:dusts/iron"
+    },
+    {
+      "tag": "c:dusts/iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:blasting_mixture",
+      "count": 2
+    }
+  ]
+}

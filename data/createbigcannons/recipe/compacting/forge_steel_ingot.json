@@ -1,0 +1,32 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "createbigcannons:ingot_steel"
+          }
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 90,
+      "fluidTag": "c:molten_steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:ingot_steel"
+    }
+  ]
+}
