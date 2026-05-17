@@ -8,13 +8,13 @@
             "item":"mekanism:energy_tablet"
         },
         "I":{
-            "tag":"forge:ingots/refined_obsidian"
+            "tag":"neoforge:ingots/refined_obsidian"
         },
         "P":{
             "tag":"mekanism:personal_storage"
         },
         "S":{
-            "tag":"forge:ingots/steel"
+            "tag":"neoforge:ingots/steel"
         }
     },
     "pattern":[

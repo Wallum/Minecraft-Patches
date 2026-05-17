@@ -2,18 +2,18 @@
   "type": "createaddition:rolling",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:rods/osmium"
+        "type": "neoforge:tag_empty",
+        "tag": "c:rods/osmium"
       }
     }
   ],
   "input": {
-    "tag": "forge:ingots/osmium"
+    "tag": "c:ingots/osmium"
   },
   "result": {
-    "tag": "forge:rods/osmium",
+    "tag": "c:rods/osmium",
     "count": 2
   }
 }

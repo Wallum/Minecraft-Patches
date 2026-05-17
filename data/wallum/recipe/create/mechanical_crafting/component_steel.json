@@ -2,18 +2,18 @@
   "type": "create:mechanical_crafting",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "create"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "immersiveengineering"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "wallumadditions"
         }
       ]
@@ -22,7 +22,7 @@
   "acceptMirrored": false,
   "key": {
     "c": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:ingots/copper"
     },
     "p": {
       "item": "create:precision_mechanism"
@@ -31,7 +31,7 @@
       "item": "wallumadditions:steel_mechanism"
     },
     "s": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     }
   },
   "pattern": [" sss ", "sSpSs", "spcps", "sSpSs", " sss "],

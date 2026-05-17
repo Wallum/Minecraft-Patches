@@ -1,7 +1,7 @@
 {
     "conditions": [
       {
-        "type": "forge:item_exists",
+        "type": "neoforge:item_exists",
         "item": "mekanismgenerators:wind_generator"
       }
     ],
@@ -18,7 +18,7 @@
         "item": "mekanism:basic_control_circuit"
       },
       "S": {
-        "tag": "forge:storage_blocks/steel"
+        "tag": "c:storage_blocks/steel"
       }
     },
     "pattern": [

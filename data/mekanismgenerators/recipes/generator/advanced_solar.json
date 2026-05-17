@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:advanced_solar_generator"
     }
   ],
@@ -12,13 +12,13 @@
       "tag": "mekanism:alloys/infused"
     },
     "I": {
-      "tag": "forge:rods/iron"
+      "tag": "c:rods/iron"
     },
     "P": {
       "item": "mekanismgenerators:solar_generator"
     },
     "G": {
-      "tag": "forge:wires/electrum"
+      "tag": "c:wires/electrum"
     },
     "O": {
       "item": "immersiveengineering:alu_post"

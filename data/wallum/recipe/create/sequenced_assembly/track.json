@@ -2,31 +2,31 @@
   "type": "create:sequenced_assembly",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "create"
         },
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:rods/steel"
+            "type": "neoforge:tag_empty",
+            "tag": "c:rods/steel"
           }
         },
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:plates/steel"
+            "type": "neoforge:tag_empty",
+            "tag": "c:plates/steel"
           }
         }
       ]
     }
   ],
   "ingredient": {
-    "tag": "forge:stone"
+    "tag": "c:stone"
   },
   "loops": 1,
   "results": [
@@ -75,13 +75,13 @@
         },
         [
           {
-            "tag": "forge:plates/steel"
+            "tag": "c:plates/steel"
           }
         ]
       ],
       "results": [
         {
-          "item": "create:incomplete_track"
+          "id": "create:incomplete_track"
         }
       ]
     },
@@ -93,13 +93,13 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "c:rods/steel"
           }
         ]
       ],
       "results": [
         {
-          "item": "create:incomplete_track"
+          "id": "create:incomplete_track"
         }
       ]
     },
@@ -111,7 +111,7 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "c:rods/steel"
           }
         ]
       ],
@@ -154,6 +154,6 @@
     }
   ],
   "transitionalItem": {
-    "item": "create:incomplete_track"
+    "id": "create:incomplete_track"
   }
 }

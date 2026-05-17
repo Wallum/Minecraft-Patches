@@ -2,16 +2,16 @@
     "type":"create:mechanical_crafting",
     "key":{
         "C":{
-            "tag":"forge:circuits/basic"
+            "tag":"neoforge:circuits/basic"
         },
         "G":{
-            "tag":"forge:glass"
+            "tag":"neoforge:glass"
         },
         "P":{
-            "tag":"forge:chests/wooden"
+            "tag":"neoforge:chests/wooden"
         },
         "S":{
-            "tag":"forge:ingots/steel"
+            "tag":"neoforge:ingots/steel"
         }
     },
     "pattern":[

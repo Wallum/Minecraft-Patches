@@ -3,7 +3,7 @@
   "pattern": ["CFFC", "SFFS", "CFFC"],
   "key": {
     "S": {
-      "tag": "forge:plates/bronze"
+      "tag": "c:plates/bronze"
     },
     "C": {
       "item": "create:fluid_pipe"
@@ -13,7 +13,7 @@
     }
   },
   "result": {
-    "item": "steampowered:bronze_boiler",
+    "id": "steampowered:bronze_boiler",
     "count": 1
   }
 }

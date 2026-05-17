@@ -2,13 +2,13 @@
   "type": "create:mechanical_crafting",
   "key": {
     "C": {
-      "tag": "forge:circuits/ultimate"
+      "tag": "c:circuits/ultimate"
     },
     "F": {
       "item": "bfr:fusion_reactor_frame"
     },
     "G": {
-      "tag": "forge:glass_panes"
+      "tag": "c:glass_panes"
     },
     "T": {
       "item": "mekanism:basic_chemical_tank"
@@ -20,6 +20,6 @@
     "FFF"
   ],
   "result": {
-    "item": "bfr:fusion_reactor_controller"
+    "id": "bfr:fusion_reactor_controller"
   }
 }

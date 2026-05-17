@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:raw_materials/lead"
+      "tag": "c:raw_materials/lead"
     }
   ],
   "result": {
-    "item": "immersiveengineering:raw_lead"
+    "id": "immersiveengineering:raw_lead"
   }
 }

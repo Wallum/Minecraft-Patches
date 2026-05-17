@@ -3,15 +3,15 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "tag": "forge:ingots/gold"
+      "tag": "c:ingots/gold"
     },
     {
-      "tag": "forge:ingots/silver"
+      "tag": "c:ingots/silver"
     }
   ],
   "results": [
     {
-      "item": "forge:ingots/electrum",
+      "item": "neoforge:ingots/electrum",
       "count": 2
     }
   ]

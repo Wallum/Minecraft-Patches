@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:ingots/bronze"
+      "tag": "c:ingots/bronze"
     },
     {
       "item": "create:andesite_alloy"
     }
   ],
   "result": {
-    "item": "steampowered:bronze_cogwheel"
+    "id": "steampowered:bronze_cogwheel"
   }
 }

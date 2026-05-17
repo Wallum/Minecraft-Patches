@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "kubejs:blasting_mixture"
+    },
+    {
+      "item": "kubejs:blasting_mixture"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:ingot_steel",
+      "count": 1
+    },
+    {
+      "id": "immersiveengineering:slag",
+      "count": 1
+    }
+  ]
+}

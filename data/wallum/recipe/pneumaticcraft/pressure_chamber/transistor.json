@@ -4,12 +4,12 @@
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 3,
-      "tag": "forge:wires"
+      "tag": "c:wires"
     },
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 5,
-      "tag": "forge:dusts/redstone"
+      "tag": "c:dusts/redstone"
     },
     {
       "type": "pneumaticcraft:stacked_item",

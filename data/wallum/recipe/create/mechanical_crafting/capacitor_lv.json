@@ -3,7 +3,7 @@
   "acceptMirrored": false,
   "key": {
     "a": {
-      "tag": "forge:plates/lead"
+      "tag": "c:plates/lead"
     },
     "e": {
       "item": "immersiveengineering:light_engineering"
@@ -12,11 +12,11 @@
       "item": "destroy:voltaic_pile"
     },
     "w": {
-      "tag": "forge:treated_wood"
+      "tag": "c:treated_wood"
     }
   },
   "pattern": ["wwaww", "wfefw", "wwaww"],
   "result": {
-    "item": "immersiveengineering:capacitor_lv"
+    "id": "immersiveengineering:capacitor_lv"
   }
 }

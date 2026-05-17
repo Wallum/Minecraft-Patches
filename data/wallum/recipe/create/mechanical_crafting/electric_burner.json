@@ -22,7 +22,7 @@
     }
   },
   "result": {
-    "item": "moreburners:electric_burner",
+    "id": "moreburners:electric_burner",
     "count": 1
   }
 }

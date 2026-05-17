@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:fusion_reactor_logic_adapter"
     } ],
   "key": {
     "F": { "item": "mekanismgenerators:fusion_reactor_frame" },
-    "R": { "tag": "forge:dusts/redstone" }
+    "R": { "tag": "c:dusts/redstone" }
   },
   "pattern": [" R ", "RFR", " R "],
   "result": { "item": "mekanismgenerators:fusion_reactor_logic_adapter" }

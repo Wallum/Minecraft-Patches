@@ -3,7 +3,7 @@
   "pattern": ["F F", "FSF", "CCC", "PIP"],
   "key": {
     "P": {
-      "tag": "forge:plates/bronze"
+      "tag": "c:plates/bronze"
     },
     "I": [
       {
@@ -24,6 +24,6 @@
     }
   },
   "result": {
-    "item": "steampowered:bronze_steam_engine"
+    "id": "steampowered:bronze_steam_engine"
   }
 }

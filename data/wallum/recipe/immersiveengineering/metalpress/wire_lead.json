@@ -2,21 +2,21 @@
   "type": "immersiveengineering:metal_press",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:wires/lead"
+        "type": "neoforge:tag_empty",
+        "tag": "c:wires/lead"
       }
     }
   ],
   "energy": 3000,
   "input": {
-    "tag": "forge:plates/lead"
+    "tag": "c:plates/lead"
   },
   "mold": "immersiveengineering:mold_wire",
   "result": {
     "base_ingredient": {
-      "tag": "forge:wires/lead"
+      "tag": "c:wires/lead"
     },
     "count": 3
   }

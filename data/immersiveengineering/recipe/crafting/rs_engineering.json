@@ -1,19 +1,19 @@
 {
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "immersiveengineering"
         },
         {
-          "type": "forge:or",
+          "type": "neoforge:or",
           "values": [
             {
-              "type": "forge:not",
+              "type": "neoforge:not",
               "value": {
-                "type": "forge:mod_loaded",
+                "type": "neoforge:mod_loaded",
                 "modid": "create"
               }
             }
@@ -26,13 +26,13 @@
   "category": "misc",
   "key": {
     "c": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:ingots/copper"
     },
     "i": {
-      "tag": "forge:sheetmetals/iron"
+      "tag": "c:sheetmetals/iron"
     },
     "r": {
-      "tag": "forge:dusts/redstone"
+      "tag": "c:dusts/redstone"
     }
   },
   "pattern": ["iri", "rcr", "iri"],

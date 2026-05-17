@@ -15,7 +15,7 @@
       "item": "vintageimprovements:steel_spring"
     },
     "P": {
-      "tag": "forge:storage_blocks/steel"
+      "tag": "c:storage_blocks/steel"
     },
     "T": {
       "item": "pneumaticcraft:pressure_tube"

@@ -9,10 +9,10 @@
       "item": "minecraft:flint_and_steel"
     },
     "B": {
-      "tag": "forge:storage_blocks/brass"
+      "tag": "c:storage_blocks/brass"
     },
     "S": {
-      "tag": "forge:storage_blocks/steel"
+      "tag": "c:storage_blocks/steel"
     },
     "M": {
       "item": "immersiveengineering:component_steel"
@@ -22,6 +22,6 @@
     }
   },
   "result": {
-    "item": "createdieselgenerators:diesel_engine"
+    "id": "createdieselgenerators:diesel_engine"
   }
 }

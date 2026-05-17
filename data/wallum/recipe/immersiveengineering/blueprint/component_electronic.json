@@ -3,23 +3,23 @@
   "category": "components",
   "inputs": [
     {
-      "tag": "forge:treated_wood_slab"
+      "tag": "c:treated_wood_slab"
     },
     {
-      "tag": "forge:gems/rose_quartz"
+      "tag": "c:gems/rose_quartz"
     },
     {
-      "tag": "forge:plates/iron"
+      "tag": "c:plates/iron"
     },
     {
-      "tag": "forge:dusts/redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "tag": "forge:wires/electrum",
+      "tag": "c:wires/electrum",
       "count": 2
     }
   ],
   "result": {
-    "item": "immersiveengineering:component_electronic"
+    "id": "immersiveengineering:component_electronic"
   }
 }

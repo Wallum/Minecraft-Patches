@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:gas_burning_generator"
     }
   ],
@@ -12,7 +12,7 @@
       "item": "mekanism:electrolytic_core"
     },
     "O": {
-      "tag": "forge:ingots/osmium"
+      "tag": "c:ingots/osmium"
     },
     "L": {
       "item": "createdieselgenerators:large_diesel_engine"

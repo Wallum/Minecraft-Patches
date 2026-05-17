@@ -8,7 +8,7 @@
       "item": "minecraft:redstone_block"
     },
     "G": {
-      "tag": "forge:rods/gold"
+      "tag": "c:rods/gold"
     }
   },
   "pattern": ["G#G", "GRG", "G#G"],

@@ -8,7 +8,7 @@
       "item": "minecraft:redstone_block"
     },
     "X": {
-      "tag": "forge:rods/blaze"
+      "tag": "c:rods/blaze"
     },
     "Y": {
       "item": "rftoolsbase:infused_diamond"

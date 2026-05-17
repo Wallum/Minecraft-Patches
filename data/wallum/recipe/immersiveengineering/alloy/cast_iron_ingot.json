@@ -2,24 +2,24 @@
   "type": "immersiveengineering:alloy",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:ingots/cast_iron"
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/cast_iron"
           }
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "tfmg"
         }
       ]
     }
   ],
   "input0": {
-    "tag": "forge:ingots/iron"
+    "tag": "c:ingots/iron"
   },
   "input1": {
     "tag": "minecraft:coals"

@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:raw_materials/nickel"
+      "tag": "c:raw_materials/nickel"
     }
   ],
   "result": {
-    "item": "immersiveengineering:raw_nickel"
+    "id": "immersiveengineering:raw_nickel"
   }
 }

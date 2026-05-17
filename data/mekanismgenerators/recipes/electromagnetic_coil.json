@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:electromagnetic_coil"
     } ],
   "key": {
     "E": { "item": "mekanism:energy_tablet" },
-    "I": { "tag": "forge:ingots/gold" },
-    "S": { "tag": "forge:ingots/steel" }
+    "I": { "tag": "c:ingots/gold" },
+    "S": { "tag": "c:ingots/steel" }
   },
   "pattern": ["SIS", "IEI", "SIS"],
   "result": { "item": "mekanismgenerators:electromagnetic_coil" }

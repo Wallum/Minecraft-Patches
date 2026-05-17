@@ -1,7 +1,7 @@
 {
   "type": "createaddition:rolling",
   "input": {
-    "tag": "forge:plates/aluminum"
+    "tag": "c:plates/aluminum"
   },
   "result": {
     "id": "immersiveengineering:wire_aluminum",

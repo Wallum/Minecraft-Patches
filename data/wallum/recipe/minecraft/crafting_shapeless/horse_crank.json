@@ -8,15 +8,15 @@
       "item": "create:hand_crank"
     },
     "F": {
-      "tag": "forge:fences/wooden"
+      "tag": "c:fences/wooden"
     },
     "S": {
-      "tag": "forge:stone"
+      "tag": "c:stone"
     }
   },
   "pattern": [" H ", "FCF", "SSS"],
   "result": {
-    "item": "createhorsepower:horse_crank"
+    "id": "createhorsepower:horse_crank"
   },
   "show_notification": true
 }

@@ -3,13 +3,13 @@
   "acceptMirrored": false,
   "key": {
     "G": {
-      "tag": "forge:glass"
+      "tag": "c:glass"
     },
     "I": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "c:ingots/compressed_iron"
     },
     "S": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     }
   },
   "pattern": ["SSSSS", "IGIGI", "SSSSS"],

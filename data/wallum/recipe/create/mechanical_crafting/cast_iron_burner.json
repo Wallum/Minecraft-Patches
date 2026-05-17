@@ -3,14 +3,14 @@
   "pattern": ["SSSSS", "SSSSS", "SSBSS", "SSSSS", "SSSSS"],
   "key": {
     "B": {
-      "tag": "forge:storage_blocks/cast_iron"
+      "tag": "c:storage_blocks/cast_iron"
     },
     "S": {
       "item": "immersiveengineering:blastbrick"
     }
   },
   "result": {
-    "item": "steampowered:cast_iron_burner",
+    "id": "steampowered:cast_iron_burner",
     "count": 1
   }
 }

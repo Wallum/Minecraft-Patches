@@ -3,14 +3,14 @@
   "pattern": ["SSSSS", "SSSSS", "SSBSS", "SSSSS", "SSSSS"],
   "key": {
     "B": {
-      "tag": "forge:storage_blocks/bronze"
+      "tag": "c:storage_blocks/bronze"
     },
     "S": {
       "item": "immersiveengineering:blastbrick"
     }
   },
   "result": {
-    "item": "steampowered:bronze_burner",
+    "id": "steampowered:bronze_burner",
     "count": 1
   }
 }

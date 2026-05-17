@@ -59,10 +59,10 @@
         },
         [
           {
-            "tag": "forge:nuggets/iron"
+            "tag": "c:nuggets/iron"
           },
           {
-            "tag": "forge:nuggets/zinc"
+            "tag": "c:nuggets/zinc"
           }
         ]
       ],

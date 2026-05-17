@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "immersiveengineering"
     }
   ],
   "category": "misc",
   "key": {
     "A": {
-      "tag": "forge:rods/gold"
+      "tag": "c:rods/gold"
     },
     "E": {
       "item": "create:electron_tube"

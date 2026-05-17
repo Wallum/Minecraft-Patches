@@ -1,22 +1,22 @@
 {
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:rods/nickel"
+        "type": "neoforge:tag_empty",
+        "tag": "c:rods/nickel"
       }
     }
   ],
   "type": "immersiveengineering:metal_press",
   "energy": 2400,
   "input": {
-    "tag": "forge:ingots/nickel"
+    "tag": "c:ingots/nickel"
   },
   "mold": "immersiveengineering:mold_rod",
   "result": {
     "base_ingredient": {
-      "tag": "forge:rods/nickel"
+      "tag": "c:rods/nickel"
     },
     "count": 2
   }

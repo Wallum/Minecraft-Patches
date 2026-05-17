@@ -2,7 +2,7 @@
   "type": "immersiveengineering:arc_furnace",
   "additives": [
     {
-      "tag": "forge:dusts/lead"
+      "tag": "c:dusts/lead"
     }
   ],
   "energy": 51200,

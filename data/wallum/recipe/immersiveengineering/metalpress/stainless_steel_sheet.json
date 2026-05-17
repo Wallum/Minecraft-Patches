@@ -2,30 +2,30 @@
   "type": "immersiveengineering:metal_press",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/stainless_steel"
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/stainless_steel"
       }
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "destroy:stainless_steel_sheet"
     },
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:plates/stainless_steel"
+        "type": "neoforge:tag_empty",
+        "tag": "c:plates/stainless_steel"
       }
     }
   ],
   "energy": 2400,
   "input": {
-    "tag": "forge:ingots/stainless_steel"
+    "tag": "c:ingots/stainless_steel"
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "item": "destroy:stainless_steel_sheet"
+    "id": "destroy:stainless_steel_sheet"
   }
 }

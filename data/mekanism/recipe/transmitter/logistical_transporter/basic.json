@@ -2,10 +2,10 @@
   "type": "create:mechanical_crafting",
   "key": {
     "C": {
-      "tag": "forge:circuits/basic"
+      "tag": "c:circuits/basic"
     },
     "S": {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     },
     "B": {
       "item": "immersiveengineering:conveyor_basic"

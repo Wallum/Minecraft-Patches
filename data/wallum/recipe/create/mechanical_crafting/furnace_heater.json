@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "p": {
-      "tag": "forge:plates/copper"
+      "tag": "c:plates/copper"
     },
     "r": {
-      "tag": "forge:dusts/redstone"
+      "tag": "c:dusts/redstone"
     },
     "s": {
-      "tag": "forge:sheetmetals/iron"
+      "tag": "c:sheetmetals/iron"
     },
     "w": {
       "item": "immersiveengineering:coil_lv"
@@ -17,7 +17,7 @@
   },
   "pattern": ["pwp", "wsw", "prp"],
   "result": {
-    "item": "immersiveengineering:furnace_heater"
+    "id": "immersiveengineering:furnace_heater"
   },
   "show_notification": true
 }

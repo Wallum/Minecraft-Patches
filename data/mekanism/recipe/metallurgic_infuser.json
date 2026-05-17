@@ -5,7 +5,7 @@
       "item": "minecraft:blast_furnace"
     },
     "I": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     },
     "O": {
       "item": "mekanism:steel_casing"
@@ -16,6 +16,6 @@
   },
   "pattern": ["I#I", "ROR", "I#I"],
   "result": {
-    "item": "mekanism:metallurgic_infuser"
+    "id": "mekanism:metallurgic_infuser"
   }
 }

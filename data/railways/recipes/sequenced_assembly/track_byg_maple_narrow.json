@@ -2,7 +2,7 @@
   "type": "create:sequenced_assembly",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "byg"
     }
   ],
@@ -33,7 +33,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_byg_maple_narrow"
+          "id": "railways:track_incomplete_byg_maple_narrow"
         }
       ]
     },
@@ -45,13 +45,13 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "c:rods/steel"
           }
         ]
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_byg_maple_narrow"
+          "id": "railways:track_incomplete_byg_maple_narrow"
         }
       ]
     },
@@ -64,12 +64,12 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_byg_maple_narrow"
+          "id": "railways:track_incomplete_byg_maple_narrow"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "railways:track_incomplete_byg_maple_narrow"
+    "id": "railways:track_incomplete_byg_maple_narrow"
   }
 }

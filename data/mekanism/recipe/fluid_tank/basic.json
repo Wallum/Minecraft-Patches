@@ -5,14 +5,14 @@
       "item": "create:fluid_tank"
     },
     "I": {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     },
     "C": {
-      "tag": "forge:circuits/basic"
+      "tag": "c:circuits/basic"
     }
   },
   "pattern": ["AIA", "ICI", "AIA"],
   "result": {
-    "item": "mekanism:basic_fluid_tank"
+    "id": "mekanism:basic_fluid_tank"
   }
 }

@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:reactor_glass"
     } ],
   "key": {
-    "G": { "tag": "forge:glass" },
-    "I": { "tag": "forge:ingots/lead" },
+    "G": { "tag": "c:glass" },
+    "I": { "tag": "c:ingots/lead" },
     "S": { "item": "mekanism:enriched_iron" }
   },
   "pattern": ["SIS", "IGI", "SIS"],

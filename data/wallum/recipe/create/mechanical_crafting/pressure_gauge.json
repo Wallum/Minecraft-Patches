@@ -2,14 +2,14 @@
   "type": "create:mechanical_crafting",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "create"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "vintageimprovements"
         }
       ]
@@ -19,10 +19,10 @@
   "pattern": ["bmb", "sis", "bpb"],
   "key": {
     "b": {
-      "tag": "forge:plates/brass"
+      "tag": "c:plates/brass"
     },
     "i": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "c:ingots/compressed_iron"
     },
     "m": {
       "item": "wallumadditions:steel_mechanism"

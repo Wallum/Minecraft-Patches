@@ -2,10 +2,10 @@
   "type": "create:mechanical_crafting",
   "key": {
     "C": {
-      "tag": "forge:circuits/basic"
+      "tag": "c:circuits/basic"
     },
     "#": {
-      "tag": "forge:storage_blocks/copper"
+      "tag": "c:storage_blocks/copper"
     },
     "S": {
       "item": "destroy:polytetrafluoroethene"

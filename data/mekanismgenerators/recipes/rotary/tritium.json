@@ -2,10 +2,10 @@
   "type": "mekanism:rotary",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:tritium"
     } ],
-  "fluidInput": { "amount": 1, "tag": "forge:tritium" },
+  "fluidInput": { "amount": 1, "tag": "c:tritium" },
   "fluidOutput": { "amount": 1, "fluid": "mekanismgenerators:tritium" },
   "gasInput": { "amount": 1, "tag": "mekanism:tritium" },
   "gasOutput": { "amount": 1, "gas": "mekanismgenerators:tritium" }

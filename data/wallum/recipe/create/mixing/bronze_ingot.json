@@ -3,21 +3,21 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "tag": "forge:ingots/tin"
+      "tag": "c:ingots/tin"
     },
     {
-      "tag": "forge:ingots/copper"
+      "tag": "c:ingots/copper"
     },
     {
-      "tag": "forge:ingots/copper"
+      "tag": "c:ingots/copper"
     },
     {
-      "tag": "forge:ingots/copper"
+      "tag": "c:ingots/copper"
     }
   ],
   "results": [
     {
-      "item": "forge:ingots/bronze",
+      "item": "neoforge:ingots/bronze",
       "count": 4
     }
   ]

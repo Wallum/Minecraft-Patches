@@ -2,16 +2,16 @@
   "type": "immersiveengineering:metal_press",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:wires/gold"
+        "type": "neoforge:tag_empty",
+        "tag": "c:wires/gold"
       }
     }
   ],
   "energy": 3000,
   "input": {
-    "tag": "forge:plates/gold"
+    "tag": "c:plates/gold"
   },
   "mold": "immersiveengineering:mold_wire",
   "result": {

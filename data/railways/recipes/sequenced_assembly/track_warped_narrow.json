@@ -19,7 +19,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_warped_narrow"
+          "id": "railways:track_incomplete_warped_narrow"
         }
       ]
     },
@@ -35,7 +35,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_warped_narrow"
+          "id": "railways:track_incomplete_warped_narrow"
         }
       ]
     },
@@ -48,12 +48,12 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_warped_narrow"
+          "id": "railways:track_incomplete_warped_narrow"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "railways:track_incomplete_warped_narrow"
+    "id": "railways:track_incomplete_warped_narrow"
   }
 }

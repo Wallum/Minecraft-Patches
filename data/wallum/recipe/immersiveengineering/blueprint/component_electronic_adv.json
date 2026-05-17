@@ -3,7 +3,7 @@
   "category": "components",
   "inputs": [
     {
-      "tag": "forge:plates/plastic"
+      "tag": "c:plates/plastic"
     },
     {
       "item": "immersiveengineering:component_electronic"
@@ -19,18 +19,18 @@
     },
     {
       "base_ingredient": {
-        "tag": "forge:nuggets/copper"
+        "tag": "c:nuggets/copper"
       },
       "count": 2
     },
     {
       "base_ingredient": {
-        "tag": "forge:wires/aluminum"
+        "tag": "c:wires/aluminum"
       },
       "count": 4
     }
   ],
   "result": {
-    "item": "immersiveengineering:component_electronic_adv"
+    "id": "immersiveengineering:component_electronic_adv"
   }
 }

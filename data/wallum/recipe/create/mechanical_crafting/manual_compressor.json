@@ -7,13 +7,13 @@
       "item": "pneumaticcraft:stone_base"
     },
     "G": {
-      "tag": "forge:gears/compressed_iron"
+      "tag": "c:gears/compressed_iron"
     },
     "I": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "c:ingots/compressed_iron"
     },
     "R": {
-      "tag": "forge:rods/steel"
+      "tag": "c:rods/steel"
     },
     "S": {
       "item": "vintageimprovements:steel_spring"
@@ -24,7 +24,7 @@
   },
   "pattern": ["IRR", "TSS", "BGG"],
   "result": {
-    "item": "pneumaticcraft:manual_compressor"
+    "id": "pneumaticcraft:manual_compressor"
   },
   "show_notification": true
 }

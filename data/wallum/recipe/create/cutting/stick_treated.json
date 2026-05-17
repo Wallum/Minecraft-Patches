@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "tag": "forge:treated_wood"
+      "tag": "c:treated_wood"
     }
   ],
   "processingTime": 75,

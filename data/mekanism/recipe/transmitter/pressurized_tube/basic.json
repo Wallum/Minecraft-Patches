@@ -2,13 +2,13 @@
   "type": "create:mechanical_crafting",
   "key": {
     "C": {
-      "tag": "forge:circuits/basic"
+      "tag": "c:circuits/basic"
     },
     "G": {
       "item": "destroy:borosilicate_glass"
     },
     "S": {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     }
   },
   "pattern": ["SCS", "SGS"],

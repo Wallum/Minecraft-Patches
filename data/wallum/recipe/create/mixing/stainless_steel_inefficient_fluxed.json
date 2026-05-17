@@ -2,19 +2,19 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "forge:nuggets/chromium"
+      "tag": "c:nuggets/chromium"
     },
     {
-      "tag": "forge:nuggets/chromium"
+      "tag": "c:nuggets/chromium"
     },
     {
-      "tag": "forge:ingots/nickel"
+      "tag": "c:ingots/nickel"
     },
     {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     },
     {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     },
     {
       "tag": "destroy:fluxes"

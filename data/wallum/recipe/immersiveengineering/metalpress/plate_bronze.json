@@ -2,26 +2,26 @@
   "type": "immersiveengineering:metal_press",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/bronze"
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/bronze"
       }
     },
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:plates/bronze"
+        "type": "neoforge:tag_empty",
+        "tag": "c:plates/bronze"
       }
     }
   ],
   "energy": 2400,
   "input": {
-    "tag": "forge:ingots/bronze"
+    "tag": "c:ingots/bronze"
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "tag": "forge:plates/bronze"
+    "tag": "c:plates/bronze"
   }
 }

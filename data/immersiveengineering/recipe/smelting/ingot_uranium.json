@@ -2,10 +2,10 @@
   "type": "minecraft:smelting",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "immersiveengineering"
         }
       ]
@@ -15,7 +15,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "ingredient": {
-    "tag": "forge:ores/uranium"
+    "tag": "c:ores/uranium"
   },
   "result": "immersiveengineering:ingot_uranium"
 }

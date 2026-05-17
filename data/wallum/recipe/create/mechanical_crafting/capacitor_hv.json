@@ -3,16 +3,16 @@
   "category": "misc",
   "key": {
     "a": {
-      "tag": "forge:plates/aluminum"
+      "tag": "c:plates/aluminum"
     },
     "c": {
-      "tag": "forge:ingots/hop_graphite"
+      "tag": "c:ingots/hop_graphite"
     },
     "e": {
       "item": "immersiveengineering:heavy_engineering"
     },
     "f": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     },
     "w": {
       "item": "immersiveengineering:capacitor_mv"
@@ -20,7 +20,7 @@
   },
   "pattern": ["fwcwf", "faeaf", "fwcwf"],
   "result": {
-    "item": "immersiveengineering:capacitor_hv"
+    "id": "immersiveengineering:capacitor_hv"
   },
   "show_notification": true
 }

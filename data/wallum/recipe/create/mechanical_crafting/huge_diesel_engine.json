@@ -9,7 +9,7 @@
       "item": "createdieselgenerators:diesel_engine"
     },
     "S": {
-      "tag": "forge:plates/brass"
+      "tag": "c:plates/brass"
     },
     "F": {
       "item": "minecraft:flint_and_steel"
@@ -22,6 +22,6 @@
     }
   },
   "result": {
-    "item": "createdieselgenerators:huge_diesel_engine"
+    "id": "createdieselgenerators:huge_diesel_engine"
   }
 }

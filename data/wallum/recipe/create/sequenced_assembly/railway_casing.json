@@ -2,21 +2,21 @@
   "type": "create:sequenced_assembly",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "create"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "wallumadditions"
         },
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:plates/steel"
+            "type": "neoforge:tag_empty",
+            "tag": "c:plates/steel"
           }
         }
       ]
@@ -26,7 +26,7 @@
     "item": "create:brass_casing"
   },
   "transitionalItem": {
-    "item": "create:railway_casing"
+    "id": "create:railway_casing"
   },
   "sequence": [
     {
@@ -36,12 +36,12 @@
           "item": "create:railway_casing"
         },
         {
-          "tag": "forge:plates/steel"
+          "tag": "c:plates/steel"
         }
       ],
       "results": [
         {
-          "item": "create:railway_casing"
+          "id": "create:railway_casing"
         }
       ]
     },
@@ -54,7 +54,7 @@
       ],
       "results": [
         {
-          "item": "create:railway_casing"
+          "id": "create:railway_casing"
         }
       ]
     },
@@ -70,7 +70,7 @@
       ],
       "results": [
         {
-          "item": "create:railway_casing"
+          "id": "create:railway_casing"
         }
       ]
     },
@@ -86,7 +86,7 @@
       ],
       "results": [
         {
-          "item": "create:railway_casing"
+          "id": "create:railway_casing"
         }
       ]
     },
@@ -102,7 +102,7 @@
       ],
       "results": [
         {
-          "item": "create:railway_casing"
+          "id": "create:railway_casing"
         }
       ]
     },
@@ -118,7 +118,7 @@
       ],
       "results": [
         {
-          "item": "create:railway_casing"
+          "id": "create:railway_casing"
         }
       ]
     }

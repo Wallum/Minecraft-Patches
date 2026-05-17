@@ -8,7 +8,7 @@
       "item": "mekanismgenerators:heat_generator"
     },
     "I": {
-      "tag": "forge:plates/iron"
+      "tag": "c:plates/iron"
     }
   },
   "pattern": [

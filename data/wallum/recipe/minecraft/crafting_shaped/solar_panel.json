@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "forge:plates/desh"
+      "tag": "c:plates/desh"
     },
     "G": {
       "item": "minecraft:blue_stained_glass"
@@ -11,11 +11,11 @@
       "item": "mekanismgenerators:solar_generator"
     },
     "S": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     }
   },
   "pattern": ["GGG", "SMS", "###"],
   "result": {
-    "item": "ad_astra:solar_panel"
+    "id": "ad_astra:solar_panel"
   }
 }

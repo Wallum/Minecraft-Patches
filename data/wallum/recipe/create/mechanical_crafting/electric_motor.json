@@ -9,10 +9,10 @@
       "item": "pneumaticcraft:capacitor"
     },
     "B": {
-      "tag": "forge:plates/brass"
+      "tag": "c:plates/brass"
     },
     "R": {
-      "tag": "forge:rods/iron"
+      "tag": "c:rods/iron"
     },
     "S": {
       "item": "immersiveengineering:coil_lv"
@@ -25,6 +25,6 @@
     }
   },
   "result": {
-    "item": "createaddition:electric_motor"
+    "id": "createaddition:electric_motor"
   }
 }

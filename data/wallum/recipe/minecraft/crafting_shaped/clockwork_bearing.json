@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "create"
     }
   ],
@@ -22,6 +22,6 @@
   },
   "pattern": [" W ", " B ", "SCS"],
   "result": {
-    "item": "create:clockwork_bearing"
+    "id": "create:clockwork_bearing"
   }
 }

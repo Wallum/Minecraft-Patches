@@ -2,18 +2,18 @@
   "type": "createaddition:rolling",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:rods/nickel"
+        "type": "neoforge:tag_empty",
+        "tag": "c:rods/nickel"
       }
     }
   ],
   "input": {
-    "tag": "forge:ingots/nickel"
+    "tag": "c:ingots/nickel"
   },
   "result": {
-    "tag": "forge:rods/nickel",
+    "tag": "c:rods/nickel",
     "count": 2
   }
 }

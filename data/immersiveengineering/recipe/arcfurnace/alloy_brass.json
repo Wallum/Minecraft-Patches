@@ -2,28 +2,28 @@
   "type": "immersiveengineering:arc_furnace",
   "additives": [
     {
-      "tag": "forge:ingots/zinc"
+      "tag": "c:ingots/zinc"
     }
   ],
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/brass"
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/brass"
       }
     },
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/zinc"
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/zinc"
       }
     }
   ],
   "energy": 51200,
   "input": {
-    "tag": "forge:ingots/copper"
+    "tag": "c:ingots/copper"
   },
   "results": [
     {

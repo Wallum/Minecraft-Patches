@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:fission_fuel_assembly"
     } ],
   "key": {
-    "I": { "tag": "forge:ingots/lead" },
-    "S": { "tag": "forge:ingots/steel" },
+    "I": { "tag": "c:ingots/lead" },
+    "S": { "tag": "c:ingots/steel" },
     "T": { "item": "mekanism:basic_chemical_tank" }
   },
   "pattern": ["ISI", "ITI", "ISI"],

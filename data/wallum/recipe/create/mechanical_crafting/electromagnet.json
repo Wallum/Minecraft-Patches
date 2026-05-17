@@ -6,10 +6,10 @@
       "item": "immersiveengineering:component_electronic"
     },
     "i": {
-      "tag": "forge:ingots/iron"
+      "tag": "c:ingots/iron"
     },
     "p": {
-      "tag": "forge:rods/steel"
+      "tag": "c:rods/steel"
     },
     "w": {
       "item": "immersiveengineering:coil_lv"
@@ -17,7 +17,7 @@
   },
   "pattern": ["pcp", "wiw", "pwp"],
   "result": {
-    "item": "immersiveengineering:electromagnet"
+    "id": "immersiveengineering:electromagnet"
   },
   "show_notification": true
 }

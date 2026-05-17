@@ -6,7 +6,7 @@
   },
   "itemInput": {
     "ingredient": {
-      "tag": "forge:dusts/iron"
+      "tag": "c:dusts/iron"
     }
   },
   "output": {

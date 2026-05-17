@@ -2,29 +2,29 @@
   "type": "createaddition:rolling",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "createaddition"
     },
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:plates/aluminum"
+        "type": "neoforge:tag_empty",
+        "tag": "c:plates/aluminum"
       }
     },
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:mod_loaded",
+        "type": "neoforge:mod_loaded",
         "modid": "immersiveengineering"
       }
     }
   ],
   "input": {
-    "tag": "forge:plates/aluminum"
+    "tag": "c:plates/aluminum"
   },
   "result": {
-    "item": "vintageimprovements:aluminum_wire",
+    "id": "vintageimprovements:aluminum_wire",
     "count": 2
   }
 }

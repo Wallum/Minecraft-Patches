@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:fusion_reactor_port"
     } ],
   "key": {
-    "C": { "tag": "forge:circuits/ultimate" },
+    "C": { "tag": "c:circuits/ultimate" },
     "F": { "item": "mekanismgenerators:fusion_reactor_frame" }
   },
   "pattern": [" F ", "FCF", " F "],

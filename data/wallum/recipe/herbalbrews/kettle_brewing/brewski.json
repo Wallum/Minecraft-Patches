@@ -2,14 +2,14 @@
   "type": "herbalbrews:kettle_brewing",
   "conditions": [
     {
-      "type": "forge:and",
+      "type": "neoforge:and",
       "values": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "create"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "herbalbrews"
         }
       ]
@@ -24,10 +24,10 @@
       "item": "minecraft:water_bucket"
     },
     {
-      "tag": "forge:milk"
+      "tag": "c:milk"
     }
   ],
   "result": {
-    "item": "create:builders_tea"
+    "id": "create:builders_tea"
   }
 }

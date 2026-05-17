@@ -2,7 +2,7 @@
   "type": "create:sequenced_assembly",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "byg"
     }
   ],
@@ -32,13 +32,13 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "c:rods/steel"
           }
         ]
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_byg_sythian"
+          "id": "railways:track_incomplete_byg_sythian"
         }
       ]
     },
@@ -50,13 +50,13 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "c:rods/steel"
           }
         ]
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_byg_sythian"
+          "id": "railways:track_incomplete_byg_sythian"
         }
       ]
     },
@@ -69,12 +69,12 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_byg_sythian"
+          "id": "railways:track_incomplete_byg_sythian"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "railways:track_incomplete_byg_sythian"
+    "id": "railways:track_incomplete_byg_sythian"
   }
 }

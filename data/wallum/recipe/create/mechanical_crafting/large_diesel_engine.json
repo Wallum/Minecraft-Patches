@@ -9,13 +9,13 @@
       "item": "createdieselgenerators:diesel_engine"
     },
     "B": {
-      "tag": "forge:storage_blocks/steel"
+      "tag": "c:storage_blocks/steel"
     },
     "S": {
-      "tag": "forge:plates/brass"
+      "tag": "c:plates/brass"
     }
   },
   "result": {
-    "item": "createdieselgenerators:large_diesel_engine"
+    "id": "createdieselgenerators:large_diesel_engine"
   }
 }

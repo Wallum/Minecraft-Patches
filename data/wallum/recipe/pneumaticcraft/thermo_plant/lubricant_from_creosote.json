@@ -11,7 +11,7 @@
     "fluid": "pneumaticcraft:lubricant"
   },
   "item_input": {
-    "tag": "forge:dusts/zinc"
+    "tag": "c:dusts/zinc"
   },
   "temperature": {
     "min_temp": 397

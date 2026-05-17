@@ -8,11 +8,11 @@
       "item": "minecraft:redstone"
     },
     "S": {
-      "tag": "forge:stone"
+      "tag": "c:stone"
     }
   },
   "pattern": ["TRT", "RTR", "SSS"],
   "result": {
-    "item": "additionalredstone:sequencer"
+    "id": "additionalredstone:sequencer"
   }
 }

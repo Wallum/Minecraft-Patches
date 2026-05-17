@@ -5,7 +5,7 @@
     "count": 1
   },
   "result": {
-    "item": "minecraft:quartz",
+    "id": "minecraft:quartz",
     "chance": 0.006
   },
   "energy": 2400,

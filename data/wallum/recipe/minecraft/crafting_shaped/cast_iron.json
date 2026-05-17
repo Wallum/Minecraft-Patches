@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "createdeco:cast_iron_sheet"
     }
   ],
@@ -13,7 +13,7 @@
     }
   },
   "result": {
-    "item": "createdeco:cast_iron_sheet_metal",
+    "id": "createdeco:cast_iron_sheet_metal",
     "count": 4
   }
 }

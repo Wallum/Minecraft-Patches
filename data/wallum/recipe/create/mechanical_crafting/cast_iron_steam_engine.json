@@ -3,7 +3,7 @@
   "pattern": ["FFSFF", "FFSFF", "CCCCC", "PIIIP"],
   "key": {
     "P": {
-      "tag": "forge:plates/cast_iron"
+      "tag": "c:plates/cast_iron"
     },
     "I": [
       {
@@ -24,6 +24,6 @@
     }
   },
   "result": {
-    "item": "steampowered:cast_iron_steam_engine"
+    "id": "steampowered:cast_iron_steam_engine"
   }
 }

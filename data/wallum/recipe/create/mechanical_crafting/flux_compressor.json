@@ -9,7 +9,7 @@
       "item": "pneumaticcraft:capacitor"
     },
     "B": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "c:ingots/compressed_iron"
     },
     "R": {
       "item": "compressedcreativity:engine_rotor"
@@ -25,6 +25,6 @@
     }
   },
   "result": {
-    "item": "pneumaticcraft:flux_compressor"
+    "id": "pneumaticcraft:flux_compressor"
   }
 }

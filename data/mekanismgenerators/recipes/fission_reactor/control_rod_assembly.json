@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:control_rod_assembly"
     } ],
   "key": {
-    "C": { "tag": "forge:circuits/elite" },
-    "I": { "tag": "forge:ingots/lead" },
-    "S": { "tag": "forge:ingots/steel" }
+    "C": { "tag": "c:circuits/elite" },
+    "I": { "tag": "c:ingots/lead" },
+    "S": { "tag": "c:ingots/steel" }
   },
   "pattern": ["ICI", "SIS", "SIS"],
   "result": { "item": "mekanismgenerators:control_rod_assembly" }

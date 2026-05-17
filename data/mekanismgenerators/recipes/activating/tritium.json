@@ -2,7 +2,7 @@
   "type": "mekanism:activating",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:tritium"
     } ],
   "input": { "amount": 1, "gas": "mekanism:lithium" },

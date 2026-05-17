@@ -3,7 +3,7 @@
   "pattern": ["FSFSF", "FSFSF", "FSFSF", "FSFSF", "CCCCC", "PIIIP"],
   "key": {
     "P": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     },
     "I": [
       {
@@ -24,6 +24,6 @@
     }
   },
   "result": {
-    "item": "steampowered:steel_steam_engine"
+    "id": "steampowered:steel_steam_engine"
   }
 }

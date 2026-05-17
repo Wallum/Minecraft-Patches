@@ -19,7 +19,7 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_tieless_narrow"
+          "id": "railways:track_incomplete_tieless_narrow"
         }
       ]
     },
@@ -31,13 +31,13 @@
         },
         [
           {
-            "tag": "forge:rods/steel"
+            "tag": "c:rods/steel"
           }
         ]
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_tieless_narrow"
+          "id": "railways:track_incomplete_tieless_narrow"
         }
       ]
     },
@@ -50,12 +50,12 @@
       ],
       "results": [
         {
-          "item": "railways:track_incomplete_tieless_narrow"
+          "id": "railways:track_incomplete_tieless_narrow"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "railways:track_incomplete_tieless_narrow"
+    "id": "railways:track_incomplete_tieless_narrow"
   }
 }

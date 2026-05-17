@@ -4,7 +4,7 @@
 	"heatRequirement": "heated",
 	"ingredients": [ 
 		{
-			"tag": "forge:dusts/sulfur",
+			"tag": "c:dusts/sulfur",
             "amount": 3
 		}
 	],

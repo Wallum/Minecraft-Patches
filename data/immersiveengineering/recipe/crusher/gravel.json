@@ -2,10 +2,10 @@
   "type": "immersiveengineering:crusher",
   "energy": 1600,
   "input": {
-    "tag": "forge:gravel"
+    "tag": "c:gravel"
   },
   "result": {
-    "item": "minecraft:sand"
+    "id": "minecraft:sand"
   },
   "secondaries": [
     {
@@ -17,7 +17,7 @@
     {
       "chance": 0.05,
       "output": {
-        "tag": "forge:dusts/chalk"
+        "tag": "c:dusts/chalk"
       }
     },
     {

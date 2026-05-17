@@ -2,18 +2,18 @@
   "type": "createaddition:rolling",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:rods/uranium"
+        "type": "neoforge:tag_empty",
+        "tag": "c:rods/uranium"
       }
     }
   ],
   "input": {
-    "tag": "forge:ingots/uranium"
+    "tag": "c:ingots/uranium"
   },
   "result": {
-    "tag": "forge:rods/uranium",
+    "tag": "c:rods/uranium",
     "count": 2
   }
 }

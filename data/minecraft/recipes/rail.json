@@ -5,7 +5,7 @@
       "item": "immersiveengineering:stick_treated"
     },
     "X": {
-      "tag": "forge:rods/iron"
+      "tag": "c:rods/iron"
     }
   },
   "pattern": ["X#X", "X X", "X#X"],

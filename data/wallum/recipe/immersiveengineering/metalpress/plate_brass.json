@@ -2,30 +2,30 @@
   "type": "immersiveengineering:metal_press",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/brass"
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/brass"
       }
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "create:brass_sheet"
     },
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:plates/brass"
+        "type": "neoforge:tag_empty",
+        "tag": "c:plates/brass"
       }
     }
   ],
   "energy": 2400,
   "input": {
-    "tag": "forge:ingots/brass"
+    "tag": "c:ingots/brass"
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {
-    "item": "create:brass_sheet"
+    "id": "create:brass_sheet"
   }
 }

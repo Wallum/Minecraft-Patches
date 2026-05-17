@@ -2,9 +2,9 @@
   "type": "createbigcannons:melting",
   "conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:tag_empty",
+        "type": "neoforge:tag_empty",
         "tag": "createbigcannons:ingot_cast_iron"
       }
     }
@@ -15,14 +15,14 @@
       "item": "create:crushed_raw_iron"
     },
     {
-      "tag": "forge:dusts/charcoal"
+      "tag": "c:dusts/charcoal"
     }
   ],
   "processingTime": 180,
   "results": [
     {
       "amount": 90,
-      "fluid": "createbigcannons:molten_cast_iron"
+      "id": "createbigcannons:molten_cast_iron"
     }
   ]
 }

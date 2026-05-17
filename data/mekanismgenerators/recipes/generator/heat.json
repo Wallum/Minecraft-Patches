@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:heat_generator"
     }
   ],
@@ -12,10 +12,10 @@
       "item": "minecraft:furnace"
     },
     "I": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     },
     "C": {
-      "tag": "forge:storage_blocks/copper"
+      "tag": "c:storage_blocks/copper"
     },
     "c": {
       "item": "mekanism:basic_control_circuit"

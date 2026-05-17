@@ -6,7 +6,7 @@
       "item": "create:shaft"
     },
     "s": {
-      "tag": "forge:rods/steel"
+      "tag": "c:rods/steel"
     },
     "C": {
       "item": "immersiveengineering:coil_lv"

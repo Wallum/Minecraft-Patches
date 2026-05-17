@@ -4,17 +4,17 @@
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 3,
-      "tag": "forge:wires"
+      "tag": "c:wires"
     },
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 2,
-      "tag": "forge:plates/zinc"
+      "tag": "c:plates/zinc"
     },
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 2,
-      "tag": "forge:plates/copper"
+      "tag": "c:plates/copper"
     },
     {
       "type": "pneumaticcraft:stacked_item",

@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:plates/iron"
+      "tag": "c:plates/iron"
     },
     {
       "item": "immersiveengineering:wirecutter"
     }
   ],
   "result": {
-    "item": "createaddition:iron_wire"
+    "id": "createaddition:iron_wire"
   }
 }

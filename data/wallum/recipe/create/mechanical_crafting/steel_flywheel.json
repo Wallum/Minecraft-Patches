@@ -9,14 +9,14 @@
       "item": "create:flywheel"
     },
     "A": {
-      "tag": "forge:storage_blocks/steel"
+      "tag": "c:storage_blocks/steel"
     },
     "C": {
       "item": "steampowered:steel_large_cogwheel"
     }
   },
   "result": {
-    "item": "steampowered:steel_flywheel",
+    "id": "steampowered:steel_flywheel",
     "count": 1
   }
 }

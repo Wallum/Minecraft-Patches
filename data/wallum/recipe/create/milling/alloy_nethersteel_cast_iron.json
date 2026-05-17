@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "tag": "forge:coal_coke"
+      "tag": "c:coal_coke"
     }
   ],
   "results": [

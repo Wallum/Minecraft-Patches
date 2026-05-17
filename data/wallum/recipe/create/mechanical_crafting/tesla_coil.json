@@ -9,7 +9,7 @@
       "item": "pneumaticcraft:capacitor"
     },
     "P": {
-      "tag": "forge:plates/brass"
+      "tag": "c:plates/brass"
     },
     "B": {
       "item": "create:brass_casing"
@@ -22,6 +22,6 @@
     }
   },
   "result": {
-    "item": "createaddition:tesla_coil"
+    "id": "createaddition:tesla_coil"
   }
 }

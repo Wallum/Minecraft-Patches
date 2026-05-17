@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:fusion_reactor_controller"
     } ],
   "key": {
-    "C": { "tag": "forge:circuits/ultimate" },
+    "C": { "tag": "c:circuits/ultimate" },
     "F": { "item": "mekanismgenerators:fusion_reactor_frame" },
-    "G": { "tag": "forge:glass_panes" },
+    "G": { "tag": "c:glass_panes" },
     "T": { "item": "mekanism:basic_chemical_tank" }
   },
   "pattern": ["CGC", "FTF", "FFF"],

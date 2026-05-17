@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mekanismgenerators:fusion_reactor_frame"
     } ],
   "key": {
-    "#": { "tag": "forge:pellets/polonium" },
-    "A": { "tag": "forge:alloys/ultimate" },
+    "#": { "tag": "c:pellets/polonium" },
+    "A": { "tag": "c:alloys/ultimate" },
     "X": { "item": "mekanism:steel_casing" }
   },
   "pattern": ["A#A", "#X#", "A#A"],
