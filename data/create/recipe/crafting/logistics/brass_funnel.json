@@ -1,25 +1,29 @@
 {
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "A": {
-      "tag": "c:ingots/brass"
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "key": {
+        "A": {
+            "tag": "c:ingots/brass"
+        },
+        "E": {
+            "item": "create:precision_mechanism"
+        },
+        "K": {
+            "item": "minecraft:dried_kelp"
+        }
     },
-    "E": {
-      "item": "create:precision_mechanism"
-    },
-    "K": {
-      "item": "minecraft:dried_kelp"
+    "pattern": [
+        "E",
+        "A",
+        "K"
+    ],
+    "result": {
+        "count": 2,
+        "id": "create:brass_funnel"
     }
-  },
-  "pattern": ["E", "A", "K"],
-  "result": {
-    "count": 2,
-    "id": "create:brass_funnel"
-  }
 }

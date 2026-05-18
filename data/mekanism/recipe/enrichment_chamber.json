@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"neoforge:ingots/iron"},"X":{"item":"mekanism:steel_casing"}},"pattern":["ACA","IXI","ACA"],"result":{"item":"mekanism:enrichment_chamber"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/iron"},"X":{"item":"mekanism:steel_casing"}},"pattern":["ACA","IXI","ACA"],"result":{"id":"mekanism:enrichment_chamber"}}

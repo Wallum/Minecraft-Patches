@@ -11,7 +11,7 @@
             "tag":"neoforge:barrels/wooden"
         },
         "S":{
-            "tag":"neoforge:ingots/steel"
+            "tag":"c:ingots/steel"
         }
     },
     "pattern":[

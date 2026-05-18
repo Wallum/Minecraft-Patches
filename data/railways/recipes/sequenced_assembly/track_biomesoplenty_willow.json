@@ -20,7 +20,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_biomesoplenty_willow"
+      "id": "railways:track_biomesoplenty_willow"
     }
   ],
   "sequence": [
@@ -74,7 +74,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_biomesoplenty_willow"
   }
 }

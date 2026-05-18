@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:gems/diamond"},"E":{"item":"mekanism:basic_energy_cube"},"S":{"tag":"neoforge:ingots/steel"}},"pattern":["SSS","SE#","SSS"],"result":{"item":"mekanism:laser_amplifier"}}
+{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:gems/diamond"},"E":{"item":"mekanism:basic_energy_cube"},"S":{"tag":"c:ingots/steel"}},"pattern":["SSS","SE#","SSS"],"result":{"id":"mekanism:laser_amplifier"}}

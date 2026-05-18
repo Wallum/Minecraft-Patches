@@ -20,7 +20,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_twilightforest_sortingwood"
+      "id": "railways:track_twilightforest_sortingwood"
     }
   ],
   "sequence": [
@@ -74,7 +74,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_twilightforest_sortingwood"
   }
 }

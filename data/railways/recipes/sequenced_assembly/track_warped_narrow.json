@@ -6,7 +6,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_warped_narrow"
+      "id": "railways:track_warped_narrow"
     }
   ],
   "sequence": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_warped_narrow"
   }
 }

@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"neoforge:pellets/polonium"},"G":{"tag":"neoforge:glass_panes"},"I":{"tag":"neoforge:ingots/lead"},"T":{"item":"mekanism:teleportation_core"}},"pattern":["IAI","AGA","ITI"],"result":{"item":"mekanism:qio_dashboard"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"neoforge:pellets/polonium"},"G":{"tag":"neoforge:glass_panes"},"I":{"tag":"c:ingots/lead"},"T":{"item":"mekanism:teleportation_core"}},"pattern":["IAI","AGA","ITI"],"result":{"id":"mekanism:qio_dashboard"}}

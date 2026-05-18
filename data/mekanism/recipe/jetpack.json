@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"neoforge:ingots/tin"},"S":{"tag":"neoforge:ingots/steel"},"T":{"item":"mekanism:basic_chemical_tank"}},"pattern":["SCS","ITI"," I "],"result":{"item":"mekanism:jetpack"}}
+{"type":"create:mechanical_crafting","key":{"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/tin"},"S":{"tag":"c:ingots/steel"},"T":{"item":"mekanism:basic_chemical_tank"}},"pattern":["SCS","ITI"," I "],"result":{"id":"mekanism:jetpack"}}

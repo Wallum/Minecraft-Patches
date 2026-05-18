@@ -8,7 +8,7 @@
   "processingTime": 250,
   "results": [
     {
-      "item": "destroy:zinc_powder"
+      "id": "destroy:zinc_powder"
     },
     {
       "chance": 0.165,

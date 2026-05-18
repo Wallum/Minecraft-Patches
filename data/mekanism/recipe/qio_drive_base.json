@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:pellets/polonium"},"C":{"item":"mekanism:ultimate_control_circuit"},"I":{"tag":"neoforge:ingots/lead"}},"pattern":["ICI","C#C","ICI"],"result":{"item":"mekanism:qio_drive_base"}}
+{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:pellets/polonium"},"C":{"item":"mekanism:ultimate_control_circuit"},"I":{"tag":"c:ingots/lead"}},"pattern":["ICI","C#C","ICI"],"result":{"id":"mekanism:qio_drive_base"}}

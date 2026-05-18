@@ -29,7 +29,7 @@
   "loops": 4,
   "results": [
     {
-      "item": "vintageimprovements:redstone_module"
+      "id": "vintageimprovements:redstone_module"
     }
   ],
   "sequence": [
@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "vintageimprovements:incomplete_redstone_module"
   }
 }

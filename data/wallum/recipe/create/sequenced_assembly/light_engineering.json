@@ -6,12 +6,12 @@
   "loops": 2,
   "results": [
     {
-      "item": "immersiveengineering:light_engineering",
+      "id": "immersiveengineering:light_engineering",
       "count": 1
     }
   ],
   "transitional_item": {
-    "item": "create:brass_casing"
+    "id": "create:brass_casing"
   },
   "sequence": [
     {

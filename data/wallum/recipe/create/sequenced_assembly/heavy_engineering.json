@@ -11,7 +11,7 @@
     }
   ],
   "transitional_item": {
-    "item": "immersiveengineering:light_engineering"
+    "id": "immersiveengineering:light_engineering"
   },
   "sequence": [
     {

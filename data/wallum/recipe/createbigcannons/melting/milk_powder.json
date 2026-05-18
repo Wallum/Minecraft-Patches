@@ -10,7 +10,7 @@
   "processingTime": 600,
   "results": [
     {
-      "item": "createfood:milk_powder"
+      "id": "createfood:milk_powder"
     }
   ]
 }

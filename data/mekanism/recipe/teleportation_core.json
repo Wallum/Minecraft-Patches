@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:gems/lapis"},"A":{"tag":"mekanism:alloys/atomic"},"D":{"tag":"neoforge:gems/diamond"},"I":{"tag":"neoforge:ingots/gold"}},"pattern":["#A#","IDI","#A#"],"result":{"item":"mekanism:teleportation_core"}}
+{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:gems/lapis"},"A":{"tag":"mekanism:alloys/atomic"},"D":{"tag":"neoforge:gems/diamond"},"I":{"tag":"c:ingots/gold"}},"pattern":["#A#","IDI","#A#"],"result":{"id":"mekanism:teleportation_core"}}

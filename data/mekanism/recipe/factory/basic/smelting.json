@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"neoforge:ingots/iron"},"P":{"item":"mekanism:energized_smelter"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:basic_smelting_factory"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/iron"},"P":{"item":"mekanism:energized_smelter"}},"pattern":["ACA","IPI","ACA"],"result":{"id":"mekanism:basic_smelting_factory"}}

@@ -1,18 +1,22 @@
 {
-  "type": "create:mechanical_crafting",
-  "key": {
-    "A": {
-      "item": "create:fluid_tank"
+    "type": "create:mechanical_crafting",
+    "key": {
+        "A": {
+            "item": "create:fluid_tank"
+        },
+        "I": {
+            "tag": "c:ingots/steel"
+        },
+        "C": {
+            "tag": "c:circuits/basic"
+        }
     },
-    "I": {
-      "tag": "c:ingots/steel"
-    },
-    "C": {
-      "tag": "c:circuits/basic"
+    "pattern": [
+        "AIA",
+        "ICI",
+        "AIA"
+    ],
+    "result": {
+        "id": "mekanism:basic_fluid_tank"
     }
-  },
-  "pattern": ["AIA", "ICI", "AIA"],
-  "result": {
-    "id": "mekanism:basic_fluid_tank"
-  }
 }

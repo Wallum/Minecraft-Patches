@@ -31,7 +31,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_spruce",
+      "id": "railways:track_spruce",
       "count": 4
     }
   ],
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_spruce"
   }
 }

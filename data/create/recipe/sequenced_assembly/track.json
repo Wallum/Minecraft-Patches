@@ -8,13 +8,8 @@
           "modid": "create"
         },
         {
-          "type": "neoforge:or",
-          "values": [
-            {
-              "type": "neoforge:tag_empty",
-              "tag": "c:rods/steel"
-            }
-          ]
+          "type": "neoforge:tag_empty",
+          "tag": "c:rods/steel"
         }
       ]
     }

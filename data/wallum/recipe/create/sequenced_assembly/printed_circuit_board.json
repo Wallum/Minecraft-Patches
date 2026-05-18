@@ -4,7 +4,7 @@
     "item": "pneumaticcraft:unassembled_pcb"
   },
   "transitional_item": {
-    "item": "pneumaticcraft:printed_circuit_board"
+    "id": "pneumaticcraft:printed_circuit_board"
   },
   "sequence": [
     {
@@ -74,7 +74,7 @@
   ],
   "results": [
     {
-      "item": "pneumaticcraft:printed_circuit_board",
+      "id": "pneumaticcraft:printed_circuit_board",
       "count": 1
     }
   ],

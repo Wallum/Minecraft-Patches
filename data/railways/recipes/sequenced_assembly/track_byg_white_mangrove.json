@@ -20,7 +20,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_byg_white_mangrove"
+      "id": "railways:track_byg_white_mangrove"
     }
   ],
   "sequence": [
@@ -74,7 +74,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_byg_white_mangrove"
   }
 }

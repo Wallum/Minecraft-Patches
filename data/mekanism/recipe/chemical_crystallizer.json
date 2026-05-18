@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"neoforge:gems/fluorite"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"neoforge:ingots/refined_obsidian"},"X":{"item":"mekanism:steel_casing"}},"pattern":["IAI","CXC","IAI"],"result":{"item":"mekanism:chemical_crystallizer"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"neoforge:gems/fluorite"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"c:ingots/refined_obsidian"},"X":{"item":"mekanism:steel_casing"}},"pattern":["IAI","CXC","IAI"],"result":{"id":"mekanism:chemical_crystallizer"}}

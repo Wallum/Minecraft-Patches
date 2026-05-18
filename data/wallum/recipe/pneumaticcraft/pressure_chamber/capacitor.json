@@ -31,7 +31,7 @@
   "pressure": 1.0,
   "results": [
     {
-      "item": "pneumaticcraft:capacitor",
+      "id": "pneumaticcraft:capacitor",
       "count": 2
     }
   ]

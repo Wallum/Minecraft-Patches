@@ -1,27 +1,30 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:tag_empty",
-        "tag": "c:nuggets/nickel"
-      }
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "L": {
-      "item": "create:polished_rose_quartz"
+    "type": "minecraft:crafting_shaped",
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:nuggets/nickel"
+            }
+        }
+    ],
+    "key": {
+        "L": {
+            "item": "create:polished_rose_quartz"
+        },
+        "n": {
+            "tag": "c:nuggets/nickel"
+        },
+        "N": {
+            "tag": "c:plates/iron"
+        }
     },
-    "n": {
-      "tag": "c:nuggets/nickel"
-    },
-    "N": {
-      "tag": "c:plates/iron"
+    "pattern": [
+        " L ",
+        "nNn"
+    ],
+    "result": {
+        "id": "create:electron_tube"
     }
-  },
-  "pattern": [" L ", "nNn"],
-  "result": {
-    "id": "create:electron_tube"
-  }
 }

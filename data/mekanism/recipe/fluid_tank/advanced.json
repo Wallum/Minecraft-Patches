@@ -1,1 +1,22 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"I":{"tag":"neoforge:ingots/iron"},"P":{"item":"mekanism:basic_fluid_tank"}},"pattern":["AIA","IPI","AIA"],"result":{"item":"mekanism:advanced_fluid_tank"}}
+{
+    "type": "create:mechanical_crafting",
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "I": {
+            "tag": "c:ingots/iron"
+        },
+        "P": {
+            "item": "mekanism:basic_fluid_tank"
+        }
+    },
+    "pattern": [
+        "AIA",
+        "IPI",
+        "AIA"
+    ],
+    "result": {
+        "item": "mekanism:advanced_fluid_tank"
+    }
+}

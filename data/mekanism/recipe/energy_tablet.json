@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"I":{"tag":"neoforge:ingots/gold"},"R":{"tag":"neoforge:dusts/redstone"}},"pattern":["RIR","AIA","RIR"],"result":{"item":"mekanism:energy_tablet"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"I":{"tag":"c:ingots/gold"},"R":{"tag":"neoforge:dusts/redstone"}},"pattern":["RIR","AIA","RIR"],"result":{"id":"mekanism:energy_tablet"}}

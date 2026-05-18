@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:book"},"C":{"tag":"neoforge:circuits/basic"}},"pattern":["C","#"],"result":{"item":"mekanism:dictionary"}}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:book"},"C":{"tag":"neoforge:circuits/basic"}},"pattern":["C","#"],"result":{"id":"mekanism:dictionary"}}

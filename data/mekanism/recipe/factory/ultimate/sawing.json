@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"neoforge:gems/diamond"},"P":{"item":"mekanism:elite_sawing_factory"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:ultimate_sawing_factory"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"neoforge:gems/diamond"},"P":{"item":"mekanism:elite_sawing_factory"}},"pattern":["ACA","IPI","ACA"],"result":{"id":"mekanism:ultimate_sawing_factory"}}

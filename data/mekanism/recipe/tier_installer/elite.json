@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/reinforced"},"C":{"tag":"neoforge:circuits/elite"},"I":{"tag":"neoforge:ingots/gold"},"P":{"tag":"minecraft:planks"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:elite_tier_installer"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/reinforced"},"C":{"tag":"neoforge:circuits/elite"},"I":{"tag":"c:ingots/gold"},"P":{"tag":"minecraft:planks"}},"pattern":["ACA","IPI","ACA"],"result":{"id":"mekanism:elite_tier_installer"}}

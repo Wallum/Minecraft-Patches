@@ -1,75 +1,75 @@
 {
-  "type": "create:sequenced_assembly",
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "biomesoplenty"
-    }
-  ],
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "biomesoplenty"
-      ]
-    }
-  ],
-  "ingredient": {
-    "item": "biomesoplenty:cherry_slab"
-  },
-  "loops": 1,
-  "results": [
-    {
-      "item": "railways:track_biomesoplenty_cherry_narrow"
-    }
-  ],
-  "sequence": [
-    {
-      "type": "create:cutting",
-      "ingredients": [
+    "type": "create:sequenced_assembly",
+    "conditions": [
         {
-          "item": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
         }
-      ],
-      "results": [
+    ],
+    "fabric:load_conditions": [
         {
-          "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "biomesoplenty"
+            ]
         }
-      ]
+    ],
+    "ingredient": {
+        "item": "biomesoplenty:cherry_slab"
     },
-    {
-      "type": "create:deploying",
-      "ingredients": [
+    "loops": 1,
+    "results": [
         {
-          "item": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+            "id": "railways:track_biomesoplenty_cherry_narrow"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+                }
+            ],
+            "results": [
+                {
+                    "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+                }
+            ]
         },
-        [
-          {
-            "tag": "c:rods/steel"
-          }
-        ]
-      ],
-      "results": [
         {
-          "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
-        }
-      ]
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+                },
+                [
+                    {
+                        "tag": "c:rods/steel"
+                    }
+                ]
+            ],
+            "results": [
+                {
+                    "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+                }
+            ]
+        },
         {
-          "item": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+                }
+            ],
+            "results": [
+                {
+                    "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
+                }
+            ]
         }
-      ],
-      "results": [
-        {
-          "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
-        }
-      ]
+    ],
+    "transitional_item": {
+        "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
     }
-  ],
-  "transitionalItem": {
-    "id": "railways:track_incomplete_biomesoplenty_cherry_narrow"
-  }
 }

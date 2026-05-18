@@ -20,7 +20,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_byg_green_enchanted_narrow"
+      "id": "railways:track_byg_green_enchanted_narrow"
     }
   ],
   "sequence": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_byg_green_enchanted_narrow"
   }
 }

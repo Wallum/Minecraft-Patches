@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"neoforge:ingots/lead"}},"pattern":[" I ","ICI"," I "],"result":{"item":"mekanism:geiger_counter"}}
+{"type":"create:mechanical_crafting","key":{"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/lead"}},"pattern":[" I ","ICI"," I "],"result":{"id":"mekanism:geiger_counter"}}

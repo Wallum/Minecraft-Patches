@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:electrolytic_core"},"A":{"tag":"mekanism:alloys/infused"},"I":{"tag":"neoforge:ingots/iron"},"R":{"tag":"neoforge:dusts/redstone"}},"pattern":["IRI","A#A","IRI"],"result":{"item":"mekanism:electrolytic_separator"}}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:electrolytic_core"},"A":{"tag":"mekanism:alloys/infused"},"I":{"tag":"c:ingots/iron"},"R":{"tag":"neoforge:dusts/redstone"}},"pattern":["IRI","A#A","IRI"],"result":{"id":"mekanism:electrolytic_separator"}}

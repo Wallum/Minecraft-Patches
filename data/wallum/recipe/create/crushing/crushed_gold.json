@@ -8,7 +8,7 @@
   "processingTime": 250,
   "results": [
     {
-      "item": "immersiveengineering:dust_gold"
+      "id": "immersiveengineering:dust_gold"
     },
     {
       "chance": 0.75,

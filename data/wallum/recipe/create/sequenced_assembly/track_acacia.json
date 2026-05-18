@@ -35,7 +35,7 @@
   "loops": 1,
   "results": [
     {
-      "item": "railways:track_acacia",
+      "id": "railways:track_acacia",
       "count": 4
     }
   ],
@@ -157,7 +157,7 @@
       ]
     }
   ],
-  "transitionalItem": {
+  "transitional_item": {
     "id": "railways:track_incomplete_acacia"
   }
 }

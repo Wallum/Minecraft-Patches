@@ -23,7 +23,7 @@
   "pressure": 1.0,
   "results": [
     {
-      "item": "pneumaticcraft:transistor",
+      "id": "pneumaticcraft:transistor",
       "count": 2
     }
   ]

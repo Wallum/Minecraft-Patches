@@ -11,7 +11,7 @@
     }
   ],
   "transitional_item": {
-    "item": "immersiveengineering:coil_lv"
+    "id": "immersiveengineering:coil_lv"
   },
   "sequence": [
     {

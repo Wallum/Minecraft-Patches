@@ -25,7 +25,7 @@
   "ingredient": {
     "item": "create:brass_casing"
   },
-  "transitionalItem": {
+  "transitional_item": {
     "id": "create:railway_casing"
   },
   "sequence": [
@@ -125,7 +125,7 @@
   ],
   "results": [
     {
-      "item": "create:railway_casing",
+      "id": "create:railway_casing",
       "count": 1
     }
   ],

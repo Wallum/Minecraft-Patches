@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"neoforge:gems/diamond"},"P":{"tag":"minecraft:planks"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:ultimate_tier_installer"}}
+{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"neoforge:gems/diamond"},"P":{"tag":"minecraft:planks"}},"pattern":["ACA","IPI","ACA"],"result":{"id":"mekanism:ultimate_tier_installer"}}

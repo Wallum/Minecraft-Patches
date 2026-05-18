@@ -1,1 +1,1 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:piston"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"neoforge:ingots/iron"}},"pattern":["I#I","ICI","III"],"result":{"item":"mekanism:logistical_sorter"}}
+{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:piston"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/iron"}},"pattern":["I#I","ICI","III"],"result":{"id":"mekanism:logistical_sorter"}}

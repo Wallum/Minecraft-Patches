@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "superheated",
+  "heat_requirement": "superheated",
   "ingredients": [
     {
       "item": "kubejs:blasting_mixture"
@@ -11,8 +11,8 @@
   ],
   "results": [
     {
-      "id": "immersiveengineering:ingot_steel",
-      "count": 1
+      "id": "createbigcannons:molten_steel",
+      "count": 90
     },
     {
       "id": "immersiveengineering:slag",

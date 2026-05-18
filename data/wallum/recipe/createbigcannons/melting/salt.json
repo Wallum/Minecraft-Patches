@@ -10,7 +10,7 @@
   "processingTime": 600,
   "results": [
     {
-      "item": "createfood:salt"
+      "id": "createfood:salt"
     }
   ]
 }
