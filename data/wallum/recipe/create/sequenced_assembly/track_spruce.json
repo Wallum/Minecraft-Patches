@@ -56,9 +56,9 @@
           "item": "railways:track_incomplete_spruce"
         },
         {
+          "type": "neoforge:single",
           "amount": 125,
-          "fluid": "immersiveengineering:creosote",
-          "nbt": {}
+          "fluid": "immersiveengineering:creosote"
         }
       ],
       "results": [

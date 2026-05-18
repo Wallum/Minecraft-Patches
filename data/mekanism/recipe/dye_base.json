@@ -2,10 +2,10 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "neoforge:sawdust"
+            "tag": "c:sawdust"
         },
         {
-            "tag": "neoforge:sawdust"
+            "tag": "c:sawdust"
         },
         {
             "item": "minecraft:clay_ball"

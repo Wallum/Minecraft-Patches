@@ -56,9 +56,9 @@
           "item": "create:incomplete_track"
         },
         {
+          "type": "neoforge:single",
           "amount": 125,
-          "fluid": "immersiveengineering:creosote",
-          "nbt": {}
+          "fluid": "immersiveengineering:creosote"
         }
       ],
       "results": [

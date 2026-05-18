@@ -2,13 +2,13 @@
     "type": "create:mechanical_crafting",
     "key": {
         "#": {
-            "tag": "neoforge:dusts/iron"
+            "tag": "c:dusts/iron"
         },
         "A": {
             "tag": "mekanism:alloys/infused"
         },
         "G": {
-            "tag": "neoforge:glass"
+            "tag": "c:glass"
         }
     },
     "pattern": [

@@ -5,9 +5,9 @@
       "item": "minecraft:weathered_copper"
     },
     {
+      "type": "neoforge:single",
       "amount": 250,
-      "fluid": "immersiveengineering:redstone_acid",
-      "nbt": {}
+      "fluid": "immersiveengineering:redstone_acid"
     }
   ],
   "results": [

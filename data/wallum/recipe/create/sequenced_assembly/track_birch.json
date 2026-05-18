@@ -60,9 +60,9 @@
           "item": "railways:track_incomplete_birch"
         },
         {
+          "type": "neoforge:single",
           "amount": 125,
-          "fluid": "immersiveengineering:creosote",
-          "nbt": {}
+          "fluid": "immersiveengineering:creosote"
         }
       ],
       "results": [
