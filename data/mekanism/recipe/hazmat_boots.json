@@ -1,1 +1,19 @@
-{"type":"create:mechanical_crafting","key":{"D":{"tag":"neoforge:dyes/black"},"I":{"tag":"c:ingots/lead"}},"pattern":["I I","IDI"],"result":{"id":"mekanism:hazmat_boots"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "D": {
+            "tag": "neoforge:dyes/black"
+        },
+        "I": {
+            "tag": "c:ingots/lead"
+        }
+    },
+    "pattern": [
+        "I I",
+        "IDI"
+    ],
+    "result": {
+        "id": "mekanism:hazmat_boots"
+    }
+}

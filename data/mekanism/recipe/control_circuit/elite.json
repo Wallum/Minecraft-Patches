@@ -1,9 +1,18 @@
 {
   "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
   "key": {
-    "A": { "tag": "mekanism:alloys/reinforced" },
-    "C": { "tag": "c:circuits/advanced" }
+    "A": {
+      "tag": "mekanism:alloys/reinforced"
+    },
+    "C": {
+      "tag": "c:circuits/advanced"
+    }
   },
-  "pattern": ["ACA"],
-  "result": { "item": "mekanism:elite_control_circuit" }
+  "pattern": [
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism:elite_control_circuit"
+  }
 }

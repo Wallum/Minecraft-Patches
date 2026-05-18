@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"neoforge:circuits/ultimate"},"I":{"tag":"c:ingots/refined_obsidian"},"T":{"item":"mekanism:teleportation_core"}},"pattern":["ICI","ATA","ICI"],"result":{"id":"mekanism:quantum_entangloporter"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "C": {
+            "tag": "neoforge:circuits/ultimate"
+        },
+        "I": {
+            "tag": "c:ingots/refined_obsidian"
+        },
+        "T": {
+            "item": "mekanism:teleportation_core"
+        }
+    },
+    "pattern": [
+        "ICI",
+        "ATA",
+        "ICI"
+    ],
+    "result": {
+        "id": "mekanism:quantum_entangloporter"
+    }
+}

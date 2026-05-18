@@ -1,1 +1,29 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:tnt"},"A":{"tag":"neoforge:alloys/ultimate"},"C":{"tag":"neoforge:circuits/ultimate"},"H":{"tag":"neoforge:pellets/polonium"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","CPC","HHH"],"result":{"id":"mekanism:module_blasting_unit"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "minecraft:tnt"
+        },
+        "A": {
+            "tag": "neoforge:alloys/ultimate"
+        },
+        "C": {
+            "tag": "neoforge:circuits/ultimate"
+        },
+        "H": {
+            "tag": "neoforge:pellets/polonium"
+        },
+        "P": {
+            "item": "mekanism:module_base"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "CPC",
+        "HHH"
+    ],
+    "result": {
+        "id": "mekanism:module_blasting_unit"
+    }
+}

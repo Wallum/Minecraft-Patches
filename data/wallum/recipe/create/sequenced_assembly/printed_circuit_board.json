@@ -6,6 +6,7 @@
   "transitional_item": {
     "id": "pneumaticcraft:printed_circuit_board"
   },
+  "loops": 1,
   "sequence": [
     {
       "type": "create:deploying",
@@ -77,6 +78,5 @@
       "id": "pneumaticcraft:printed_circuit_board",
       "count": 1
     }
-  ],
-  "loops": 1
+  ]
 }

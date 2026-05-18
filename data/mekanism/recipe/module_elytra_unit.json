@@ -1,1 +1,29 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:hdpe_elytra"},"A":{"tag":"neoforge:alloys/elite"},"H":{"tag":"neoforge:pellets/polonium"},"N":{"item":"mekanism:pellet_antimatter"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","APA","HNH"],"result":{"id":"mekanism:module_elytra_unit"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "mekanism:hdpe_elytra"
+        },
+        "A": {
+            "tag": "neoforge:alloys/elite"
+        },
+        "H": {
+            "tag": "neoforge:pellets/polonium"
+        },
+        "N": {
+            "item": "mekanism:pellet_antimatter"
+        },
+        "P": {
+            "item": "mekanism:module_base"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "APA",
+        "HNH"
+    ],
+    "result": {
+        "id": "mekanism:module_elytra_unit"
+    }
+}

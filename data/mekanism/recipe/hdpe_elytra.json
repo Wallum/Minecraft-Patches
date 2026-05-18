@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"H":{"item":"mekanism:hdpe_sheet"},"P":{"item":"minecraft:elytra"}},"pattern":["AHA","HPH","H H"],"result":{"id":"mekanism:hdpe_elytra"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "H": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "P": {
+            "item": "minecraft:elytra"
+        }
+    },
+    "pattern": [
+        "AHA",
+        "HPH",
+        "H H"
+    ],
+    "result": {
+        "id": "mekanism:hdpe_elytra"
+    }
+}

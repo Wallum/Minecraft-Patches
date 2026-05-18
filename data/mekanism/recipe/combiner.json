@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/reinforced"},"C":{"tag":"neoforge:circuits/elite"},"X":{"item":"mekanism:steel_casing"},"_":{"tag":"neoforge:cobblestone/normal"}},"pattern":["ACA","_X_","ACA"],"result":{"id":"mekanism:combiner"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/reinforced"
+        },
+        "C": {
+            "tag": "neoforge:circuits/elite"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        },
+        "_": {
+            "tag": "neoforge:cobblestone/normal"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "_X_",
+        "ACA"
+    ],
+    "result": {
+        "id": "mekanism:combiner"
+    }
+}

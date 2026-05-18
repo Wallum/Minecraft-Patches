@@ -1,1 +1,21 @@
-{"type":"create:mechanical_crafting","key":{"I":{"tag":"c:ingots/iron"},"S":{"tag":"c:ingots/steel"}},"pattern":[" S ","SIS"," S "],"result":{"count":4,"item":"mekanism:boiler_casing"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "I": {
+            "tag": "c:ingots/iron"
+        },
+        "S": {
+            "tag": "c:ingots/steel"
+        }
+    },
+    "pattern": [
+        " S ",
+        "SIS",
+        " S "
+    ],
+    "result": {
+        "count": 4,
+        "item": "mekanism:boiler_casing"
+    }
+}

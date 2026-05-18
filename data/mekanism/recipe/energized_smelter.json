@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"neoforge:circuits/basic"},"G":{"tag":"neoforge:glass"},"X":{"item":"mekanism:steel_casing"}},"pattern":["ACA","GXG","ACA"],"result":{"id":"mekanism:energized_smelter"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/basic"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "G": {
+            "tag": "neoforge:glass"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "GXG",
+        "ACA"
+    ],
+    "result": {
+        "id": "mekanism:energized_smelter"
+    }
+}

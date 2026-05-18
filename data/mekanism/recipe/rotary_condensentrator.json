@@ -1,5 +1,6 @@
 {
     "type":"create:mechanical_crafting",
+  "accept_mirrored": false,
     "key":{
         "#":{
             "item":"mekanism:basic_fluid_tank"

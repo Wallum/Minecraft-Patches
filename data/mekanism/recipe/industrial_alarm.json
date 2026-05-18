@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:redstone_lamp"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/lead"}},"pattern":["III","C#C","III"],"result":{"id":"mekanism:industrial_alarm"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_lamp"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "I": {
+            "tag": "c:ingots/lead"
+        }
+    },
+    "pattern": [
+        "III",
+        "C#C",
+        "III"
+    ],
+    "result": {
+        "id": "mekanism:industrial_alarm"
+    }
+}

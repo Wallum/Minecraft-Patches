@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:gems/lapis"},"C":{"tag":"neoforge:circuits/basic"},"I":{"tag":"c:ingots/tin"},"X":{"item":"mekanism:steel_casing"}},"pattern":["I#I","CXC","III"],"result":{"id":"mekanism:seismic_vibrator"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "neoforge:gems/lapis"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "I": {
+            "tag": "c:ingots/tin"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "I#I",
+        "CXC",
+        "III"
+    ],
+    "result": {
+        "id": "mekanism:seismic_vibrator"
+    }
+}

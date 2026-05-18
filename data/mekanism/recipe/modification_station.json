@@ -1,1 +1,29 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"neoforge:pellets/polonium"},"C":{"tag":"neoforge:circuits/ultimate"},"P":{"item":"mekanism:hdpe_sheet"},"W":{"tag":"neoforge:chests/wooden"},"X":{"item":"mekanism:steel_casing"}},"pattern":["PWP","CXC","PAP"],"result":{"id":"mekanism:modification_station"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "neoforge:pellets/polonium"
+        },
+        "C": {
+            "tag": "neoforge:circuits/ultimate"
+        },
+        "P": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "W": {
+            "tag": "neoforge:chests/wooden"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "PWP",
+        "CXC",
+        "PAP"
+    ],
+    "result": {
+        "id": "mekanism:modification_station"
+    }
+}

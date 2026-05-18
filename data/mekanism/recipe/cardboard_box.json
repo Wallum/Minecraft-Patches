@@ -1,1 +1,16 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:sawdust"}},"pattern":["##","##"],"result":{"id":"mekanism:cardboard_box"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "neoforge:sawdust"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "mekanism:cardboard_box"
+    }
+}

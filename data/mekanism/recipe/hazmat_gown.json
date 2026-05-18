@@ -1,1 +1,20 @@
-{"type":"create:mechanical_crafting","key":{"D":{"tag":"neoforge:dyes/orange"},"I":{"tag":"c:ingots/lead"}},"pattern":["IDI","III","III"],"result":{"id":"mekanism:hazmat_gown"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "D": {
+            "tag": "neoforge:dyes/orange"
+        },
+        "I": {
+            "tag": "c:ingots/lead"
+        }
+    },
+    "pattern": [
+        "IDI",
+        "III",
+        "III"
+    ],
+    "result": {
+        "id": "mekanism:hazmat_gown"
+    }
+}

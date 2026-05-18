@@ -1,1 +1,20 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:sps_casing"},"C":{"tag":"neoforge:circuits/ultimate"}},"pattern":[" # ","#C#"," # "],"result":{"id":"mekanism:sps_port"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "mekanism:sps_casing"
+        },
+        "C": {
+            "tag": "neoforge:circuits/ultimate"
+        }
+    },
+    "pattern": [
+        " # ",
+        "#C#",
+        " # "
+    ],
+    "result": {
+        "id": "mekanism:sps_port"
+    }
+}

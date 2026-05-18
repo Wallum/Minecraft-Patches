@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:laser_amplifier"},"A":{"tag":"neoforge:alloys/advanced"},"H":{"item":"mekanism:hdpe_sheet"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","APA","HHH"],"result":{"id":"mekanism:module_laser_dissipation_unit"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "mekanism:laser_amplifier"
+        },
+        "A": {
+            "tag": "neoforge:alloys/advanced"
+        },
+        "H": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "P": {
+            "item": "mekanism:module_base"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "APA",
+        "HHH"
+    ],
+    "result": {
+        "id": "mekanism:module_laser_dissipation_unit"
+    }
+}

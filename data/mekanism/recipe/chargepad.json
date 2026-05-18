@@ -1,1 +1,22 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:polished_blackstone_pressure_plate"},"E":{"item":"mekanism:energy_tablet"},"S":{"tag":"c:ingots/steel"}},"pattern":["###","SES"],"result":{"id":"mekanism:chargepad"}}
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "minecraft:polished_blackstone_pressure_plate"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        },
+        "S": {
+            "tag": "c:ingots/steel"
+        }
+    },
+    "pattern": [
+        "###",
+        "SES"
+    ],
+    "result": {
+        "id": "mekanism:chargepad"
+    }
+}

@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:pellets/plutonium"},"A":{"tag":"neoforge:pellets/polonium"},"P":{"item":"mekanism:hdpe_sheet"}},"pattern":["PAP","A#A","PAP"],"result":{"id":"mekanism:sps_casing"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "neoforge:pellets/plutonium"
+        },
+        "A": {
+            "tag": "neoforge:pellets/polonium"
+        },
+        "P": {
+            "item": "mekanism:hdpe_sheet"
+        }
+    },
+    "pattern": [
+        "PAP",
+        "A#A",
+        "PAP"
+    ],
+    "result": {
+        "id": "mekanism:sps_casing"
+    }
+}

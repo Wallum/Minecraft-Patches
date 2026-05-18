@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:rods/wooden"},"A":{"tag":"mekanism:alloys/infused"},"E":{"item":"mekanism:energy_tablet"},"I":{"tag":"neoforge:gems/lapis"}},"pattern":[" I ","AEA"," # "],"result":{"id":"mekanism:configurator"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "neoforge:rods/wooden"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        },
+        "I": {
+            "tag": "neoforge:gems/lapis"
+        }
+    },
+    "pattern": [
+        " I ",
+        "AEA",
+        " # "
+    ],
+    "result": {
+        "id": "mekanism:configurator"
+    }
+}

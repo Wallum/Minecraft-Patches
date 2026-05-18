@@ -1,1 +1,29 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:chests/wooden"},"C":{"tag":"neoforge:circuits/basic"},"G":{"tag":"neoforge:glass_panes"},"P":{"item":"mekanism:dictionary"},"S":{"tag":"c:ingots/steel"}},"pattern":["SGS","CPC","S#S"],"result":{"id":"mekanism:oredictionificator"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "neoforge:chests/wooden"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "G": {
+            "tag": "neoforge:glass_panes"
+        },
+        "P": {
+            "item": "mekanism:dictionary"
+        },
+        "S": {
+            "tag": "c:ingots/steel"
+        }
+    },
+    "pattern": [
+        "SGS",
+        "CPC",
+        "S#S"
+    ],
+    "result": {
+        "id": "mekanism:oredictionificator"
+    }
+}

@@ -1,9 +1,18 @@
 {
   "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
   "key": {
-    "A": { "tag": "mekanism:alloys/infused" },
-    "C": { "tag": "c:circuits/basic" }
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "C": {
+      "tag": "c:circuits/basic"
+    }
   },
-  "pattern": ["ACA"],
-  "result": { "item": "mekanism:advanced_control_circuit" }
+  "pattern": [
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism:advanced_control_circuit"
+  }
 }

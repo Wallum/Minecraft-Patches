@@ -1,22 +1,23 @@
 {
-    "type": "create:mechanical_crafting",
-    "key": {
-        "A": {
-            "tag": "mekanism:alloys/atomic"
-        },
-        "I": {
-            "tag": "c:ingots/iron"
-        },
-        "P": {
-            "item": "mekanism:elite_fluid_tank"
-        }
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/atomic"
     },
-    "pattern": [
-        "AIA",
-        "IPI",
-        "AIA"
-    ],
-    "result": {
-        "item": "mekanism:ultimate_fluid_tank"
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "P": {
+      "item": "mekanism:elite_fluid_tank"
     }
+  },
+  "pattern": [
+    "AIA",
+    "IPI",
+    "AIA"
+  ],
+  "result": {
+    "item": "mekanism:ultimate_fluid_tank"
+  }
 }

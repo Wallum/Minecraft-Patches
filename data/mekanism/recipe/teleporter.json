@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"neoforge:circuits/basic"},"T":{"item":"mekanism:teleportation_core"},"X":{"item":"mekanism:steel_casing"}},"pattern":["CXC","XTX","CXC"],"result":{"id":"mekanism:teleporter"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "T": {
+            "item": "mekanism:teleportation_core"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "CXC",
+        "XTX",
+        "CXC"
+    ],
+    "result": {
+        "id": "mekanism:teleporter"
+    }
+}

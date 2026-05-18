@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:obsidian"},"A":{"tag":"neoforge:alloys/elite"},"H":{"item":"mekanism:pellet_polonium"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","#P#","H#H"],"result":{"id":"mekanism:module_gyroscopic_stabilization_unit"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        },
+        "A": {
+            "tag": "neoforge:alloys/elite"
+        },
+        "H": {
+            "item": "mekanism:pellet_polonium"
+        },
+        "P": {
+            "item": "mekanism:module_base"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "#P#",
+        "H#H"
+    ],
+    "result": {
+        "id": "mekanism:module_gyroscopic_stabilization_unit"
+    }
+}

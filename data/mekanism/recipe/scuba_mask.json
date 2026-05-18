@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"C":{"tag":"neoforge:circuits/basic"},"G":{"tag":"neoforge:glass"},"S":{"tag":"c:ingots/steel"}},"pattern":[" S ","GCG","S S"],"result":{"id":"mekanism:scuba_mask"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "G": {
+            "tag": "neoforge:glass"
+        },
+        "S": {
+            "tag": "c:ingots/steel"
+        }
+    },
+    "pattern": [
+        " S ",
+        "GCG",
+        "S S"
+    ],
+    "result": {
+        "id": "mekanism:scuba_mask"
+    }
+}

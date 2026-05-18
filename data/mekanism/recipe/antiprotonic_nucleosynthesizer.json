@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:alloy_atomic"},"A":{"tag":"neoforge:pellets/antimatter"},"C":{"tag":"neoforge:circuits/ultimate"},"X":{"item":"mekanism:steel_casing"}},"pattern":["#C#","AXA","#C#"],"result":{"id":"mekanism:antiprotonic_nucleosynthesizer"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "mekanism:alloy_atomic"
+        },
+        "A": {
+            "tag": "neoforge:pellets/antimatter"
+        },
+        "C": {
+            "tag": "neoforge:circuits/ultimate"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "#C#",
+        "AXA",
+        "#C#"
+    ],
+    "result": {
+        "id": "mekanism:antiprotonic_nucleosynthesizer"
+    }
+}

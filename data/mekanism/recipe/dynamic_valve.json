@@ -1,1 +1,21 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:dynamic_tank"},"C":{"tag":"neoforge:circuits/basic"}},"pattern":[" # ","#C#"," # "],"result":{"count":2,"item":"mekanism:dynamic_valve"}}
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "mekanism:dynamic_tank"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        }
+    },
+    "pattern": [
+        " # ",
+        "#C#",
+        " # "
+    ],
+    "result": {
+        "count": 2,
+        "item": "mekanism:dynamic_valve"
+    }
+}

@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"C":{"tag":"neoforge:circuits/basic"},"E":{"item":"mekanism:energy_tablet"}},"pattern":["C C","A A","E E"],"result":{"id":"mekanism:free_runners"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        }
+    },
+    "pattern": [
+        "C C",
+        "A A",
+        "E E"
+    ],
+    "result": {
+        "id": "mekanism:free_runners"
+    }
+}

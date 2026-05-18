@@ -1,9 +1,18 @@
 {
   "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
   "key": {
-    "A": { "tag": "mekanism:alloys/atomic" },
-    "C": { "tag": "c:circuits/elite" }
+    "A": {
+      "tag": "mekanism:alloys/atomic"
+    },
+    "C": {
+      "tag": "c:circuits/elite"
+    }
   },
-  "pattern": ["ACA"],
-  "result": { "item": "mekanism:ultimate_control_circuit" }
+  "pattern": [
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism:ultimate_control_circuit"
+  }
 }

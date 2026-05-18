@@ -1,1 +1,29 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:netherite_chestplate"},"A":{"item":"mekanism:pellet_polonium"},"C":{"tag":"neoforge:circuits/ultimate"},"E":{"item":"mekanism:basic_induction_cell"},"P":{"item":"mekanism:hdpe_sheet"}},"pattern":["PCP","P#P","AEA"],"result":{"id":"mekanism:mekasuit_bodyarmor"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "A": {
+            "item": "mekanism:pellet_polonium"
+        },
+        "C": {
+            "tag": "neoforge:circuits/ultimate"
+        },
+        "E": {
+            "item": "mekanism:basic_induction_cell"
+        },
+        "P": {
+            "item": "mekanism:hdpe_sheet"
+        }
+    },
+    "pattern": [
+        "PCP",
+        "P#P",
+        "AEA"
+    ],
+    "result": {
+        "id": "mekanism:mekasuit_bodyarmor"
+    }
+}

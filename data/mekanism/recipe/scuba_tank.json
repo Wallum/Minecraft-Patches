@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"C":{"tag":"neoforge:circuits/basic"},"S":{"tag":"c:ingots/steel"},"T":{"item":"mekanism:basic_chemical_tank"}},"pattern":[" C ","ATA","SSS"],"result":{"id":"mekanism:scuba_tank"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "S": {
+            "tag": "c:ingots/steel"
+        },
+        "T": {
+            "item": "mekanism:basic_chemical_tank"
+        }
+    },
+    "pattern": [
+        " C ",
+        "ATA",
+        "SSS"
+    ],
+    "result": {
+        "id": "mekanism:scuba_tank"
+    }
+}

@@ -1,1 +1,29 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"c:ingots/bronze"},"C":{"tag":"neoforge:circuits/advanced"},"I":{"tag":"c:ingots/tin"},"S":{"item":"minecraft:flint_and_steel"},"T":{"item":"mekanism:basic_chemical_tank"}},"pattern":["III","ITS","#C#"],"result":{"id":"mekanism:flamethrower"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "c:ingots/bronze"
+        },
+        "C": {
+            "tag": "neoforge:circuits/advanced"
+        },
+        "I": {
+            "tag": "c:ingots/tin"
+        },
+        "S": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "T": {
+            "item": "mekanism:basic_chemical_tank"
+        }
+    },
+    "pattern": [
+        "III",
+        "ITS",
+        "#C#"
+    ],
+    "result": {
+        "id": "mekanism:flamethrower"
+    }
+}

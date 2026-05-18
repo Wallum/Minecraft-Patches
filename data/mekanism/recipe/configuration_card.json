@@ -1,1 +1,20 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/infused"},"C":{"tag":"neoforge:circuits/basic"}},"pattern":[" A ","ACA"," A "],"result":{"id":"mekanism:configuration_card"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        }
+    },
+    "pattern": [
+        " A ",
+        "ACA",
+        " A "
+    ],
+    "result": {
+        "id": "mekanism:configuration_card"
+    }
+}

@@ -1,1 +1,32 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"mekanism:dynamic_tank"},"A":{"tag":"mekanism:alloys/infused"},"C":{"tag":"neoforge:circuits/basic"},"P":{"item":"mekanism:enrichment_chamber"},"S":{"tag":"c:ingots/steel"},"T":{"item":"mekanism:basic_chemical_tank"}},"pattern":["SAS","CPC","T#T"],"result":{"id":"mekanism:pressurized_reaction_chamber"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "mekanism:dynamic_tank"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "C": {
+            "tag": "neoforge:circuits/basic"
+        },
+        "P": {
+            "item": "mekanism:enrichment_chamber"
+        },
+        "S": {
+            "tag": "c:ingots/steel"
+        },
+        "T": {
+            "item": "mekanism:basic_chemical_tank"
+        }
+    },
+    "pattern": [
+        "SAS",
+        "CPC",
+        "T#T"
+    ],
+    "result": {
+        "id": "mekanism:pressurized_reaction_chamber"
+    }
+}

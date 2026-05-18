@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"#":{"item":"minecraft:iron_pickaxe"},"A":{"tag":"neoforge:alloys/advanced"},"H":{"item":"mekanism:hdpe_sheet"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","APA","HHH"],"result":{"id":"mekanism:module_excavation_escalation_unit"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "A": {
+            "tag": "neoforge:alloys/advanced"
+        },
+        "H": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "P": {
+            "item": "mekanism:module_base"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "APA",
+        "HHH"
+    ],
+    "result": {
+        "id": "mekanism:module_excavation_escalation_unit"
+    }
+}

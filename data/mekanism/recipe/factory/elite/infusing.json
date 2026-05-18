@@ -1,1 +1,26 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/reinforced"},"C":{"tag":"neoforge:circuits/elite"},"I":{"tag":"c:ingots/gold"},"P":{"item":"mekanism:advanced_infusing_factory"}},"pattern":["ACA","IPI","ACA"],"result":{"id":"mekanism:elite_infusing_factory"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/reinforced"
+        },
+        "C": {
+            "tag": "neoforge:circuits/elite"
+        },
+        "I": {
+            "tag": "c:ingots/gold"
+        },
+        "P": {
+            "item": "mekanism:advanced_infusing_factory"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "IPI",
+        "ACA"
+    ],
+    "result": {
+        "id": "mekanism:elite_infusing_factory"
+    }
+}

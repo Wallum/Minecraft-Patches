@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"#":{"tag":"neoforge:string"},"A":{"tag":"mekanism:alloys/infused"},"E":{"item":"mekanism:energy_tablet"}},"pattern":["#A ","# E","#A "],"result":{"id":"mekanism:electric_bow"}}
+{
+    "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+    "key": {
+        "#": {
+            "tag": "neoforge:string"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        }
+    },
+    "pattern": [
+        "#A ",
+        "# E",
+        "#A "
+    ],
+    "result": {
+        "id": "mekanism:electric_bow"
+    }
+}

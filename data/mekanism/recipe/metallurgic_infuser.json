@@ -1,5 +1,6 @@
 {
   "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
   "key": {
     "#": {
       "item": "minecraft:blast_furnace"
@@ -14,7 +15,11 @@
       "item": "immersiveengineering:component_electronic_adv"
     }
   },
-  "pattern": ["I#I", "ROR", "I#I"],
+  "pattern": [
+    "I#I",
+    "ROR",
+    "I#I"
+  ],
   "result": {
     "id": "mekanism:metallurgic_infuser"
   }

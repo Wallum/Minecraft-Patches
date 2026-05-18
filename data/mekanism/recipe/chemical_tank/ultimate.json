@@ -1,1 +1,23 @@
-{"type":"create:mechanical_crafting","key":{"A":{"tag":"mekanism:alloys/atomic"},"O":{"tag":"c:ingots/osmium"},"P":{"item":"mekanism:elite_chemical_tank"}},"pattern":["AOA","OPO","AOA"],"result":{"id":"mekanism:ultimate_chemical_tank"}}
+{
+    "accept_mirrored": false,
+    "type": "create:mechanical_crafting",
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "O": {
+            "tag": "c:ingots/osmium"
+        },
+        "P": {
+            "item": "mekanism:elite_chemical_tank"
+        }
+    },
+    "pattern": [
+        "AOA",
+        "OPO",
+        "AOA"
+    ],
+    "result": {
+        "id": "mekanism:ultimate_chemical_tank"
+    }
+}
