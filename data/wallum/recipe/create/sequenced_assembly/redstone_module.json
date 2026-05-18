@@ -2,25 +2,8 @@
   "type": "create:sequenced_assembly",
   "conditions": [
     {
-      "type": "neoforge:and",
-      "values": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "wallumadditions"
-        },
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "immersiveengineering"
-        },
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "vintageimprovements"
-        },
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "refinedstorage"
-        }
-      ]
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ],
   "ingredient": {

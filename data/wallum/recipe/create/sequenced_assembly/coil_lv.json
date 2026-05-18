@@ -20,11 +20,9 @@
         {
           "item": "immersiveengineering:coil_lv"
         },
-        [
-          {
-            "item": "immersiveengineering:wirecoil_copper"
-          }
-        ]
+        {
+          "item": "immersiveengineering:wirecoil_copper"
+        }
       ],
       "results": [
         {
@@ -38,11 +36,9 @@
         {
           "item": "immersiveengineering:coil_lv"
         },
-        [
-          {
-            "item": "immersiveengineering:wirecoil_copper"
-          }
-        ]
+        {
+          "item": "immersiveengineering:wirecoil_copper"
+        }
       ],
       "results": [
         {

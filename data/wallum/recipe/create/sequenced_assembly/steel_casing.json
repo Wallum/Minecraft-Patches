@@ -58,11 +58,9 @@
         {
           "item": "immersiveengineering:heavy_engineering"
         },
-        [
-          {
-            "item": "immersiveengineering:screwdriver"
-          }
-        ]
+        {
+          "item": "immersiveengineering:screwdriver"
+        }
       ],
       "results": [
         {

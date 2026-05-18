@@ -73,11 +73,9 @@
         {
           "item": "create:incomplete_track"
         },
-        [
-          {
-            "tag": "c:plates/steel"
-          }
-        ]
+        {
+          "tag": "c:plates/steel"
+        }
       ],
       "results": [
         {
@@ -91,11 +89,9 @@
         {
           "item": "create:incomplete_track"
         },
-        [
-          {
-            "tag": "c:rods/steel"
-          }
-        ]
+        {
+          "tag": "c:rods/steel"
+        }
       ],
       "results": [
         {
@@ -109,11 +105,9 @@
         {
           "item": "create:incomplete_track"
         },
-        [
-          {
-            "tag": "c:rods/steel"
-          }
-        ]
+        {
+          "tag": "c:rods/steel"
+        }
       ],
       "results": [
         {
@@ -127,11 +121,9 @@
         {
           "item": "create:incomplete_track"
         },
-        [
-          {
-            "item": "wallumadditions:screw"
-          }
-        ]
+        {
+          "tag": "c:nuggets/steel"
+        }
       ],
       "results": [
         {

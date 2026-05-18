@@ -2,17 +2,8 @@
   "type": "create:sequenced_assembly",
   "neoforge:conditions": [
     {
-      "type": "neoforge:and",
-      "values": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "wallumadditions"
-        },
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "immersiveengineering"
-        }
-      ]
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ],
   "ingredient": {
@@ -61,7 +52,7 @@
           "item": "wallumadditions:unfinished_steel_mechanism"
         },
         {
-          "item": "wallumadditions:screw"
+          "tag": "c:nuggets/steel"
         }
       ],
       "results": [
@@ -89,16 +80,12 @@
   ],
   "results": [
     {
-      "chance": 120.0,
-      "item": "wallumadditions:steel_mechanism"
-    },
-    {
       "chance": 8.0,
-      "item": "immersiveengineering:ingot_steel"
+      "id": "immersiveengineering:ingot_steel"
     },
     {
       "chance": 5.0,
-      "item": "immersiveengineering:ingot_aluminum"
+      "id": "immersiveengineering:ingot_aluminum"
     }
   ],
   "loops": 1

@@ -20,11 +20,9 @@
         {
           "item": "immersiveengineering:light_engineering"
         },
-        [
-          {
-            "tag": "c:sheetmetals/steel"
-          }
-        ]
+        {
+          "tag": "c:sheetmetals/steel"
+        }
       ],
       "results": [
         {
@@ -38,11 +36,9 @@
         {
           "item": "immersiveengineering:light_engineering"
         },
-        [
-          {
-            "item": "immersiveengineering:component_steel"
-          }
-        ]
+        {
+          "item": "immersiveengineering:component_steel"
+        }
       ],
       "results": [
         {
@@ -56,11 +52,9 @@
         {
           "item": "immersiveengineering:light_engineering"
         },
-        [
-          {
-            "tag": "c:wires/electrum"
-          }
-        ]
+        {
+          "tag": "c:wires/electrum"
+        }
       ],
       "results": [
         {
@@ -74,11 +68,9 @@
         {
           "item": "immersiveengineering:light_engineering"
         },
-        [
-          {
-            "item": "wallumadditions:screw"
-          }
-        ]
+        {
+          "tag": "c:nuggets/steel"
+        }
       ],
       "results": [
         {

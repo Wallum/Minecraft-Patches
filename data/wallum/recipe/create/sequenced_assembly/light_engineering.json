@@ -20,11 +20,9 @@
         {
           "item": "create:brass_casing"
         },
-        [
-          {
-            "tag": "c:sheetmetals/iron"
-          }
-        ]
+        {
+          "tag": "c:sheetmetals/iron"
+        }
       ],
       "results": [
         {
@@ -38,11 +36,9 @@
         {
           "item": "create:brass_casing"
         },
-        [
-          {
-            "item": "immersiveengineering:component_iron"
-          }
-        ]
+        {
+          "item": "immersiveengineering:component_iron"
+        }
       ],
       "results": [
         {
@@ -56,11 +52,9 @@
         {
           "item": "create:brass_casing"
         },
-        [
-          {
-            "item": "wallumadditions:screw"
-          }
-        ]
+        {
+          "tag": "c:nuggets/steel"
+        }
       ],
       "results": [
         {
