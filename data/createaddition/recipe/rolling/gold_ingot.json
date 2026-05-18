@@ -1,10 +1,10 @@
 {
-	"type":"createaddition:rolling",
-	"input": {
-      	"tag": "c:ingots/gold"
-	},
-	"result": {
-		"id": "immersiveposts:stick_gold",
-		"count": 2
-	}
+  "type": "createaddition:rolling",
+  "ingredients": {
+    "tag": "c:ingots/gold"
+  },
+  "results": {
+    "id": "immersiveposts:stick_gold",
+    "count": 2
+  }
 }

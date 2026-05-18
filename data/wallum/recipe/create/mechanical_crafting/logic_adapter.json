@@ -1,5 +1,6 @@
 {
   "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
   "key": {
     "F": {
       "item": "bfr:fusion_reactor_frame"

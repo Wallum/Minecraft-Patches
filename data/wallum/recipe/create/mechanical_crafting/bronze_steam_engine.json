@@ -1,5 +1,6 @@
 {
   "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
   "pattern": ["F F", "FSF", "CCC", "PIP"],
   "key": {
     "P": {

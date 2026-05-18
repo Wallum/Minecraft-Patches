@@ -1,9 +1,9 @@
 {
   "type": "createaddition:rolling",
-  "input": {
+  "ingredients": {
     "tag": "c:plates/steel"
   },
-  "result": {
+  "results": {
     "id": "immersiveengineering:wire_steel",
     "count": 2
   }

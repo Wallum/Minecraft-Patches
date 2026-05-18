@@ -1,9 +1,9 @@
 {
   "type": "createaddition:rolling",
-  "input": {
+  "ingredients": {
     "tag": "c:ingots/iron"
   },
-  "result": {
+  "results": {
     "id": "immersiveengineering:stick_iron",
     "count": 2
   }

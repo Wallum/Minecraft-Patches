@@ -1,10 +1,14 @@
 {
   "type": "createaddition:rolling",
-  "input": {
-    "tag": "c:plates/aluminum"
-  },
-  "result": {
-    "id": "immersiveengineering:wire_aluminum",
-    "count": 2
-  }
+  "ingredients": [
+    {
+      "tag": "c:plates/aluminum"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:wire_aluminum",
+      "count": 2
+    }
+  ]
 }

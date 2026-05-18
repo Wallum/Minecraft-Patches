@@ -1,9 +1,9 @@
 {
   "type": "createaddition:rolling",
-  "input": {
+  "ingredients": {
     "tag": "c:plates/lead"
   },
-  "result": {
+  "results": {
     "id": "immersiveengineering:wire_lead",
     "count": 2
   }

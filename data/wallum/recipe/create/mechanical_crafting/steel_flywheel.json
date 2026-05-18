@@ -1,5 +1,6 @@
 {
   "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
   "pattern": [" AAA ", "ACPCA", "APFPA", "ACPCA", " AAA "],
   "key": {
     "P": {

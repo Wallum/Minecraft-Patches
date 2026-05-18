@@ -1,111 +1,111 @@
 {
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-        "item": "create:brass_casing"
-    },
-    "transitional_item": {
-        "id": "create:railway_casing"
-    },
-    "sequence": [
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "transitional_item": {
+    "id": "create:railway_casing"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
         {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "tag": "c:plates/steel"
-                }
-            ],
-            "results": [
-                {
-                    "id": "create:railway_casing"
-                }
-            ]
+          "item": "create:railway_casing"
         },
         {
-            "type": "create:pressing",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                }
-            ],
-            "results": [
-                {
-                    "id": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "create:flywheel"
-                }
-            ],
-            "results": [
-                {
-                    "id": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "tag": "c:nuggets/steel"
-                }
-            ],
-            "results": [
-                {
-                    "id": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "immersiveengineering:screwdriver"
-                }
-            ],
-            "results": [
-                {
-                    "id": "create:railway_casing"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "create:railway_casing"
-                },
-                {
-                    "item": "create:steam_engine"
-                }
-            ],
-            "results": [
-                {
-                    "id": "create:railway_casing"
-                }
-            ]
+          "tag": "c:plates/steel"
         }
-    ],
-    "results": [
+      ],
+      "results": [
         {
-            "id": "create:railway_casing",
-            "count": 1
+          "id": "create:railway_casing"
         }
-    ],
-    "loops": 4
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "create:flywheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "tag": "c:nuggets/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "immersiveengineering:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:railway_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:railway_casing"
+        },
+        {
+          "item": "create:steam_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:railway_casing"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "create:railway_casing",
+      "count": 1
+    }
+  ],
+  "loops": 4
 }

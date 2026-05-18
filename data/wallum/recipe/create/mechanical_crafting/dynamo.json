@@ -19,6 +19,7 @@
     }
   ],
   "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
   "key": {
     "C": {
       "item": "immersiveengineering:electromagnet"

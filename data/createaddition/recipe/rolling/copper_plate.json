@@ -1,9 +1,9 @@
 {
   "type": "createaddition:rolling",
-  "input": {
+  "ingredients": {
     "tag": "c:plates/copper"
   },
-  "result": {
+  "results": {
     "id": "immersiveengineering:wire_copper",
     "count": 2
   }

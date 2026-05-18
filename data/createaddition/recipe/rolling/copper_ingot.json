@@ -1,9 +1,9 @@
 {
 	"type":"createaddition:rolling",
-	"input": {
+	"ingredients": {
       	"tag": "c:ingots/copper"
 	},
-	"result": {
+	"results": {
 		"id": "immersiveposts:stick_copper",
 		"count": 2
 	}
