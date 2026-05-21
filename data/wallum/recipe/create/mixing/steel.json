@@ -12,11 +12,11 @@
   "results": [
     {
       "id": "createbigcannons:molten_steel",
-      "count": 90
+      "amount": 90
     },
     {
       "id": "immersiveengineering:slag",
-      "count": 1
+      "amount": 1
     }
   ]
 }
