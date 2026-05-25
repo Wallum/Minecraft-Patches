@@ -1,6 +1,6 @@
 {
   "type": "mekanism:activating",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
       "item": "mekanismgenerators:tritium"

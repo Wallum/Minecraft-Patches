@@ -1,6 +1,6 @@
 {
   "type": "mekanism:infusion_conversion",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

@@ -1,6 +1,6 @@
 {
   "type": "mekanism:separating",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
       "item": "mekanismgenerators:deuterium"

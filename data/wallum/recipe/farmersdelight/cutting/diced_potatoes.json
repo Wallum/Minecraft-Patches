@@ -1,6 +1,6 @@
 {
   "type": "farmersdelight:cutting",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

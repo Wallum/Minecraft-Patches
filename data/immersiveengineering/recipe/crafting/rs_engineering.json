@@ -1,5 +1,5 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [
@@ -8,16 +8,11 @@
           "modid": "immersiveengineering"
         },
         {
-          "type": "neoforge:or",
-          "values": [
-            {
-              "type": "neoforge:not",
-              "value": {
-                "type": "neoforge:mod_loaded",
-                "modid": "create"
-              }
-            }
-          ]
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+          }
         }
       ]
     }
@@ -35,7 +30,11 @@
       "tag": "c:dusts/redstone"
     }
   },
-  "pattern": ["iri", "rcr", "iri"],
+  "pattern": [
+    "iri",
+    "rcr",
+    "iri"
+  ],
   "quarter_turn": true,
   "result": {
     "count": 4,

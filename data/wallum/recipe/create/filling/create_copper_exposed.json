@@ -7,7 +7,7 @@
     {
       "amount": 250,
       "fluid": "immersiveengineering:redstone_acid",
-      "nbt": {}
+      "type": "neoforge:single"
     }
   ],
   "results": [

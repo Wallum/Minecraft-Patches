@@ -1,6 +1,6 @@
 {
   "type": "herbalbrews:kettle_brewing",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

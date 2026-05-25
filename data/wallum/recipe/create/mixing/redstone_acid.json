@@ -8,13 +8,13 @@
     {
       "amount": 250,
       "fluid": "minecraft:water",
-      "nbt": {}
+      "type": "neoforge:single"
     }
   ],
   "results": [
     {
       "amount": 250,
-      "fluid": "immersiveengineering:redstone_acid"
+      "id": "immersiveengineering:redstone_acid"
     }
   ]
 }

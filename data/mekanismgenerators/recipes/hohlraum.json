@@ -1,6 +1,6 @@
 {
   "type": "mekanism:metallurgic_infusing",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
       "item": "mekanismgenerators:hohlraum"

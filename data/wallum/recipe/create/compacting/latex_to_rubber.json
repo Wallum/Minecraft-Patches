@@ -1,6 +1,6 @@
 {
   "type": "create:compacting",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

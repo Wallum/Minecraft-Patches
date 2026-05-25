@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
       "item": "mekanismgenerators:module_geothermal_generator_unit"

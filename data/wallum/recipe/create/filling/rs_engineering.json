@@ -1,5 +1,5 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [
@@ -22,7 +22,7 @@
     {
       "amount": 1000,
       "fluid": "immersiveengineering:redstone_acid",
-      "nbt": {}
+      "type": "neoforge:single"
     }
   ],
   "results": [

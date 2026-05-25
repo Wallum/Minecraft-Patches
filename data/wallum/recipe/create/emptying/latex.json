@@ -1,6 +1,6 @@
 {
   "type": "create:emptying",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

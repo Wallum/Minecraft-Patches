@@ -1,6 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

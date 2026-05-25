@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:and",
       "values": [

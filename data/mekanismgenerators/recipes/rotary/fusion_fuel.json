@@ -1,6 +1,6 @@
 {
   "type": "mekanism:rotary",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
       "item": "mekanismgenerators:fusion_fuel"

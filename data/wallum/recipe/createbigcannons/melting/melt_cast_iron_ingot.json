@@ -1,6 +1,6 @@
 {
   "type": "createbigcannons:melting",
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:not",
       "value": {

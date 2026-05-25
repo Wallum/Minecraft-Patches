@@ -5,7 +5,7 @@
       "tag": "c:ingots/zinc"
     }
   ],
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:not",
       "value": {
